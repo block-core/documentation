@@ -16,3 +16,4 @@ If you discover a bug or other problem with BlockCore or supporting technologies
 * [Contributing](CONTRIBUTING.md)
 * [Coding Style](CODING-STYLE.md)
 * [Security Issues](SECURITY-ISSUES.md)
+* [Signing Commits](signing-commits.md)
