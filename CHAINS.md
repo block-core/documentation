@@ -7,6 +7,7 @@ Check out [Stratis projects](https://www.stratisprojects.com/forks/) to find for
 ## Blockcore chains
 
 - [Solaris](https://github.com/Solaris-Project)
+- [x42](https://github.com/x42protocol)
 
 ## Committed to migrate
 
