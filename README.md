@@ -1,5 +1,4 @@
-Blockcore: Documentation
------------------------
+# Blockcore: Documentation
 
 Collection of documents used as architecture and technical reference for implementation of Blockcore technologies.
 
