@@ -1,4 +1,4 @@
-Contributing to BlockCore
+Contributing to Blockcore
 ================================
 
 Try to follow the [.NET Core](https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/contributing.md) guidlines.

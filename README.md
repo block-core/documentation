@@ -1,7 +1,7 @@
 Blockcore: Documentation
 -----------------------
 
-Collection of documents used as architecture and technical reference for implementation of BlockCore technologies.
+Collection of documents used as architecture and technical reference for implementation of Blockcore technologies.
 
 These documents are free (see [LICENSE](LICENSE)) and anyone can contribute, please feel free to do a PR with suggestions, additions, fixes, etc.
 

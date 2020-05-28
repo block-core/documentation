@@ -1,6 +1,6 @@
 # Signing commits
 
-We would appricate that all commits to BlockCore be signed by the contributors.
+We would appricate that all commits to Blockcore be signed by the contributors.
 
 ## Windows
 
