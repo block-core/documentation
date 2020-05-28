@@ -1,4 +1,4 @@
-# Architecture
+# Blockcore: Architecture
 
 Most of this content is currently under heavy development.
 
