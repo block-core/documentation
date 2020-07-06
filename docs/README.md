@@ -1,14 +1,12 @@
 # Blockcore Documentation
 
-## Introduction
+## Blockcore is a platform that enables you to build your own blockchains.
 
-BTCPay Server is an open-source, self-hosted payment processor for Bitcoin and other cryptocurrencies.
+Blockcore is the foundation for realizing blockchains and includes core functionality to create your own custom blockchain with a lot of tooling supporting your blockchain.
 
-If you have trouble using BTCPay Server, consider joining the [communities listed on the official website](https://btcpayserver.org/#communityCTA) to get help from BTCPay community members.
+The tooling as part of the Blockcore platform includes; Block Explorer, Block Indexing, Block Analytics, Wallets, API Wallet Service, Developer Tooling, Documentation and more.
 
-Only file [Github issue](https://github.com/btcpayserver/btcpayserver/issues) for technical issues you can't resolve through other channels or feature requests you've validated with other members of community.
-
-Please check out our [official website](https://btcpayserver.org/), our [complete documentation](https://github.com/btcpayserver/btcpayserver-doc) and [FAQ](./FAQ/README.md#btcpay-frequently-asked-questions-and-common-issues) for more details.
+Blockcore is under continuous development to stay at the cutting edge of Bitcoin and blockchain technology. We invite you to engage with our community on our Discord.
 
 ![](./img/BTCPayServerScreenshot.png)
 
