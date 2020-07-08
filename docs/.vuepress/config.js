@@ -88,6 +88,7 @@ module.exports = {
         children: [
           ["/Overview", "Overview"],
           ["/UseCases", "Use Cases"],
+          ["/ReferenceNodes", "Reference Nodes"],
           ["/UseCase", "Use Case (!)"],
           ["/Walkthrough", "Walkthrough (!)"],
           ["/BTCPayVsOthers", "BTCPay Server vs. Others (!)"],
