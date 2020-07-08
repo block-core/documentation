@@ -18,13 +18,13 @@ module.exports = {
     // Styles
     ["link", { rel: "stylesheet", href: "/styles/variables.css" }]
   ],
-  chainWebpack (config) {
+  chainWebpack(config) {
     config.module
       .rule('md')
       .test(/\.md$/)
       .use(preprocessMarkdown)
-        .loader(preprocessMarkdown)
-        .end()
+      .loader(preprocessMarkdown)
+      .end()
   },
   plugins: [
     ['vuepress-plugin-clean-urls', {
@@ -41,7 +41,7 @@ module.exports = {
     }]
   ],
   markdown: {
-    extendMarkdown (md) {
+    extendMarkdown(md) {
       md.use(implicitFigures)
     },
     slugify
@@ -83,63 +83,96 @@ module.exports = {
     sidebar: [
       ["/", "Introduction"],
       {
-        title: "Basics",
+        title: "Platform",
         collapsable: false,
         children: [
-          ["/UseCase", "Use Case"],
-          ["/Walkthrough", "Walkthrough"],
-          ["/BTCPayVsOthers", "BTCPay Server vs. Others"],
-          ["/TryItOut", "Try it out"]
+          ["/Overview", "Overview"],
+          ["/UseCases", "Use Cases"],
+          ["/UseCase", "Use Case (!)"],
+          ["/Walkthrough", "Walkthrough (!)"],
+          ["/BTCPayVsOthers", "BTCPay Server vs. Others (!)"],
+          ["/TryItOut", "Try it out (!)"]
+        ]
+      },
+      {
+        title: "Node",
+        collapsable: false,
+        children: [
+          {
+            title: "Features",
+            path: "/Features",
+            collapsable: false,
+            children: [
+              ["/FeaturesBlockstore", "Blockstore"],
+              ["/FeaturesColdStaking", "Cold Staking"],
+              ["/FeaturesConsensus", "Consensus"],
+              ["/FeaturesDiagnostics", "Diagnostics"],
+              ["/FeaturesDns", "DNS"],
+              ["/FeaturesMemoryPool", "Memory Pool"],
+              ["/FeaturesMiner", "Miner"],
+              ["/FeaturesNodeHost", "NodeHost"],
+              ["/FeaturesNotifications", "Notifications"],
+              ["/FeaturesPoA", "PoA"],
+              ["/FeaturesRPC", "RPC"],
+              ["/FeaturesWallet", "Wallet"],
+              ["/FeaturesWalletWatchOnly", "Wallet (watch only)"],
+              ["/FeaturesWalletNotify", "Wallet Notify"],
+              ["/FeaturesBlockExplorer", "Block Explorer (local)"],
+              ["/FeaturesAirdrop", "Airdrop"]
+            ]
+          },
+          ["/Wallet", "Wallet (!)"],
+          ["/Invoices", "Invoices (!)"]
         ]
       },
       {
         title: "Deployment",
         collapsable: false,
         children: [
-          ["/Deployment", "Choosing a Deployment Method"],
-          ["/ThirdPartyHosting", "Third-party Hosting"],
+          ["/Deployment", "Choosing a Deployment Method (!)"],
+          ["/ThirdPartyHosting", "Third-party Hosting (!)"],
           {
-            title: "Docker",
+            title: "Docker (!)",
             path: "/Docker/",
             collapsable: false,
             children: [
               // TODO: Add Configurator
               {
-                title: "Web Deployment",
+                title: "Web Deployment (!)",
                 path: "/LunaNodeWebDeployment"
               },
               {
-                title: "Azure Deployment",
+                title: "Azure Deployment (!)",
                 path: "/AzureDeployment",
                 children: [
-                  ["/AzurePennyPinching", "Reducing Cost on Azure"],
-                  ["/ChangeDomain", "Changing domain"]
+                  ["/AzurePennyPinching", "Reducing Cost on Azure (!)"],
+                  ["/ChangeDomain", "Changing domain (!)"]
                 ]
               },
               {
-                title: "Google Cloud Deployment",
+                title: "Google Cloud Deployment (!)",
                 path: "/GoogleCloudDeployment"
               },
               {
-                title: "Hardware Deployment",
+                title: "Hardware Deployment (!)",
                 path: "/HardwareDeployment",
                 children: [
                   {
-                    title: "Advanced Deployment",
+                    title: "Advanced Deployment (!)",
                     collapsable: false,
                     children: [
-                      ["/DynamicDNS", "Dynamic DNS"],
-                      ["/ReverseSSHtunnel", "Reverse SSH Tunnel"]
+                      ["/DynamicDNS", "Dynamic DNS (!)"],
+                      ["/ReverseSSHtunnel", "Reverse SSH Tunnel (!)"]
                     ]
                   },
                   {
-                    title: "Hardware As A Service",
+                    title: "Hardware As A Service (!)",
                     path: "/HardwareAsAService"
                   }
                 ]
               },
               {
-                title: "Raspberry Pi Deployment",
+                title: "Raspberry Pi Deployment (!)",
                 path: "/RaspberryPiDeployment",
                 children: [
                   "/RPi3",
@@ -147,7 +180,7 @@ module.exports = {
                 ]
               },
               {
-                title: "Docker Plugins",
+                title: "Docker Plugins (!)",
                 children: [
                   // {
                   //   title: "Transmuter",
@@ -157,15 +190,15 @@ module.exports = {
                   //     ["/Transmuter/EmailReceiptsPreset", "Email Receipts Preset"]
                   //   ]
                   // },
-                  ["/ElectrumX", "Electrum X"],
-                  ["/ElectrumPersonalServer", "Electrum Personal Server"],
+                  ["/ElectrumX", "Electrum X (!)"],
+                  ["/ElectrumPersonalServer", "Electrum Personal Server (!)"],
                   //"/Docker/pihole"
                 ]
               }
             ]
           },
           {
-            title: "Manual Deployment",
+            title: "Manual Deployment (!)",
             path: "/ManualDeployment",
             children: [
               // "/ManualDeploymentExtended"
@@ -180,113 +213,113 @@ module.exports = {
           "/RegisterAccount",
           "/CreateStore",
           {
-            title: "(3) Wallet Setup",
+            title: "(3) Wallet Setup (!)",
             path: "/WalletSetup",
             collapsable: false,
             children: [
               {
-                title: "Use existing hardware wallet",
+                title: "Use existing hardware wallet (!)",
                 path: "/Vault",
                 children: [
-                  ["/ColdCardWallet", "ColdCard Wallet"]
+                  ["/ColdCardWallet", "ColdCard Wallet (!)"]
                 ]
               },
               {
-                title: "Use existing software wallet",
+                title: "Use existing software wallet (!)",
                 children: [
                   {
-                    title: "Electrum Wallet",
+                    title: "Electrum Wallet (!)",
                     path: "/ElectrumWallet",
                   },
-                  ["/WasabiWallet", "Wasabi Wallet"]
+                  ["/WasabiWallet", "Wasabi Wallet (!)"]
                 ]
               },
               {
-                title: "Create a new wallet",
+                title: "Create a new wallet (!)",
                 path: "/CreateWallet",
                 children: [
-                  ["/HotWallet", "Hot Wallet"]
+                  ["/HotWallet", "Hot Wallet (!)"]
                 ]
               }
             ]
           },
-          ["/WhatsNext", "(4) What's Next?"]
+          ["/WhatsNext", "(4) What's Next? (!)"]
         ]
       },
       {
         title: "Features",
         collapsable: false,
         children: [
-          ["/Apps", "Apps"],
-          ["/Wallet", "Wallet"],
-          ["/Invoices", "Invoices"],
-		  {
-		    title: "Pull Payments",
+          ["/Apps", "Apps (!)"],
+          ["/Wallet", "Wallet (!)"],
+          ["/Invoices", "Invoices (!)"],
+          {
+            title: "Pull Payments (!)",
             path: "/PullPayments",
             children: [
-              ["/Refund", "Refunds"]
-		    ]
-		  },
-          ["/PaymentRequests", "Payment Requests"],
-          ["/LightningNetwork", "Lightning Network"],
-          ["/Accounting", "Accounting"],
+              ["/Refund", "Refunds (!)"]
+            ]
+          },
+          ["/PaymentRequests", "Payment Requests (!)"],
+          ["/LightningNetwork", "Lightning Network (!)"],
+          ["/Accounting", "Accounting (!)"],
           {
-            title: "Payjoin",
+            title: "Payjoin (!)",
             path: "/Payjoin",
             children: [
-              ["https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki", "Payjoin specification", { type: 'external' }]
+              ["https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki", "Payjoin specification (!)", { type: 'external' }]
             ]
           }
         ]
       },
       {
-        title: "Integrations",
+        title: "Integrations (!)",
         collapsable: false,
         children: [
-          ["/WooCommerce", "WooCommerce"],
-          ["/Drupal", "Drupal"],
-          ["/Magento", "Magento"],
-          ["/PrestaShop", "PrestaShop"],
-          ["/CustomIntegration", "Custom Integration"]
+          ["/WooCommerce", "WooCommerce (!)"],
+          ["/Drupal", "Drupal (!)"],
+          ["/Magento", "Magento (!)"],
+          ["/PrestaShop", "PrestaShop (!)"],
+          ["/CustomIntegration", "Custom Integration (!)"]
         ]
       },
       {
-        title: "Support and Community",
+        title: "Support and Community (!)",
         collapsable: false,
         children: [
           {
-            title: "FAQ and common issues",
+            title: "FAQ and common issues (!)",
             path: "/FAQ",
             children: [
-              ["/FAQ/FAQ-General", "General FAQ"],
-              ["/FAQ/FAQ-Deployment", "Deployment FAQ"],
-              ["/FAQ/FAQ-Synchronization", "Synchronization FAQ"],
-              ["/FAQ/FAQ-Integrations", "Integrations FAQ"],
-              ["/FAQ/FAQ-ServerSettings", "Server Settings FAQ"],
-              ["/FAQ/FAQ-Stores", "Stores FAQ"],
-              ["/FAQ/FAQ-Wallet", "Wallet FAQ"],
-              ["/FAQ/FAQ-Apps", "Apps FAQ"],
-              ["/FAQ/FAQ-LightningNetwork", "Lightning Network FAQ"],
-              ["/FAQ/FAQ-Altcoin", "Altcoins FAQ"]
+              ["/FAQ/FAQ-General", "General FAQ (!)"],
+              ["/FAQ/FAQ-Deployment", "Deployment FAQ (!)"],
+              ["/FAQ/FAQ-Synchronization", "Synchronization FAQ (!)"],
+              ["/FAQ/FAQ-Integrations", "Integrations FAQ (!)"],
+              ["/FAQ/FAQ-ServerSettings", "Server Settings FAQ (!)"],
+              ["/FAQ/FAQ-Stores", "Stores FAQ (!)"],
+              ["/FAQ/FAQ-Wallet", "Wallet FAQ (!)"],
+              ["/FAQ/FAQ-Apps", "Apps FAQ (!)"],
+              ["/FAQ/FAQ-LightningNetwork", "Lightning Network FAQ (!)"],
+              ["/FAQ/FAQ-Altcoin", "Altcoins FAQ (!)"]
             ]
           },
-          ["/Troubleshooting", "Troubleshooting an issue"],
-          ["/Support", "Support"],
-          ["/Contribute", "Contribute"],
-          ["/Translate", "Translate"],
-          ["/Community", "Community"]
+          ["/Troubleshooting", "Troubleshooting an issue (!)"],
+          ["/Support", "Support (!)"],
+          ["/Contribute", "Contribute (!)"],
+          ["/Translate", "Translate (!)"],
+          ["/Community", "Community (!)"]
         ]
       },
       {
         title: "Development",
         collapsable: false,
         children: [
-          ["/Architecture", "Architecture"],
-          ["/LocalDevelopment", "Developing Locally"],
-          ["/Altcoins", "How to add an Altcoin"],
-          ["/Theme", "Customizing Themes"],
+          ["/Architecture", "Architecture (!)"],
+          ["/LocalDevelopment", "Developing Locally (!)"],
+          ["/Altcoins", "How to add an Altcoin (!)"],
+          ["/Theme", "Customizing Themes (!)"],
           ["https://indexer.city-chain.org/docs/index.html", "Blockcore Indexer API", { type: 'external' }],
-          ["/GreenFieldExample", "Greenfield example with cURL"]
+          ["/GreenFieldExample", "Greenfield example with cURL (!)"]
         ]
       }
     ]
