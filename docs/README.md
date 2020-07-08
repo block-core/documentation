@@ -1,6 +1,4 @@
-# Blockcore Documentation
-
-## Blockcore is a platform that enables you to build your own blockchains.
+# Blockcore is a platform that enables you to build your own blockchains.
 
 Blockcore is the foundation for realizing blockchains and includes core functionality to create your own custom blockchain with a lot of tooling supporting your blockchain.
 
