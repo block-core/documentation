@@ -102,7 +102,7 @@ module.exports = {
           {
             title: "Features",
             path: "/Features",
-            collapsable: false,
+            collapsable: true,
             children: [
               ["/FeaturesBlockstore", "Blockstore"],
               ["/FeaturesColdStaking", "Cold Staking"],
@@ -120,6 +120,21 @@ module.exports = {
               ["/FeaturesWalletNotify", "Wallet Notify"],
               ["/FeaturesBlockExplorer", "Block Explorer (local)"],
               ["/FeaturesAirdrop", "Airdrop"]
+            ]
+          },
+          {
+            title: "API",
+            path: "/NodeApi",
+            collapsable: false,
+            children: [
+              {
+                title: "Authentication",
+                path: "/NodeApiAuthentication"
+              },
+              {
+                title: "Authorization",
+                path: "/NodeApiAuthorization"
+              }
             ]
           },
           ["/Wallet", "Wallet (!)"],
