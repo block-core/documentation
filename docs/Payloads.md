@@ -1,5 +1,49 @@
 # Payloads
 
+## Standard payloads
+
+Built into the Blockcore foundation there are some payloads used to handle the peer to peer protocol and connections of nodes, and exchange of blockchain data.
+
+Here are the built in primary payload types with their command names in parentheses:
+
+- AddrPayload ("addr")
+- BlockPayload ("block")
+- GetAddrPayload ("getaddr")
+- GetBlocksPayload ("getblocks")
+- GetDataPayload ("getdata")
+- GetHeadersPayload ("getheaders")
+- GetProvenHeadersPayload ("getprovhdr")
+- HaveWitnessPayload ("havewitness")
+- HeadersPayload ("headers")
+- InvPayload ("inv")
+- MempoolPayload ("mempool")
+- NotFoundPayload
+- PingPayload ("ping")
+- PongPayload ("pong")
+- ProvenHeadersPayload ("provhdr")
+- RejectPayload ("reject")
+- SendHeadersPayload ("sendheaders")
+- TxPayload ("tx")
+- UnknowPayload
+- VerAckPayload ("verack")
+- VersionPayload ("version")
+
+Here are payload types defined in features:
+
+- FeeFilterPayload ("feefilter")
+- PoAHeaderPayload ("poahdr")
+- StoragePayload ("storage")
+- StorageInvPayload ("storageinv")
+
+Here is a code map of the payload in the Blockcore assembly:
+
+![](./img/PayloadCodeMap.png)
+
+Here is a code map of the custom payload types defined in features:
+
+![](./img/PayloadFeaturesCodeMap.png)
+
+
 ## Your own custom payload
 
 You can implement your own custom payloads, which is a great way to build a communication solution between nodes connected in a peer to peer fashion.
