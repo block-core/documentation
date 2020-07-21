@@ -137,6 +137,17 @@ module.exports = {
               }
             ]
           },
+          {
+            title: "P2P",
+            path: "/PeerToPeer",
+            collapsable: false,
+            children: [
+              {
+                title: "Payloads",
+                path: "/Payloads"
+              }
+            ]
+          },
           ["/Wallet", "Wallet (!)"],
           ["/Invoices", "Invoices (!)"]
         ]
