@@ -176,6 +176,14 @@ When the document is retrieved based on the signature, the document is serialize
 
 When a hub (node) receives a new or updated document through the REST API, it will immediately distribute the document to connected peers (nodes). A node that receives new/updated documents in full based on this push action, will forward a notification to all if its connected nodes with the signature it received. This ensures that there won't be duplicate transfer of documents and that newly observed documents are quickly distributed across the nodes.
 
+1. Node A connects with Node B
+1. Both send StoragePayload with list of supported collections and request to get signatures.
+1. Both send StorageInvPayload with list of signatures in each of the collections supported.
+1. When node discover a signature that is not available locally, it sends a StoragePayload request to retrieve the missing document.
+1. When node receives missing document, it verifies if document is old or new version of existing document.
+
+**Not implemented yet:** The final step is to perform a verification of synchronized state, if both nodes has the same set of data.
+
 ## Versioning
 
 The root document has a version attribute, and the node has built into it a minimum version and maximum version of known document types and the generic document type. If an unsupported document is received, nothing will happen. The document will not be persisted.
