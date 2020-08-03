@@ -104,7 +104,9 @@ module.exports = {
             path: "/Features",
             collapsable: true,
             children: [
+              ["/FeaturesAirdrop", "Airdrop"],
               ["/FeaturesBlockstore", "Blockstore"],
+              ["/FeaturesBlockExplorer", "Block Explorer (local)"],
               ["/FeaturesColdStaking", "Cold Staking"],
               ["/FeaturesConsensus", "Consensus"],
               ["/FeaturesDiagnostics", "Diagnostics"],
@@ -115,11 +117,10 @@ module.exports = {
               ["/FeaturesNotifications", "Notifications"],
               ["/FeaturesPoA", "PoA"],
               ["/FeaturesRPC", "RPC"],
+              ["/FeaturesStorage", "Storage"],
               ["/FeaturesWallet", "Wallet"],
               ["/FeaturesWalletWatchOnly", "Wallet (watch only)"],
-              ["/FeaturesWalletNotify", "Wallet Notify"],
-              ["/FeaturesBlockExplorer", "Block Explorer (local)"],
-              ["/FeaturesAirdrop", "Airdrop"]
+              ["/FeaturesWalletNotify", "Wallet Notify"]
             ]
           },
           {
