@@ -30,17 +30,142 @@ Everything is connected to the identities. A person can have one or multiple ide
 
 Your identities is the foundation of secure messaging, for verification and social networking and a lot more.
 
+Example:
+
+```json
+{
+  "version": 1,
+  "id": "identity/P9ppftn667PgXwqCKNaUVnD8BS8rjmkcUo",
+  "signature": "ICSoxi6ScRYozMeDGU0+gZAltyis27mUA16JeAT2u24xSH23LEaAKwXJjv4dbWPhvfZbTFmr/fy7/MWTbXpgdDY=",
+  "content": {
+    "identifier": "P9ppftn667PgXwqCKNaUVnD8BS8rjmkcUo",
+    "height": 1,
+    "name": "Sondre Bjellås",
+    "shortName": "SondreB",
+    "alias": "Vanarki",
+    "title": null,
+    "email": "sondre@outlook.com",
+    "url": "https://www.sondreb.com",
+    "image": "https://avatars1.githubusercontent.com/u/309938?s=460&u=c82ed1827100905dc561460fdfc68ca463b29194&v=4",
+    "hubs": null
+  }
+}
+```
+
+The "id" on the "container" is based on the container and the identifier in the content.
+
+The "content" is what consititutes the "document" and is signed. The "container" is not verified and can be modified by the nodes indiscriminately. You can only trust the "content", not the "container".
+
+The "content/hubs" is a list of identifiers of hubs that the user uses to store their data. As mentioned before, identities is shared across all nodes, but identity is the only data that is shared like this. Other data is stored on specific hubs.
+
 ## Data
 
-TBD
+Data other than the identities is normally retrieved from known hubs.
+
+If for example the "image" field on the identity contains a relative path, it means that the image is stored on the hubs.
+
+Example:
+
+```json
+  {
+  "content": {
+    "identifier": "P9ppftn667PgXwqCKNaUVnD8BS8rjmkcUo",
+    "image": "data/jysdfzx234.jpg",
+    "hubs": ["P4xYftn667PgXwqCKNaUVnD8BS8rjmkcUo"]
+  }
+```
+
+In the example above, the profile image can be retrieved using the following actions:
+
+1. Query the identity API for the identity of the hub.
+1. Get the "url" of the hub identity, e.g. "https://city.hub.blockcore.net".
+1. Combine the URL of the hub with the relative path, e.g. "https://city.hub.blockcore.net/data/jysdfzx234.jpg"
+1. Then you can either download that image, or show it to the users of your app.
+
+Data structures are always stored under the identifier of an identity. Remember that identities is not just human beings, it can also be pets, hubs, servers and applications.
+
+If you develop your own application named "CuteCatPhotos" which is a collection of links to externally hosted photos, your storage path might be:
+
+/data/P1ppftn667PgXwqCKNaUVnD8BS8rjmkcUo/
+
+When a user interacts with your application, content created might be stored under the identity of your application, or it might be stored under their own identity.
+
+/data/P9ppftn667PgXwqCKNaUVnD8BS8rjmkcUo/
+
+If data is stored under the identity of the user, it means that the user owns the data and is the only one that can edit or remove the data.
+
+When the data is stored under the identity of the app, data can be updated by either the app, but also by the user, depending on how the application is developed.
+
+### Payment
+
+Data is stored on hubs and these are either free of charge, or based on agreements. Anyone can host their own hub if they want to.
+
+Users can sign up and pay for subscriptions to a hub through various means, and then user management happens with API keys that the hub owner manages.
+
+Last option is to utilize hubs that is built around automatic invoicing. These will invoice the identity on a regular interval for the amount of traffic and storage that is being consumed. If the user does not pay the invoice, their data might be deleted off the hub.
+
+This means that there are limitless options on how to do payment for storage, compared to blockchain based storage solutions that uses transaction fees.
+
+Payment like described here allows anyone to begin develop Web3 applications and use the storage functionality without the use of wallet and cryptocurrency.
 
 ## Signing
 
-TBD
+Identities are a known type and must follow a strict set of schema. This class must be marked with the [MessagePackObject] attribute.
+
+Each of the properties must be marked with a fixed order, with attribute like [Key(0)].
+
+When signing a document ("content"), you must first serialize your document using an Message Pack serializer. These are available for different languages and platforms, including JavaScript.
+
+```C#
+// Example on how to derive the key pair needed for an identity.
+string recoveryPhrase = "mystery problem faith negative member bottom concert bundle asthma female process twelve";
+var mnemonic = new Mnemonic(recoveryPhrase);
+ExtKey masterNode = mnemonic.DeriveExtKey();
+ExtKey identityRoot = masterNode.Derive(new KeyPath("m/302'"));
+ExtKey identity = identityRoot.Derive(0, true);
+
+// Create an identity profile that should be signed and published.
+Identity identityModel = new Identity
+{
+   Identifier = identity0Id,
+   Name = "John Doe",
+   ShortName = "John",
+   Alias = "JD",
+   Title = "Hi.",
+   Url = "https://",
+   Image = "https://",
+   Height = 10,
+   Hubs = new string[1] { "PN9Gibo37UzogRC2cBxymvBtbM2p5eNfWi" }
+};
+
+// Serialize to MessagePack.
+byte[] entityBytes = MessagePackSerializer.Serialize(identityModel);
+
+string signature = identity.PrivateKey.SignMessage(entityBytes);
+
+// Encapsulate the identity into a container
+var identityContainer = new IdentityDocument
+{
+   Id = "identity/" + identityModel.Identifier,
+   Content = identityModel,
+   Signature = signature
+};
+
+// Publish to local node or public hub.
+```
 
 ## Verification
 
-TBD
+Verification is done by redoing the message pack serialization, then checking to verify if the signature was signed with the private key of the public key (the identifier).
+
+```C#
+byte[] entityBytes = MessagePackSerializer.Serialize(document.Content);
+
+// You need a reference to the ProfileNetwork.
+var bitcoinAddress = (BitcoinPubKeyAddress)BitcoinPubKeyAddress.Create(address, ProfileNetwork.Instance);
+
+var valid = bitcoinAddress.VerifyMessage(entityBytes, document.Signature);
+```
 
 
 ## Synchronization
