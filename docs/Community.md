@@ -4,7 +4,6 @@ This project is nothing without its community!
 
 Join us:
 
-[![Mattermost](./img/mattermost.png)](https://chat.btcpayserver.org/)
-[![Twitter](./img/twitter.png)](https://twitter.com/BtcpayServer)
-[![Github](./img/github.png)](https://github.com/btcpayserver/btcpayserver)
-[![Telegram](./img/telegram.png)](https://t.me/btcpayserver)
+[![Twitter](./img/twitter.png)](https://twitter.com/blockcoredev)
+[![Github](./img/github.png)](https://www.github.com/block-core/)
+[![Discord](./img/telegram.png)](https://discord.gg/fs4zjKcyTx)
