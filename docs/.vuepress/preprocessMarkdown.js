@@ -2,10 +2,7 @@ const { join, relative, resolve } = require('path')
 const docsDir = resolve(__dirname, '..')
 
 // external docs: local dir as key, repo base as value
-const EXTERNAL_DOCS = {
-  'Docker': 'https://github.com/btcpayserver/btcpayserver-docker',
-  'Transmuter': 'https://github.com/btcpayserver/btcTransmuter',
-}
+const EXTERNAL_DOCS = {}
 
 const replaceExternalRepoLinks = (source, resourcePath) => {
   let processed = source
@@ -22,7 +19,7 @@ const replaceExternalRepoLinks = (source, resourcePath) => {
     processed = processed.replace(docsLinks, (all, url, path) => all.replace(url, `/${baseDir}/${path.replace('docs/', '')}`))
 
     // rewrite external links to docs to internal VuePress links
-    const links = new RegExp(`\\]\\((https://docs.btcpayserver.org(.*))\\)`, 'gi')
+    const links = new RegExp(`\\]\\((https://docs.blockcore.net(.*))\\)`, 'gi')
     processed = processed.replace(links, (all, url, path) => all.replace(url, path))
   })
 

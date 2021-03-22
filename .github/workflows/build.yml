@@ -15,12 +15,6 @@ jobs:
       matrix:
         node-version: [14]
     
-    # env:
-    #   PROJECT_NAME: 'Blockcore.Explorer'
-    #   SOLUTION_PATH: 'Blockcore.Explorer.sln'
-    #   PROJECT_PATH: 'src/Blockcore.Explorer/Blockcore.Explorer.csproj'
-    #   BUILD_CONFIGURATION: 'Release'
-
     steps:
       # Checkout doc repo and its dependencies
       - name: Checkout

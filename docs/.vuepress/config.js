@@ -123,7 +123,6 @@ module.exports = {
           {
             title: "API",
             path: "/NodeApi",
-            collapsable: true,
             children: [
               {
                 title: "Authentication",
@@ -138,7 +137,6 @@ module.exports = {
           {
             title: "P2P",
             path: "/PeerToPeer",
-            collapsable: true,
             children: [
               {
                 title: "Payloads",
@@ -154,6 +152,7 @@ module.exports = {
         children: [
           {
             title: "FAQ and common issues",
+            collapsable: true,
             path: "/FAQ",
             children: [
               ["/FAQ/FAQ-General", "General FAQ"],
