@@ -47,7 +47,7 @@ npm start
 
 Pull requests are welcome and appreciated. To contribute to Blockcore Documentation, first check the [contributing guidelines](docs/Contribute.md).
 
-If you're beginner, take a look at the step by step guide on how to contribute to Blockcore Documentation below.
+If you're beginner, take a look at the step by step guide (made for BTCPay Server) on how to contribute to Blockcore Documentation below.
 
 [![Contributing to Documentation](https://img.youtube.com/vi/bSDROcdSSWw/mqdefault.jpg)](https://www.youtube.com/watch?v=bSDROcdSSWw "How BTCPay Server Works")
 
