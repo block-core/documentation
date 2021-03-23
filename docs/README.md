@@ -31,7 +31,7 @@ Blockcore is code, not a company. It's a gathering of individuals who contribute
 
 Pull requests are welcome and appreciated.
 
-If you're beginner, take a look at the step by step guide on how to contribute to BTCPay Server documentation below.
+If you're beginner, take a look at the step by step guide (made for BTCPay Server) on how to contribute to Blockcore documentation below.
 
 [![Contributing to Documentation](https://img.youtube.com/vi/bSDROcdSSWw/mqdefault.jpg)](https://www.youtube.com/watch?v=bSDROcdSSWw "How BTCPay Server Works")
 
