@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - dev
 
 jobs:
   
@@ -35,8 +34,8 @@ jobs:
         #run: ./setup-deps.sh
 
       # Test and build
-      - name: Test
-        run: npm test
+      # - name: Test
+      #   run: npm test
 
       - name: Build
         run: npm run build
