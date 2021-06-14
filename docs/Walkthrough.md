@@ -1,2 +1,0 @@
-# Blockcore Walkthrough
-
