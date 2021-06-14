@@ -56,6 +56,13 @@ jobs:
           publish-profile: ${{ secrets.azureWebAppPublishProfile }} # Define secret variable in repository settings as per action documentation
           package: docs/.vuepress/dist/
 
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          cname: docs.blockcore.net
+
 #      - name: Deploy
 #        if: success() && github.ref == 'refs/heads/master'
 #        uses: maxheld83/ghpages@v0.2.1
