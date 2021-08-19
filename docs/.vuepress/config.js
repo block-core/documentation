@@ -72,7 +72,7 @@ module.exports = {
       },
       {
         text: "Chat",
-        link: "https://discord.gg/xa5BxWr"
+        link: "https://www.blockcore.net/discord"
       },
       {
         text: "GitHub",

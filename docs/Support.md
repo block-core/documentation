@@ -10,7 +10,7 @@ Problem? Don't worry, someone else has probably been through that before you.
 
 * If your issue is not referenced there, or you want to request a new feature, please open a [github issue](https://github.com/block-core/blockcore/issues).
 
-* If you have more general questions about Blockcore, the way it works and why you should use it, you're welcome on our [Discord](https://discord.gg/fs4zjKcyTx)
+* If you have more general questions about Blockcore, the way it works and why you should use it, you're welcome on our [Discord](https://www.blockcore.net/discord)
 
 Getting a proper support also depends on how you formulate your questions. Read our [troubleshooting guidelines](./Troubleshooting.md).
 

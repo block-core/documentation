@@ -16,7 +16,7 @@ Blockcore is a free and open-source blockchain platform.
 
 Blockcore is an open-source project. It is not a company; there is no e-mail, live-chat or phone support. The software relies on a network of contributors and users to provide support.
 
-If you encountered an issue or have a feature request, please [open an issue on GitHub](https://github.com/block-core/blockcore/issues). For more general questions, join our [community on Discord](https://discord.gg/fs4zjKcyTx). Certain community members offer [premium (paid) support](../Support.md).
+If you encountered an issue or have a feature request, please [open an issue on GitHub](https://github.com/block-core/blockcore/issues). For more general questions, join our [community on Discord](https://www.blockcore.net/discord). Certain community members offer [premium (paid) support](../Support.md).
 
 ## How can I contribute to Blockcore?
 
