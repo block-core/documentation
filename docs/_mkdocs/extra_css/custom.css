@@ -1,0 +1,87 @@
+
+/* :root {
+   --md-primary-fg-color:        #EE0F0F;
+   --md-primary-fg-color--light: #ECB7B7;
+   --md-primary-fg-color--dark:  #90030C;
+ } */
+
+ /* [data-md-color-primary=black] {
+   --md-primary-fg-color: #292929;
+   --md-primary-fg-color--light: #292929;
+   --md-primary-fg-color--dark: #292929;
+   --md-primary-bg-color: rgba(0,0,0,0.87);
+   --md-primary-bg-color--light: rgba(0,0,0,0.54);
+} */
+
+[data-md-color-primary=black] {
+   --md-primary-fg-color: #222222;
+   --md-primary-fg-color--light: rgba(0,0,0,0.54);
+   --md-primary-fg-color--dark: #292929;
+   --md-primary-bg-color: #fff;
+   --md-primary-bg-color--light: hsla(0,0%,100%,0.7);
+   --md-typeset-a-color: #4051b5;
+}
+
+ [data-md-color-scheme="slate"] {
+   /* --md-hue: 50; */
+   background-color: #292929;
+ }
+
+.md-grid {
+   max-width: initial;
+}
+
+[data-md-color-scheme=slate] .mermaid > svg {
+   background-color: #bababa;
+}
+
+/*.zoom {
+   width: 100%;
+   height: auto;*/
+/* ease | ease-in | ease-out | linear */
+/*transition: transform ease-in-out 0.3s;
+}
+
+.zoom:hover {
+   transform: scale(1.2);
+   z-index:9999;
+}*/
+
+/* [IMAGE] */
+.zoom {
+   cursor: zoom-in;
+}
+
+/* [LIGHTBOX BACKGROUND] */
+#lb-back {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.5);
+   z-index: 999;
+   visibility: hidden;
+   opacity: 0;
+   transition: all ease 0.4s;
+   background-color: #000000e0;
+}
+
+   #lb-back.show {
+      visibility: visible;
+      opacity: 1;
+   }
+
+/* [LIGHTBOX IMAGE] */
+#lb-img {
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+   text-align: center;
+}
+
+   #lb-img img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: contain;
+   }

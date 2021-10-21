@@ -1,3 +1,9 @@
+---
+title: Introduction
+description: Blockcore is a platform that enables you to build your own blockchains.
+---
+--8<-- "refs.txt"
+
 # Blockcore is a platform that enables you to build your own blockchains.
 
 Blockcore is the foundation for realizing blockchains and includes core functionality to create your own custom blockchain with a lot of tooling supporting your blockchain.
@@ -31,8 +37,15 @@ Blockcore is code, not a company. It's a gathering of individuals who contribute
 
 Pull requests are welcome and appreciated.
 
-If you're beginner, take a look at the step by step guide (made for BTCPay Server) on how to contribute to Blockcore documentation below.
-
-[![Contributing to Documentation](https://img.youtube.com/vi/bSDROcdSSWw/mqdefault.jpg)](https://www.youtube.com/watch?v=bSDROcdSSWw "How BTCPay Server Works")
-
 If you'd like to support the project, please visit the [sponsors page](https://www.blockcore.net/sponsors).
+
+## Call to Action!
+
+!!! tip "Join to give feedback, ask for features, support, etc."
+	Discord server: [https://www.blockcore.net/discord](https://www.blockcore.net/discord){:target="_blank"}  
+
+## CI
+
+| Current status                                               |
+| ------------------------------------------------------------ |
+| [![Main Build](https://github.com/block-core/documentation/actions/workflows/publish.yml/badge.svg)](https://github.com/block-core/documentation/actions/workflows/publish.yml){:target="_blank"} |

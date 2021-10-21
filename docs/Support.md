@@ -1,3 +1,9 @@
+---
+title: Support
+description: Support
+---
+--8<-- "refs.txt"
+
 # Support
 
 This project is open source, and is not a company. Instead we rely on a network of contributors and users to provide support.

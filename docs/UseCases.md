@@ -1,4 +1,8 @@
-# Blockcore Use Cases
+---
+title: Use Cases
+description: Blockcore Use Cases
+---
+--8<-- "refs.txt"
 
 Built with the community in mind, Blockcore is a feature-rich software with plenty of use-cases that can solve problems for different types of users.
 

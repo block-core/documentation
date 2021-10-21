@@ -1,3 +1,9 @@
+---
+title: Development
+description: Development contributions
+---
+--8<-- "refs.txt"
+
 # Contributing to Blockcore
 
 Try to follow the [.NET Core](https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/contributing.md) guidlines.

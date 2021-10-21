@@ -1,3 +1,9 @@
+---
+title: Contribute
+description: How to contribute to Blockcore?
+---
+--8<-- "refs.txt"
+
 # How to contribute to Blockcore?
 
 Blockcore is built and maintained entirely by volunteer contributors around the internet.

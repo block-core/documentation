@@ -1,4 +1,8 @@
-# Blockcore Reference Nodes
+---
+title: Reference Nodes
+description: Blockcore Reference Nodes
+---
+--8<-- "refs.txt"
 
 While individual blockchains that build on the Blockcore Platform will have their own official node and wallet software, we also provide a set of reference nodes.
 

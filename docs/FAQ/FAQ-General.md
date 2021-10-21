@@ -1,3 +1,9 @@
+---
+title: General
+description: B General Blockcore Frequently Asked Questions
+---
+--8<-- "refs.txt"
+
 # General Blockcore FAQ
 
 This page contains general questions and answers about Blockcore. What it is, how it works, how to install it.

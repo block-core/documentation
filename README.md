@@ -27,12 +27,17 @@ If you discover a bug or other problem with Blockcore or supporting technologies
 
 ### Build the Documentation Locally
 
-```sh
-# Install dependencies
-npm install
+If you're on Windows, you can simply run `doc.bat`. If you have not installed Python3, you will get a notification on how to install. You can simply do `python3` in the command promt, which will launc the Windows Store and you can install Python3.
 
-# Serve locally (by default on port 8080)
-npm start
+Manually building and locally hosting the documentation:
+
+```sh
+python3 -m pip install --upgrade pip
+python3 -m pip install mkdocs
+python3 -m pip install mkdocs-material
+python3 -m pip install mkdocs-git-revision-date-plugin
+python3 -m pip install mkdocs-exclude-search
+python3 -m mkdocs serve
 ```
 
 ## Contents
@@ -46,51 +51,3 @@ npm start
 ## Contributing
 
 Pull requests are welcome and appreciated. To contribute to Blockcore Documentation, first check the [contributing guidelines](docs/Contribute.md).
-
-If you're beginner, take a look at the step by step guide (made for BTCPay Server) on how to contribute to Blockcore Documentation below.
-
-[![Contributing to Documentation](https://img.youtube.com/vi/bSDROcdSSWw/mqdefault.jpg)](https://www.youtube.com/watch?v=bSDROcdSSWw "How BTCPay Server Works")
-
-### Text Highlights
-
-There are [three types of text highlights](https://vuepress.vuejs.org/guide/markdown.html#custom-containers) that can be used to display different colored boxes.
-
-A green box displaying a friendly tip:
-
-```md
-:::tip
-foo
-:::
-```
-
-A yellow box with a cautious warning:
-
-```md
-:::warning
-foo
-:::
-```
-
-A red box with a clear danger, you can also add a title `foo` to any container:
-
-```md
-:::danger foo
-bar
-:::
-```
-
-### Embedding YouTube videos
-
-To add a YouTube video with a preview, you can so so by linking to it like this:
-
-```md
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/mqdefault.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
-
-Note that the link item need to be a preview image (either from YouTube or a custom one) to result in an embedded video.
-
-### Check for broken links
-
-The GitHub Actions pipeline checks for broken links after deploying the production site.
-You can also run the link check locally using `npm run linkcheck:local`.
-The dev server needs to be running alongside for this to work.

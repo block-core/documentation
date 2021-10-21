@@ -1,3 +1,9 @@
+---
+title: Signing commits
+description: Signing commits
+---
+--8<-- "refs.txt"
+
 # Signing commits
 
 We would appricate that all commits to Blockcore be signed by the contributors.

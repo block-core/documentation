@@ -1,3 +1,9 @@
+---
+title: Community
+description: Community
+---
+--8<-- "refs.txt"
+
 # Community
 
 This project is nothing without its community!

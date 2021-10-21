@@ -1,3 +1,9 @@
+---
+title: Security issues
+description: Responsible Disclosure of Security Issues
+---
+--8<-- "refs.txt"
+
 Responsible Disclosure of Security Issues
 -----------------------
 

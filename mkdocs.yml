@@ -1,0 +1,161 @@
+site_name: Blockcore Documentation
+site_url: https://docs.blockcore.net
+repo_name: documentation
+repo_url: https://github.com/block-core/documentation
+edit_uri: edit/master/docs/
+site_author: Blockcore
+copyright: Blockcore 2020-2021
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.8.3/dist/mermaid.min.js
+  - _mkdocs/extra_js/custom.js
+extra_css:
+  - _mkdocs/extra_css/custom.css
+
+# change directory names here
+docs_dir: docs
+site_dir: ./docs_site
+
+theme:
+    logo: img/logo.png
+    name: material
+    custom_dir: docs/_mkdocs/overrides
+    icon:
+      repo: fontawesome/brands/github
+
+    features:
+      #- navigation.instant # problems with mermaid
+      #- navigation.sections
+      #- navigation.tabs
+      #- navigation.tabs.sticky # for insiders only
+      - navigation.indexes # for insiders only
+      - navigation.top
+      #- navigation.expand
+      #- header.autohide
+      #- toc.integrate
+
+    palette:
+      # Light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: white
+        accent: amber
+        logo: img/logo.png
+        toggle:
+          icon: material/weather-night
+          name: Switch to dark mode
+
+      # Dark mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: black
+        accent: amber
+        logo: img/logo-light.png
+        toggle:
+          icon: material/weather-sunny
+          name: Switch to light mode
+
+
+markdown_extensions:
+  - abbr
+  - def_list
+  - attr_list #needed to use {:target="_blank"} on links
+  - pymdownx.snippets:
+      base_path: docs/_mkdocs/snippets
+      check_paths: true
+  - toc:
+      permalink: false
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  #- meta
+  - admonition
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      noclasses: false #set to true to enable pygments_style option
+      pygments_style: 'vs'
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+plugins:
+  - search
+  - git-revision-date
+  - exclude-search:
+      exclude:
+        - _private/*.md
+        - _snippets/*.*
+        - extra_css/*.*
+  #- section-index
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/block-core/documentation
+  generator: false
+#  version:
+#    provider: mike
+
+nav:
+  - README.md
+  - Platform:
+    - Overview.md
+    - UseCases.md
+    - ReferenceNodes.md
+    - Walkthrough.md
+  - Node:
+    - Features:
+      -  node/features/index.md
+      -  node/features/Airdrop.md
+      -  node/features/Blockstore.md
+      -  node/features/BlockExplorer.md
+      -  node/features/ColdStaking.md
+      -  node/features/Consensus.md
+      -  node/features/Diagnostics.md
+      -  node/features/Dns.md
+      -  node/features/MemoryPool.md
+      -  node/features/Miner.md
+      -  node/features/NodeHost.md
+      -  node/features/Notifications.md
+      -  node/features/PoA.md
+      -  node/features/RPC.md
+      -  node/features/Storage.md
+      -  node/features/Wallet.md
+      -  node/features/WalletWatchOnly.md
+      -  node/features/WalletNotify.md
+    - API:
+      -  node/api/index.md
+      -  node/api/ApiAuthentication.md
+      -  node/api/ApiAuthorization.md
+    - P2P:
+      -  node/p2p/index.md
+      -  node/p2p/Payloads.md
+
+  - Community and Support:
+    - FAQ:
+      - FAQ/index.md
+      - FAQ/FAQ-General.md
+      - FAQ/FAQ-Deployment.md
+      - FAQ/FAQ-Synchronization.md
+      - FAQ/FAQ-Integrations.md
+      - FAQ/FAQ-Wallet.md
+    -  Support.md
+    -  Contribute.md
+    -  SigningCommits.md
+    -  SecurityIssues.md
+    -  Development.md
+    -  Community.md
+  - Example Projects:
+      - example-projects/index.md
+      - example-projects/mithril-shards-example.md
+      - example-projects/mithril-shards-example-network-bedrock.md
+      - example-projects/mithril-shards-example-dev.md
+      - example-projects/mithril-shards-example-node.md
+      - example-projects/running-example.md
+  - Issue Tracker: 'https://github.com/block-core/documentation/issues'
