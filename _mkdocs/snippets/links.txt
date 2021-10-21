@@ -1,0 +1,8 @@
+[Serilog]: https://github.com/serilog/serilog-aspnetcore
+[Discussions]: https://github.com/block-core/documentation/discussions
+[documentation]: https://github.com/block-core/documentation/
+[example project]: /example-projects/
+[MithrilShards.Example]: /example-projects/mithril-shards-example
+[MithrilShards.Example.Network.Bedrock]: /example-projects/mithril-shards-example-network-bedrock
+[MithrilShards.Example.Dev]: /example-projects/mithril-shards-example-dev
+[MithrilShards.Example.Node]: /example-projects/mithril-shards-example-node

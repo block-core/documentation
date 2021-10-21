@@ -1,0 +1,11 @@
+*[API]: Application Program Interface
+*[DLT]: Distributed Ledger Technology
+*[FN]: Full Node
+*[MQ]: Message Queue
+*[P2P]: Peer to Peer
+*[UI]: User Interface
+*[JSON]: JavaScript Object Notation
+*[URL]: Uniform Resource Locator
+*[CLI]: Command Line Interface
+*[POCO]: Plain Old CLR Object
+*[DI]: Dependency Injection
