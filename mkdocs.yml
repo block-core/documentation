@@ -4,7 +4,7 @@ repo_name: documentation
 repo_url: https://github.com/block-core/documentation
 edit_uri: edit/master/docs/
 site_author: Blockcore
-copyright: Blockcore 2020-2021
+copyright: Blockcore / MIT license
 
 extra_javascript:
   - https://unpkg.com/mermaid@8.8.3/dist/mermaid.min.js
@@ -24,15 +24,19 @@ theme:
       repo: fontawesome/brands/github
 
     features:
-      #- navigation.instant # problems with mermaid
-      #- navigation.sections
-      #- navigation.tabs
-      #- navigation.tabs.sticky # for insiders only
-      - navigation.indexes # for insiders only
+      - content.code.annotate
+      - navigation.indexes
+      - navigation.sections
+      - navigation.tabs
+      - navigation.instant
       - navigation.top
-      #- navigation.expand
-      #- header.autohide
-      #- toc.integrate
+      - navigation.tracking
+      # - navigation.expand
+      - search.highlight
+      - search.share
+      - search.suggest
+      # - toc.integrate
+
 
     palette:
       # Light mode
@@ -98,6 +102,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/block-core/documentation
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/blockcoredev
   generator: false
 #  version:
 #    provider: mike
@@ -151,11 +157,12 @@ nav:
     -  SecurityIssues.md
     -  Development.md
     -  Community.md
-  - Example Projects:
-      - example-projects/index.md
-      - example-projects/mithril-shards-example.md
-      - example-projects/mithril-shards-example-network-bedrock.md
-      - example-projects/mithril-shards-example-dev.md
-      - example-projects/mithril-shards-example-node.md
-      - example-projects/running-example.md
-  - Issue Tracker: 'https://github.com/block-core/documentation/issues'
+  # - Example Projects:
+  #     - example-projects/index.md
+  #     - example-projects/mithril-shards-example.md
+  #     - example-projects/mithril-shards-example-network-bedrock.md
+  #     - example-projects/mithril-shards-example-dev.md
+  #     - example-projects/mithril-shards-example-node.md
+  #     - example-projects/running-example.md
+  - Links:
+      - Links.md
