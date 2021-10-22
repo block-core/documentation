@@ -9,7 +9,7 @@
     Blockcore Platform Documentation for Users and Developers
   </p>
   <p align="center">
-      <a href="https://github.com/block-core/documentation/actions"><img src="https://github.com/block-core/documentation/workflows/Build%20and%20Release%20Documentation/badge.svg?branch=dev" /></a>
+      <a href="https://github.com/block-core/documentation/actions"><img src="https://github.com/block-core/documentation/actions/workflows/publish.yml/badge.svg" /></a>
   </p>
 </p>
 
