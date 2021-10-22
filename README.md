@@ -51,3 +51,9 @@ python3 -m mkdocs serve
 ## Contributing
 
 Pull requests are welcome and appreciated. To contribute to Blockcore Documentation, first check the [contributing guidelines](docs/Contribute.md).
+
+# Attributions
+
+The main front page is based upon source code from [MkDocs Material](https://github.com/squidfunk/mkdocs-material) and the same theme is used for the general layout.
+
+Starting point for the documentation is based upon work by [MithrilMan](https://github.com/mithrilman/mithrilshards/).

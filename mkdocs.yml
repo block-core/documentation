@@ -1,5 +1,6 @@
 site_name: Blockcore Documentation
 site_url: https://docs.blockcore.net
+site_description: Blockcore is a platform that enables you to build your own blockchains.
 repo_name: documentation
 repo_url: https://github.com/block-core/documentation
 edit_uri: edit/master/docs/
@@ -42,8 +43,8 @@ theme:
       # Light mode
       - media: "(prefers-color-scheme: light)"
         scheme: default
-        primary: white
-        accent: amber
+        primary: indigo
+        accent: indigo
         logo: img/logo.png
         toggle:
           icon: material/weather-night
@@ -52,8 +53,8 @@ theme:
       # Dark mode
       - media: "(prefers-color-scheme: dark)"
         scheme: slate
-        primary: black
-        accent: amber
+        primary: deep purple
+        accent: deep purple
         logo: img/logo-light.png
         toggle:
           icon: material/weather-sunny
@@ -110,6 +111,7 @@ extra:
 
 nav:
   - README.md
+  - Introduction.md
   - Platform:
     - Overview.md
     - UseCases.md
