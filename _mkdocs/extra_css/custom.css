@@ -13,7 +13,7 @@
    --md-primary-bg-color--light: rgba(0,0,0,0.54);
 } */
 
-[data-md-color-primary=black] {
+/* [data-md-color-primary=black] {
    --md-primary-fg-color: #222222;
    --md-primary-fg-color--light: rgba(0,0,0,0.54);
    --md-primary-fg-color--dark: #292929;
@@ -23,9 +23,8 @@
 }
 
  [data-md-color-scheme="slate"] {
-   /* --md-hue: 50; */
    background-color: #292929;
- }
+ } */
 
 .md-grid {
    max-width: initial;
