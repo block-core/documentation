@@ -12,13 +12,13 @@ This project is open source, and is not a company. Instead we rely on a network 
 
 Problem? Don't worry, someone else has probably been through that before you.
 
-* First have a look at our [user documentation](./README.md) and [Frequently Asked Questions](./FAQ/readme.md).
+* First have a look at our [user documentation](./index.md) and [Frequently Asked Questions](./faq/index.md).
 
 * If your issue is not referenced there, or you want to request a new feature, please open a [github issue](https://github.com/block-core/blockcore/issues).
 
 * If you have more general questions about Blockcore, the way it works and why you should use it, you're welcome on our [Discord](https://www.blockcore.net/discord)
 
-Getting a proper support also depends on how you formulate your questions. Read our [troubleshooting guidelines](./Troubleshooting.md).
+Getting a proper support also depends on how you formulate your questions. Read our [troubleshooting guidelines](./troubleshooting.md).
 
 ## Paid support
 

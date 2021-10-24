@@ -110,55 +110,55 @@ extra:
 #    provider: mike
 
 nav:
-  - README.md
-  - Introduction.md
+  - index.md
+  - introduction.md
   - Platform:
-    - Overview.md
-    - UseCases.md
-    - ReferenceNodes.md
-    - Walkthrough.md
+    - overview.md
+    - usecases.md
+    - referencenodes.md
+    - walkthrough.md
   - Node:
     - Features:
       -  node/features/index.md
-      -  node/features/Airdrop.md
-      -  node/features/Blockstore.md
-      -  node/features/BlockExplorer.md
-      -  node/features/ColdStaking.md
-      -  node/features/Consensus.md
-      -  node/features/Diagnostics.md
-      -  node/features/Dns.md
-      -  node/features/MemoryPool.md
-      -  node/features/Miner.md
-      -  node/features/NodeHost.md
-      -  node/features/Notifications.md
-      -  node/features/PoA.md
-      -  node/features/RPC.md
-      -  node/features/Storage.md
-      -  node/features/Wallet.md
-      -  node/features/WalletWatchOnly.md
-      -  node/features/WalletNotify.md
+      -  node/features/airdrop.md
+      -  node/features/blockstore.md
+      -  node/features/blockexplorer.md
+      -  node/features/coldstaking.md
+      -  node/features/consensus.md
+      -  node/features/diagnostics.md
+      -  node/features/dns.md
+      -  node/features/memorypool.md
+      -  node/features/miner.md
+      -  node/features/nodehost.md
+      -  node/features/notifications.md
+      -  node/features/poa.md
+      -  node/features/rpc.md
+      -  node/features/storage.md
+      -  node/features/wallet.md
+      -  node/features/walletwatchonly.md
+      -  node/features/walletnotify.md
     - API:
       -  node/api/index.md
-      -  node/api/ApiAuthentication.md
-      -  node/api/ApiAuthorization.md
+      -  node/api/apiauthentication.md
+      -  node/api/apiauthorization.md
     - P2P:
       -  node/p2p/index.md
-      -  node/p2p/Payloads.md
+      -  node/p2p/payloads.md
 
   - Community and Support:
     - FAQ:
-      - FAQ/index.md
-      - FAQ/FAQ-General.md
-      - FAQ/FAQ-Deployment.md
-      - FAQ/FAQ-Synchronization.md
-      - FAQ/FAQ-Integrations.md
-      - FAQ/FAQ-Wallet.md
-    -  Support.md
-    -  Contribute.md
-    -  SigningCommits.md
-    -  SecurityIssues.md
-    -  Development.md
-    -  Community.md
+      - faq/index.md
+      - faq/faq-general.md
+      - faq/faq-deployment.md
+      - faq/faq-synchronization.md
+      - faq/faq-integrations.md
+      - faq/faq-wallet.md
+    -  support.md
+    -  contribute.md
+    -  signingcommits.md
+    -  securityissues.md
+    -  development.md
+    -  community.md
   # - Example Projects:
   #     - example-projects/index.md
   #     - example-projects/mithril-shards-example.md
@@ -167,4 +167,4 @@ nav:
   #     - example-projects/mithril-shards-example-node.md
   #     - example-projects/running-example.md
   - Links:
-      - Links.md
+      - links.md

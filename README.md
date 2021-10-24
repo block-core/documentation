@@ -23,7 +23,7 @@ Don't expect all ideas and features written in these documents to be implemented
 document what already exists, what is being worked on, what is planned and ideas for the future.
 
 If you discover a bug or other problem with Blockcore or supporting technologies, please report it. The are two different processes, 
-[responsible disclosure](SECURITY-ISSUES.md) for security bugs and public issue tracking ([Blockcore](https://github.com/block-core/blockcore/issues)) for all other bugs.
+[responsible disclosure](security-issues.md) for security bugs and public issue tracking ([Blockcore](https://github.com/block-core/blockcore/issues)) for all other bugs.
 
 ### Build the Documentation Locally
 
@@ -42,15 +42,15 @@ python3 -m mkdocs serve
 
 ## Contents
 
-* [Contributing](CONTRIBUTING.md)
-* [Coding Style](CODING-STYLE.md)
-* [Security Issues](SECURITY-ISSUES.md)
+* [Contributing](contributing.md)
+* [Coding Style](coding-style.md)
+* [Security Issues](security-issues.md)
 * [Signing Commits](signing-commits.md)
 * [Architecture](architecture/)
 
 ## Contributing
 
-Pull requests are welcome and appreciated. To contribute to Blockcore Documentation, first check the [contributing guidelines](docs/Contribute.md).
+Pull requests are welcome and appreciated. To contribute to Blockcore Documentation, first check the [contributing guidelines](docs/contribute.md).
 
 # Attributions
 
