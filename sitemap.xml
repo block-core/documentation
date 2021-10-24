@@ -136,12 +136,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/api/ApiAuthentication/</loc>
+         <loc>https://docs.blockcore.net/node/api/apiauthentication/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/api/ApiAuthorization/</loc>
+         <loc>https://docs.blockcore.net/node/api/apiauthorization/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -151,87 +151,87 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/Airdrop/</loc>
+         <loc>https://docs.blockcore.net/node/features/airdrop/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/BlockExplorer/</loc>
+         <loc>https://docs.blockcore.net/node/features/blockexplorer/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/Blockstore/</loc>
+         <loc>https://docs.blockcore.net/node/features/blockstore/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/ColdStaking/</loc>
+         <loc>https://docs.blockcore.net/node/features/coldstaking/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/Consensus/</loc>
+         <loc>https://docs.blockcore.net/node/features/consensus/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/Diagnostics/</loc>
+         <loc>https://docs.blockcore.net/node/features/diagnostics/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/Dns/</loc>
+         <loc>https://docs.blockcore.net/node/features/dns/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/MemoryPool/</loc>
+         <loc>https://docs.blockcore.net/node/features/memorypool/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/Miner/</loc>
+         <loc>https://docs.blockcore.net/node/features/miner/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/NodeHost/</loc>
+         <loc>https://docs.blockcore.net/node/features/nodehost/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/Notifications/</loc>
+         <loc>https://docs.blockcore.net/node/features/notifications/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/PoA/</loc>
+         <loc>https://docs.blockcore.net/node/features/poa/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/RPC/</loc>
+         <loc>https://docs.blockcore.net/node/features/rpc/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/Storage/</loc>
+         <loc>https://docs.blockcore.net/node/features/storage/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/Wallet/</loc>
+         <loc>https://docs.blockcore.net/node/features/wallet/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/WalletNotify/</loc>
+         <loc>https://docs.blockcore.net/node/features/walletnotify/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/features/WalletWatchOnly/</loc>
+         <loc>https://docs.blockcore.net/node/features/walletwatchonly/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -241,7 +241,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/node/p2p/Payloads/</loc>
+         <loc>https://docs.blockcore.net/node/p2p/payloads/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
