@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#walkthrough-making-your-own-blockchain" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -475,10 +480,70 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Walkthrough
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Walkthrough
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-use-the-software-generator" class="md-nav__link">
+    1. Use the software generator
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-get-your-initial-pre-mine-address" class="md-nav__link">
+    2. Get your initial pre-mine address
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-mining-and-staking" class="md-nav__link">
+    3. Mining and Staking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-connect-to-other-nodes" class="md-nav__link">
+    4. Connect to other nodes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-next-steps" class="md-nav__link">
+    5. Next steps
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1326,6 +1391,66 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-use-the-software-generator" class="md-nav__link">
+    1. Use the software generator
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-get-your-initial-pre-mine-address" class="md-nav__link">
+    2. Get your initial pre-mine address
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-mining-and-staking" class="md-nav__link">
+    3. Mining and Staking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-connect-to-other-nodes" class="md-nav__link">
+    4. Connect to other nodes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-next-steps" class="md-nav__link">
+    5. Next steps
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -1336,9 +1461,68 @@
                   </a>
                 
                 
-                  <h1>Walkthrough</h1>
-                
-                
+                <h1 id="walkthrough-making-your-own-blockchain">Walkthrough making your own blockchain</h1>
+<p>Follow these steps to successfully start your own blockchain.</p>
+<h2 id="1-use-the-software-generator">1. Use the software generator</h2>
+<p>Begin by visiting our wizard and generator that is located on our main website:</p>
+<p><a href="https://www.blockcore.net/create-chain">https://www.blockcore.net/create-chain</a></p>
+<p>When all of that is completed, you have the software needed to start your blockchain.</p>
+<h2 id="2-get-your-initial-pre-mine-address">2. Get your initial pre-mine address</h2>
+<p>First step you need to perform is getting the receive address you can use to perform the initial mining on your blockchain.</p>
+<p>Either you can launc the Node <abbr title="User Interface">UI</abbr> on the TCP port you specificed, or you can use the REST <abbr title="Application Program Interface">API</abbr>.</p>
+<p>The <abbr title="Uniform Resource Locator">URL</abbr> for your Node <abbr title="User Interface">UI</abbr> is shown in the startup of the node, like shown in this screenshot:</p>
+<p><img alt="" src="/img/node-startup-log.png" /></p>
+<p>First step is to make yourself a new wallet. You can do with without having any connections to other nodes.</p>
+<p>After creating a wallet, make sure you protect your recovery phrase. If this is lost or shared, you can loose access to the funds.</p>
+<p>Go to "Wallets" then "Details" on your wallet. Then click the "Receive" button on top right. An valid address for your wallet will now be displayed. Copy this address for the next step.</p>
+<h2 id="3-mining-and-staking">3. Mining and Staking</h2>
+<p>When you first start a new blockchain, you need to perform Proof-of-Work mining. This can easily be done using a basic CPU on your computer, no need for expensive hardware.</p>
+<p>Find your "network.conf" file and enable the following settings.</p>
+<p>Configuration file is normally located under a path like this on Windows: <code>C:\Users\USER\AppData\Roaming\Blockcore\YOURNETWORK\YourNetworkMain</code></p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>####Miner Settings####
+#Enable POW mining.
+mine=1
+#Enable POS.
+stake=1
+#The address to use for mining (empty string to select an address from the wallet).
+mineaddress=PASTE_ADDRESS_FROM_STEP_2
+#The wallet name to use when staking.
+walletname=NAME_OF_YOUR_WALLET
+#Password to unlock the wallet.
+walletpassword=YOUR_WALLET_PASSWORD
+</code></pre></div>
+</td></tr></table>
+<h2 id="4-connect-to-other-nodes">4. Connect to other nodes</h2>
+<p>You cannot send transactions unless you have one or more connections.</p>
+<p>Additionally all new coins must be matured before you can send them. Initially it is required that new coins must be 50 blocks deep, and later on the requirement is 500. This can be configured in code.</p>
+<p>You can launch two nodes locally, by changing the default ports on one of the instances.</p>
+<p>Use the following settings, with some modifications, to launch two instances of your node software:</p>
+<p>launch-first.bat</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&quot;C:\src\github\blockcore\blockcore\src\Node\Blockcore.Node\bin\Debug\netcoreapp3.1\Blockcore.Node.exe&quot; --chain=YOURNETWORK -server -listen=1 -maxtipage=2147483647 -iprangefiltering=0 -apiport=10011 -whitelist=YOUR_LAN_IP -server=1 -rpcport=10010 -rpcallowip=127.0.0.1 -rpcbind=127.0.0.1 -rpcpassword=rpcpassword -rpcuser=rpcuser -datadir=nodedata1
+</code></pre></div>
+</td></tr></table>
+<p>launch-second.bat:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&quot;C:\src\github\blockcore\blockcore\src\Node\Blockcore.Node\bin\Debug\netcoreapp3.1\Blockcore.Node.exe&quot; --chain=YOURNETWORK -server -listen=1 -maxtipage=2147483647 -iprangefiltering=0 -apiport=10021 -addnode=YOUR_LAN_IP -rpcport=10020 -rpcallowip=127.0.0.1 -rpcbind=127.0.0.1 -rpcpassword=rpcpassword -rpcuser=rpcuser -datadir=nodedata2
+</code></pre></div>
+</td></tr></table>
+<p>Explaination of parameters:</p>
+<p>-server=1: This will make one node listen for incoming connections on the default p2p port.</p>
+<p>-addnode: This will connect to the other node on startup.</p>
+<p>-iprangefiltering=0: This will allow connection between local LAN nodes.</p>
+<h2 id="5-next-steps">5. Next steps</h2>
+<p>For the next steps, you can begin to integrate the Indexer, Explorer, Extension or other software in the Blockcore Platform.</p>
+<p>If you add your custom network to the <code>chains</code> repository, then the Blockcore Platform will automatically support your network more easily without forking.</p>
+<p><a href="https://github.com/block-core/chaininfo">https://github.com/block-core/chaininfo</a></p>
                 
                   
                     
@@ -1347,7 +1531,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-10-21
+      Last update: 2021-10-24
     
   </small>
 </div>
