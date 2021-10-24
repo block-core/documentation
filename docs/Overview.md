@@ -2,7 +2,7 @@
 
 ## Node
 
-<a href="img/blockcore-node.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="img/blockcore-node.png"></a>The node software is a full node software that runs the blockchain network. It is compatible with Bitcoin and utilized by other blockchains at the primary full node.
+<a href="/img/blockcore-node.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="/img/blockcore-node.png"></a>The node software is a full node software that runs the blockchain network. It is compatible with Bitcoin and utilized by other blockchains at the primary full node.
 
 To build your own blockchain based on Blockcore you have two options; perform a fork of our primary source code, this is preferred if you need to radically modify the blockchain functionality.
 
@@ -18,7 +18,7 @@ Source repo for fork-based node:
 
 ## Extension
 
-<a href="img/blockcore-extension.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="img/blockcore-extension.png"></a>The Blockcore Extension is an Non-Custodial HD wallet in your browser for Coins, Tokens, Identities, NFTs and more.
+<a href="/img/blockcore-extension.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="/img/blockcore-extension.png"></a>The Blockcore Extension is an Non-Custodial HD wallet in your browser for Coins, Tokens, Identities, NFTs and more.
 
 Extension keeps your identities and keys safe, while allowing you to communicate securely and authenticate with web apps (Web3 provider).
 
@@ -26,7 +26,7 @@ Extension keeps your identities and keys safe, while allowing you to communicate
 
 ## Explorer
 
-<a href="img/blockcore-explorer.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="img/blockcore-explorer.png"></a>Together with the Blockcore Indexer (below), we have made the Blockcore Explorer. If you have a normal Blockcore based blockchain, it is super easy to add support for your custom chain and deploy your blockchain explorer.
+<a href="/img/blockcore-explorer.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="/img/blockcore-explorer.png"></a>Together with the Blockcore Indexer (below), we have made the Blockcore Explorer. If you have a normal Blockcore based blockchain, it is super easy to add support for your custom chain and deploy your blockchain explorer.
 
 The explorer has sections for Network and Insight, which shows statistics on the network and supply (total supply, circulating supply, rewards) and economy information on the blockchain.
 
@@ -34,13 +34,13 @@ The explorer has sections for Network and Insight, which shows statistics on the
 
 ## Indexer
 
-<a href="img/blockcore-indexer.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="img/blockcore-indexer.png"></a>Being able to look up blocks, transactions and addresses is an important part of any blockchain. It is very easy to add your own custom blockchain to the explorer.
+<a href="/img/blockcore-indexer.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="/img/blockcore-indexer.png"></a>Being able to look up blocks, transactions and addresses is an important part of any blockchain. It is very easy to add your own custom blockchain to the explorer.
 
 [GitHub :fontawesome-brands-github:](https://github.com/block-core/blockcore-indexer){ .md-button .md-button--primary }
 
 ## Tipbot
 
-<a href="img/blockcore-tipbot.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="img/blockcore-tipbot.png"></a>Blockcore Tipbot is a generic tipping bot for Discord (future support for Twitch and Twitter is being added) that supports all Blockcore blockchains. It is easy to configure and use, and allows communities to easily tip based on community work and contributions.
+<a href="/img/blockcore-tipbot.png"><img style="float: right; max-width: 320px; margin-left: 1em;" src="/img/blockcore-tipbot.png"></a>Blockcore Tipbot is a generic tipping bot for Discord (future support for Twitch and Twitter is being added) that supports all Blockcore blockchains. It is easy to configure and use, and allows communities to easily tip based on community work and contributions.
 
 [GitHub :fontawesome-brands-github:](https://github.com/block-core/blockcore-tipbot){ .md-button .md-button--primary }
 
