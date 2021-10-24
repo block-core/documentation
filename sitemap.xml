@@ -6,97 +6,67 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/Architecture/</loc>
+         <loc>https://docs.blockcore.net/architecture/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/Community/</loc>
+         <loc>https://docs.blockcore.net/community/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/Contribute/</loc>
+         <loc>https://docs.blockcore.net/contribute/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/Development/</loc>
+         <loc>https://docs.blockcore.net/development/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/Introduction/</loc>
+         <loc>https://docs.blockcore.net/introduction/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/Links/</loc>
+         <loc>https://docs.blockcore.net/links/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/Overview/</loc>
+         <loc>https://docs.blockcore.net/overview/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/ReferenceNodes/</loc>
+         <loc>https://docs.blockcore.net/referencenodes/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/SecurityIssues/</loc>
+         <loc>https://docs.blockcore.net/securityissues/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/SigningCommits/</loc>
+         <loc>https://docs.blockcore.net/signingcommits/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/Support/</loc>
+         <loc>https://docs.blockcore.net/support/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/UseCases/</loc>
+         <loc>https://docs.blockcore.net/usecases/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/Walkthrough/</loc>
-         <lastmod>2021-10-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.blockcore.net/FAQ/</loc>
-         <lastmod>2021-10-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.blockcore.net/FAQ/FAQ-Deployment/</loc>
-         <lastmod>2021-10-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.blockcore.net/FAQ/FAQ-General/</loc>
-         <lastmod>2021-10-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.blockcore.net/FAQ/FAQ-Integrations/</loc>
-         <lastmod>2021-10-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.blockcore.net/FAQ/FAQ-Synchronization/</loc>
-         <lastmod>2021-10-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.blockcore.net/FAQ/FAQ-Wallet/</loc>
+         <loc>https://docs.blockcore.net/walkthrough/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -127,6 +97,36 @@
     </url>
     <url>
          <loc>https://docs.blockcore.net/example-projects/running-example/</loc>
+         <lastmod>2021-10-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/faq/</loc>
+         <lastmod>2021-10-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/faq/faq-deployment/</loc>
+         <lastmod>2021-10-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/faq/faq-general/</loc>
+         <lastmod>2021-10-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/faq/faq-integrations/</loc>
+         <lastmod>2021-10-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/faq/faq-synchronization/</loc>
+         <lastmod>2021-10-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/faq/faq-wallet/</loc>
          <lastmod>2021-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
