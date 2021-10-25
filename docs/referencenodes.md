@@ -12,12 +12,11 @@ Blockcore is available for the below listed blockchains.
 
 ### Bitcoin
 - [chains/BTC.json](https://chains.blockcore.net/chains/BTC.json)
-- [docker/BTC/explorer.yml](https://chains.blockcore.net/docker/BTC/explorer.yml)
-- [docker/BTC/indexer.yml](https://chains.blockcore.net/docker/BTC/indexer.yml)
+- [docker/BTC/docker-compose.yml](https://chains.blockcore.net/docker/BTC/docker-compose.yml)
 
 ### City Chain
 - [chains/CITY.json](https://chains.blockcore.net/chains/CITY.json)
-- [docker/CITY/docker-compose.yml](https://chains.blockcore.net/#:~:text=docker/CITY/docker-compose.yml)
+- [docker/CITY/docker-compose.yml](https://chains.blockcore.net/docker/CITY/docker-compose.yml)
 
 ### SERF
 - [chains/SERF.json](https://chains.blockcore.net/chains/SERF.json)
