@@ -60,7 +60,7 @@ To use the REST API with your API keys, you must supply them as an HTTP HEADER w
 
 Click the "Authorize" button, and enter the API key.
 
-![](./img/OpenAPIAuth.png)
+![](./img/openapiauth.png)
 
 Click "Authorize" to save the key, and now all calls from the documentation UI will include the API key in the header.
 

@@ -72,7 +72,7 @@ Go to the [releases](https://github.com/block-core/blockcore-nodes/releases) pag
 
 All our Blockcore Reference Nodes is published to our [Docker Hub](https://hub.docker.com/orgs/blockcore/repositories).
 
-![](./img/DockerHub.png)
+![](./img/dockerhub.png)
 
 It is super easy to spin up a new instance of any of the nodes, they all follow the same syntax (name and version).
 
