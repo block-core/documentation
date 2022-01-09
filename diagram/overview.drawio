@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2022-01-09T19:10:44.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="o7aIeRN812xVHLxBgINH" version="16.2.4" type="github">
+  <diagram id="l507z-va-1_JGzufU4Xl" name="Page-1">
+    <mxGraphModel dx="2272" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-1" value="&lt;b&gt;Blockcore Indexer&lt;br&gt;&lt;/b&gt;Blockchain indexer, Sidechain indexer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="610" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-2" value="&lt;b&gt;Blockcore Vault&lt;/b&gt;&lt;br&gt;&lt;i&gt;Personal Data Vault&lt;br&gt;Verifiable Data Registry&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-3" value="&lt;b&gt;Blockcore Extension&lt;/b&gt;&lt;br&gt;&lt;i&gt;CoinVault, Wallet, Identities, NFTs&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-4" value="Blockcore Nodes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="410" width="1030" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-5" value="&lt;b&gt;Blockcore Explorer&lt;/b&gt;&lt;br&gt;Multi-Chain Explorer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="290" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-6" value="&lt;b&gt;DID Method&lt;br&gt;&lt;/b&gt;&lt;i&gt;did:is&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="510" y="230" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-7" value="&lt;b&gt;Blockcore Hub&lt;/b&gt;&lt;br&gt;&lt;i&gt;Wallet Software&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="730" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-8" value="Documentation" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="880" y="321.25" width="227.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-9" value="&lt;b&gt;Tooling&lt;/b&gt;&lt;br&gt;Generators, CLI" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="935" y="319.25" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-10" value="&lt;b&gt;Infrastructure&lt;br&gt;&lt;/b&gt;Server, Tipbots, Chain info" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="993.25" y="320.25" width="227.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-11" value="&lt;b&gt;Blockcore Tipbot&lt;br&gt;&lt;/b&gt;&lt;i&gt;Discord, ++&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="850" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykSUJOpuvu5UymRi8_w9-12" value="&lt;b&gt;Lyn&lt;/b&gt;&lt;br&gt;Lightning implementation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="350" width="170" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

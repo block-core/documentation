@@ -9,14 +9,13 @@
         <meta name="description" content="Blockcore is a platform that enables you to build your own blockchains.">
       
       
-      
         <meta name="author" content="Blockcore">
       
       
         <link rel="canonical" href="https://docs.blockcore.net/node/p2p/payloads/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.5">
     
     
       
@@ -24,10 +23,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.db9e7362.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ee0f47ba.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
@@ -37,16 +36,15 @@
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
-    
     
     
       <link rel="stylesheet" href="../../../_mkdocs/extra_css/custom.css">
     
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-
 
     
     
@@ -68,9 +66,8 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
-    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
-      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -86,6 +83,7 @@
     <div data-md-component="announce">
       
     </div>
+    
     
       
 
@@ -143,8 +141,7 @@
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -182,8 +179,7 @@
     
     
       <div class="md-header__source">
-        
-<a href="https://github.com/block-core/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/block-core/documentation/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
@@ -246,6 +242,18 @@
       </a>
     </li>
   
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../architecture/" class="md-tabs__link">
+      Architecture
+    </a>
+  </li>
 
       
         
@@ -342,8 +350,7 @@
   </label>
   
     <div class="md-nav__source">
-      
-<a href="https://github.com/block-core/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/block-core/documentation/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
@@ -492,6 +499,21 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href="../../../architecture/" class="md-nav__link">
+        Architecture
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -499,7 +521,7 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
       
       
       
@@ -512,13 +534,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_4">
+        <label class="md-nav__link" for="__nav_5">
           Node
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Node" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Node
         </label>
@@ -535,7 +557,7 @@
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
       
       
       
@@ -585,20 +607,19 @@
         <div class="md-nav__link md-nav__link--index ">
           <a href="../../features/">Features</a>
           
-            <label for="__nav_4_1">
+            <label for="__nav_5_1">
               <span class="md-nav__icon md-icon"></span>
             </label>
           
         </div>
       
       <nav class="md-nav" aria-label="Features" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_1">
+        <label class="md-nav__title" for="__nav_5_1">
           <span class="md-nav__icon md-icon"></span>
           Features
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
             
           
             
@@ -857,7 +878,7 @@
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
       
       
       
@@ -877,20 +898,19 @@
         <div class="md-nav__link md-nav__link--index ">
           <a href="../../api/">API</a>
           
-            <label for="__nav_4_2">
+            <label for="__nav_5_2">
               <span class="md-nav__icon md-icon"></span>
             </label>
           
         </div>
       
       <nav class="md-nav" aria-label="API" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_2">
+        <label class="md-nav__title" for="__nav_5_2">
           <span class="md-nav__icon md-icon"></span>
           API
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
             
           
             
@@ -941,7 +961,7 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" checked>
       
       
       
@@ -959,20 +979,19 @@
         <div class="md-nav__link md-nav__link--index ">
           <a href="../">P2P</a>
           
-            <label for="__nav_4_3">
+            <label for="__nav_5_3">
               <span class="md-nav__icon md-icon"></span>
             </label>
           
         </div>
       
       <nav class="md-nav" aria-label="P2P" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_3">
+        <label class="md-nav__title" for="__nav_5_3">
           <span class="md-nav__icon md-icon"></span>
           P2P
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
             
           
             
@@ -1000,6 +1019,7 @@
       </a>
       
         
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -1060,7 +1080,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
       
       
@@ -1081,13 +1101,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_5">
+        <label class="md-nav__link" for="__nav_6">
           Community and Support
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Community and Support" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Community and Support
         </label>
@@ -1104,7 +1124,7 @@
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" type="checkbox" id="__nav_6_1" >
       
       
       
@@ -1130,20 +1150,19 @@
         <div class="md-nav__link md-nav__link--index ">
           <a href="../../../faq/">FAQ</a>
           
-            <label for="__nav_5_1">
+            <label for="__nav_6_1">
               <span class="md-nav__icon md-icon"></span>
             </label>
           
         </div>
       
       <nav class="md-nav" aria-label="FAQ" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_1">
+        <label class="md-nav__title" for="__nav_6_1">
           <span class="md-nav__icon md-icon"></span>
           FAQ
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
             
           
             
@@ -1324,7 +1343,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
       
       
@@ -1333,13 +1352,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_6">
+        <label class="md-nav__link" for="__nav_7">
           Links
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Links" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Links
         </label>
@@ -1377,6 +1396,7 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -1416,12 +1436,12 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/block-core/documentation/edit/master/docs/node/p2p/payloads.md" title="Edit this page" class="md-content__button md-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-                  </a>
-                
-                
-                <h1 id="payloads">Payloads</h1>
+<a href="https://github.com/block-core/documentation/edit/master/docs/node/p2p/payloads.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="payloads">Payloads</h1>
 <h2 id="standard-payloads">Standard payloads</h2>
 <p>Built into the Blockcore foundation there are some payloads used to handle the peer to peer protocol and connections of nodes, and exchange of blockchain data.</p>
 <p>Here are the built in primary payload types with their command names in parentheses:</p>
@@ -1492,33 +1512,33 @@
 <span class="normal">26</span>
 <span class="normal">27</span>
 <span class="normal">28</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1">// This sample is copied from the &quot;ping&quot; payload.</span>
-<span class="k">using</span> <span class="nn">NBitcoin</span><span class="p">;</span>
+<span class="k">using</span><span class="w"> </span><span class="nn">NBitcoin</span><span class="p">;</span><span class="w"></span>
 
-<span class="k">namespace</span> <span class="nn">Blockcore.P2P.Protocol.Payloads</span>
-<span class="p">{</span>
-<span class="na">    [Payload(&quot;storage&quot;)]</span>
-    <span class="k">public</span> <span class="k">class</span> <span class="nc">StoragePayload</span> <span class="p">:</span> <span class="n">Payload</span>
-    <span class="p">{</span>
-        <span class="k">private</span> <span class="kt">uint</span><span class="p">[]</span> <span class="n">items</span><span class="p">;</span>
+<span class="k">namespace</span><span class="w"> </span><span class="nn">Blockcore.P2P.Protocol.Payloads</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="na">[Payload(&quot;storage&quot;)]</span><span class="w"></span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">StoragePayload</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Payload</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="kt">uint</span><span class="p">[]</span><span class="w"> </span><span class="n">items</span><span class="p">;</span><span class="w"></span>
 
-        <span class="k">public</span> <span class="kt">uint</span><span class="p">[]</span> <span class="n">Items</span> <span class="p">{</span> <span class="k">get</span> <span class="p">{</span> <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="n">items</span><span class="p">;</span> <span class="p">}</span> <span class="k">set</span> <span class="p">{</span> <span class="k">this</span><span class="p">.</span><span class="n">items</span> <span class="p">=</span> <span class="k">value</span><span class="p">;</span> <span class="p">}</span> <span class="p">}</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="kt">uint</span><span class="p">[]</span><span class="w"> </span><span class="n">Items</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">get</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">items</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="k">set</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">items</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">value</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">public</span> <span class="nf">StoragePayload</span><span class="p">(</span><span class="kt">uint</span><span class="p">[]</span> <span class="n">items</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">items</span> <span class="p">=</span> <span class="n">items</span><span class="p">;</span>
-        <span class="p">}</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="nf">StoragePayload</span><span class="p">(</span><span class="kt">uint</span><span class="p">[]</span><span class="w"> </span><span class="n">items</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">items</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">items</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">public</span> <span class="k">override</span> <span class="k">void</span> <span class="nf">ReadWriteCore</span><span class="p">(</span><span class="n">BitcoinStream</span> <span class="n">stream</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="n">stream</span><span class="p">.</span><span class="n">ReadWrite</span><span class="p">(</span><span class="k">ref</span> <span class="k">this</span><span class="p">.</span><span class="n">items</span><span class="p">);</span>
-        <span class="p">}</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">ReadWriteCore</span><span class="p">(</span><span class="n">BitcoinStream</span><span class="w"> </span><span class="n">stream</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="n">stream</span><span class="p">.</span><span class="n">ReadWrite</span><span class="p">(</span><span class="k">ref</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">items</span><span class="p">);</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">public</span> <span class="k">override</span> <span class="kt">string</span> <span class="nf">ToString</span><span class="p">()</span>
-        <span class="p">{</span>
-            <span class="k">return</span> <span class="k">base</span><span class="p">.</span><span class="n">ToString</span><span class="p">()</span> <span class="p">+</span> <span class="s">&quot; : &quot;</span> <span class="p">+</span> <span class="k">this</span><span class="p">.</span><span class="n">Items</span><span class="p">;</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">ToString</span><span class="p">()</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="k">base</span><span class="p">.</span><span class="n">ToString</span><span class="p">()</span><span class="w"> </span><span class="p">+</span><span class="w"> </span><span class="s">&quot; : &quot;</span><span class="w"> </span><span class="p">+</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">Items</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 </td></tr></table>
 <p>Then you also need a behavior that will process messages.</p>
@@ -1699,184 +1719,184 @@
 <span class="normal">175</span>
 <span class="normal">176</span>
 <span class="normal">177</span>
-<span class="normal">178</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Linq</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Threading.Tasks</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Connection</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Interfaces</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.P2P.Peer</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.P2P.Protocol</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.P2P.Protocol.Behaviors</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.P2P.Protocol.Payloads</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Signals</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Utilities</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Microsoft.Extensions.Logging</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">NBitcoin</span><span class="p">;</span>
+<span class="normal">178</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Linq</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Threading.Tasks</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Connection</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Interfaces</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.P2P.Peer</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.P2P.Protocol</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.P2P.Protocol.Behaviors</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.P2P.Protocol.Payloads</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Signals</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Utilities</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Microsoft.Extensions.Logging</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">NBitcoin</span><span class="p">;</span><span class="w"></span>
 
-<span class="k">namespace</span> <span class="nn">Blockcore.Features.Storage</span>
-<span class="p">{</span>
-    <span class="c1">/// &lt;summary&gt;</span>
-    <span class="c1">/// Peer behavior for memory pool.</span>
-    <span class="c1">/// Provides message handling of notifications from attached peer.</span>
-    <span class="c1">/// &lt;/summary&gt;</span>
-    <span class="k">public</span> <span class="k">class</span> <span class="nc">StorageBehavior</span> <span class="p">:</span> <span class="n">NetworkPeerBehavior</span>
-    <span class="p">{</span>
-        <span class="c1">/// &lt;summary&gt;Connection manager for managing peer connections.&lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">IConnectionManager</span> <span class="n">connectionManager</span><span class="p">;</span>
+<span class="k">namespace</span><span class="w"> </span><span class="nn">Blockcore.Features.Storage</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="c1">/// &lt;summary&gt;</span>
+<span class="w">    </span><span class="c1">/// Peer behavior for memory pool.</span>
+<span class="w">    </span><span class="c1">/// Provides message handling of notifications from attached peer.</span>
+<span class="w">    </span><span class="c1">/// &lt;/summary&gt;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">StorageBehavior</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">NetworkPeerBehavior</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;Connection manager for managing peer connections.&lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">IConnectionManager</span><span class="w"> </span><span class="n">connectionManager</span><span class="p">;</span><span class="w"></span>
 
-        <span class="c1">/// &lt;summary&gt;Provider of IBD state.&lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">IInitialBlockDownloadState</span> <span class="n">initialBlockDownloadState</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;Provider of IBD state.&lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">IInitialBlockDownloadState</span><span class="w"> </span><span class="n">initialBlockDownloadState</span><span class="p">;</span><span class="w"></span>
 
-        <span class="c1">/// &lt;summary&gt;Instance logger for the memory pool behavior component.&lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">ILogger</span> <span class="n">logger</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;Instance logger for the memory pool behavior component.&lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">ILogger</span><span class="w"> </span><span class="n">logger</span><span class="p">;</span><span class="w"></span>
 
-        <span class="c1">/// &lt;summary&gt;Factory used to create the logger for this component.&lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">ILoggerFactory</span> <span class="n">loggerFactory</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;Factory used to create the logger for this component.&lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">ILoggerFactory</span><span class="w"> </span><span class="n">loggerFactory</span><span class="p">;</span><span class="w"></span>
 
-        <span class="c1">/// &lt;summary&gt;The network that this component is running on.&lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">Network</span> <span class="n">network</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;The network that this component is running on.&lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">Network</span><span class="w"> </span><span class="n">network</span><span class="p">;</span><span class="w"></span>
 
-        <span class="c1">/// &lt;summary&gt;</span>
-        <span class="c1">/// Locking object for memory pool behaviour.</span>
-        <span class="c1">/// &lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="k">readonly</span> <span class="kt">object</span> <span class="n">lockObject</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;</span>
+<span class="w">        </span><span class="c1">/// Locking object for memory pool behaviour.</span>
+<span class="w">        </span><span class="c1">/// &lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="kt">object</span><span class="w"> </span><span class="n">lockObject</span><span class="p">;</span><span class="w"></span>
 
-        <span class="c1">/// &lt;summary&gt;</span>
-        <span class="c1">/// The min fee the peer asks to relay transactions.</span>
-        <span class="c1">/// &lt;/summary&gt;</span>
-        <span class="k">public</span> <span class="n">Money</span> <span class="n">MinFeeFilter</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;</span>
+<span class="w">        </span><span class="c1">/// The min fee the peer asks to relay transactions.</span>
+<span class="w">        </span><span class="c1">/// &lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="n">Money</span><span class="w"> </span><span class="n">MinFeeFilter</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">public</span> <span class="nf">StorageBehavior</span><span class="p">(</span>
-            <span class="n">IConnectionManager</span> <span class="n">connectionManager</span><span class="p">,</span>
-            <span class="n">IInitialBlockDownloadState</span> <span class="n">initialBlockDownloadState</span><span class="p">,</span>
-            <span class="n">ILoggerFactory</span> <span class="n">loggerFactory</span><span class="p">,</span>
-            <span class="n">Network</span> <span class="n">network</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">connectionManager</span> <span class="p">=</span> <span class="n">connectionManager</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">initialBlockDownloadState</span> <span class="p">=</span> <span class="n">initialBlockDownloadState</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">logger</span> <span class="p">=</span> <span class="n">loggerFactory</span><span class="p">.</span><span class="n">CreateLogger</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">FullName</span><span class="p">);</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">loggerFactory</span> <span class="p">=</span> <span class="n">loggerFactory</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">network</span> <span class="p">=</span> <span class="n">network</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">lockObject</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">object</span><span class="p">();</span>
-        <span class="p">}</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="nf">StorageBehavior</span><span class="p">(</span><span class="w"></span>
+<span class="w">            </span><span class="n">IConnectionManager</span><span class="w"> </span><span class="n">connectionManager</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="n">IInitialBlockDownloadState</span><span class="w"> </span><span class="n">initialBlockDownloadState</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="n">ILoggerFactory</span><span class="w"> </span><span class="n">loggerFactory</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="n">Network</span><span class="w"> </span><span class="n">network</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">connectionManager</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">connectionManager</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">initialBlockDownloadState</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">initialBlockDownloadState</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">loggerFactory</span><span class="p">.</span><span class="n">CreateLogger</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">FullName</span><span class="p">);</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">loggerFactory</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">loggerFactory</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">network</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">network</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">lockObject</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">object</span><span class="p">();</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="c1">/// &lt;inheritdoc /&gt;</span>
-        <span class="k">protected</span> <span class="k">override</span> <span class="k">void</span> <span class="nf">AttachCore</span><span class="p">()</span>
-        <span class="p">{</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">.</span><span class="n">MessageReceived</span><span class="p">.</span><span class="n">Register</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">OnMessageReceivedAsync</span><span class="p">);</span>
-        <span class="p">}</span>
+<span class="w">        </span><span class="c1">/// &lt;inheritdoc /&gt;</span>
+<span class="w">        </span><span class="k">protected</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">AttachCore</span><span class="p">()</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">.</span><span class="n">MessageReceived</span><span class="p">.</span><span class="n">Register</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">OnMessageReceivedAsync</span><span class="p">);</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="c1">/// &lt;inheritdoc /&gt;</span>
-        <span class="k">protected</span> <span class="k">override</span> <span class="k">void</span> <span class="nf">DetachCore</span><span class="p">()</span>
-        <span class="p">{</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">.</span><span class="n">MessageReceived</span><span class="p">.</span><span class="n">Unregister</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">OnMessageReceivedAsync</span><span class="p">);</span>
-        <span class="p">}</span>
+<span class="w">        </span><span class="c1">/// &lt;inheritdoc /&gt;</span>
+<span class="w">        </span><span class="k">protected</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">DetachCore</span><span class="p">()</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">.</span><span class="n">MessageReceived</span><span class="p">.</span><span class="n">Unregister</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">OnMessageReceivedAsync</span><span class="p">);</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="c1">/// &lt;inheritdoc /&gt;</span>
-        <span class="k">public</span> <span class="k">override</span> <span class="kt">object</span> <span class="nf">Clone</span><span class="p">()</span>
-        <span class="p">{</span>
-            <span class="k">return</span> <span class="k">new</span> <span class="nf">StorageBehavior</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">connectionManager</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="n">initialBlockDownloadState</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="n">loggerFactory</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="n">network</span><span class="p">);</span>
-        <span class="p">}</span>
+<span class="w">        </span><span class="c1">/// &lt;inheritdoc /&gt;</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="kt">object</span><span class="w"> </span><span class="nf">Clone</span><span class="p">()</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">StorageBehavior</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">connectionManager</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">initialBlockDownloadState</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">loggerFactory</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">network</span><span class="p">);</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">private</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">OnMessageReceivedAsync</span><span class="p">(</span><span class="n">INetworkPeer</span> <span class="n">peer</span><span class="p">,</span> <span class="n">IncomingMessage</span> <span class="n">message</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="k">try</span>
-            <span class="p">{</span>
-                <span class="k">await</span> <span class="k">this</span><span class="p">.</span><span class="n">ProcessMessageAsync</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span> <span class="n">message</span><span class="p">).</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
-            <span class="p">}</span>
-            <span class="k">catch</span> <span class="p">(</span><span class="n">OperationCanceledException</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[CANCELED_EXCEPTION]&quot;</span><span class="p">);</span>
-                <span class="k">return</span><span class="p">;</span>
-            <span class="p">}</span>
-            <span class="k">catch</span> <span class="p">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogError</span><span class="p">(</span><span class="s">&quot;Exception occurred: {0}&quot;</span><span class="p">,</span> <span class="n">ex</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
-                <span class="k">throw</span><span class="p">;</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="n">Task</span><span class="w"> </span><span class="nf">OnMessageReceivedAsync</span><span class="p">(</span><span class="n">INetworkPeer</span><span class="w"> </span><span class="n">peer</span><span class="p">,</span><span class="w"> </span><span class="n">IncomingMessage</span><span class="w"> </span><span class="n">message</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">try</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">await</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">ProcessMessageAsync</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span><span class="w"> </span><span class="n">message</span><span class="p">).</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+<span class="w">            </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">OperationCanceledException</span><span class="p">)</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[CANCELED_EXCEPTION]&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="w">                </span><span class="k">return</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+<span class="w">            </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">ex</span><span class="p">)</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogError</span><span class="p">(</span><span class="s">&quot;Exception occurred: {0}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">ex</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span><span class="w"></span>
+<span class="w">                </span><span class="k">throw</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">private</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">ProcessMessageAsync</span><span class="p">(</span><span class="n">INetworkPeer</span> <span class="n">peer</span><span class="p">,</span> <span class="n">IncomingMessage</span> <span class="n">message</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="k">try</span>
-            <span class="p">{</span>
-                <span class="k">switch</span> <span class="p">(</span><span class="n">message</span><span class="p">.</span><span class="n">Message</span><span class="p">.</span><span class="n">Payload</span><span class="p">)</span>
-                <span class="p">{</span>
-                    <span class="k">case</span> <span class="n">StoragePayload</span> <span class="n">storagePayload</span><span class="p">:</span>
-                        <span class="k">await</span> <span class="k">this</span><span class="p">.</span><span class="n">ProcessStorageInPayloadAsync</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span> <span class="n">storagePayload</span><span class="p">).</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
-                        <span class="k">break</span><span class="p">;</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-            <span class="k">catch</span> <span class="p">(</span><span class="n">OperationCanceledException</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[CANCELED_EXCEPTION]&quot;</span><span class="p">);</span>
-                <span class="k">return</span><span class="p">;</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="n">Task</span><span class="w"> </span><span class="nf">ProcessMessageAsync</span><span class="p">(</span><span class="n">INetworkPeer</span><span class="w"> </span><span class="n">peer</span><span class="p">,</span><span class="w"> </span><span class="n">IncomingMessage</span><span class="w"> </span><span class="n">message</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">try</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">message</span><span class="p">.</span><span class="n">Message</span><span class="p">.</span><span class="n">Payload</span><span class="p">)</span><span class="w"></span>
+<span class="w">                </span><span class="p">{</span><span class="w"></span>
+<span class="w">                    </span><span class="k">case</span><span class="w"> </span><span class="n">StoragePayload</span><span class="w"> </span><span class="n">storagePayload</span><span class="p">:</span><span class="w"></span>
+<span class="w">                        </span><span class="k">await</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">ProcessStorageInPayloadAsync</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span><span class="w"> </span><span class="n">storagePayload</span><span class="p">).</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span><span class="w"></span>
+<span class="w">                        </span><span class="k">break</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="p">}</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+<span class="w">            </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">OperationCanceledException</span><span class="p">)</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[CANCELED_EXCEPTION]&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="w">                </span><span class="k">return</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">private</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">ProcessStorageInPayloadAsync</span><span class="p">(</span><span class="n">INetworkPeer</span> <span class="n">peer</span><span class="p">,</span> <span class="n">StoragePayload</span> <span class="n">message</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="n">Guard</span><span class="p">.</span><span class="n">NotNull</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span> <span class="n">nameof</span><span class="p">(</span><span class="n">peer</span><span class="p">));</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="n">Task</span><span class="w"> </span><span class="nf">ProcessStorageInPayloadAsync</span><span class="p">(</span><span class="n">INetworkPeer</span><span class="w"> </span><span class="n">peer</span><span class="p">,</span><span class="w"> </span><span class="n">StoragePayload</span><span class="w"> </span><span class="n">message</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="n">Guard</span><span class="p">.</span><span class="n">NotNull</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span><span class="w"> </span><span class="n">nameof</span><span class="p">(</span><span class="n">peer</span><span class="p">));</span><span class="w"></span>
 
-            <span class="k">if</span> <span class="p">(</span><span class="n">peer</span> <span class="p">!=</span> <span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogDebug</span><span class="p">(</span><span class="s">&quot;Attached peer &#39;{0}&#39; does not match the originating peer &#39;{1}&#39;.&quot;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">?.</span><span class="n">RemoteSocketEndpoint</span><span class="p">,</span> <span class="n">peer</span><span class="p">.</span><span class="n">RemoteSocketEndpoint</span><span class="p">);</span>
-                <span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[PEER_MISMATCH]&quot;</span><span class="p">);</span>
-                <span class="k">return</span><span class="p">;</span>
-            <span class="p">}</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">peer</span><span class="w"> </span><span class="p">!=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">)</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogDebug</span><span class="p">(</span><span class="s">&quot;Attached peer &#39;{0}&#39; does not match the originating peer &#39;{1}&#39;.&quot;</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">?.</span><span class="n">RemoteSocketEndpoint</span><span class="p">,</span><span class="w"> </span><span class="n">peer</span><span class="p">.</span><span class="n">RemoteSocketEndpoint</span><span class="p">);</span><span class="w"></span>
+<span class="w">                </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[PEER_MISMATCH]&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="w">                </span><span class="k">return</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
 
-            <span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;</span> <span class="n">list</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;();</span>
-            <span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
-            <span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">2</span><span class="p">);</span>
-            <span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">3</span><span class="p">);</span>
+<span class="w">            </span><span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;</span><span class="w"> </span><span class="n">list</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;();</span><span class="w"></span>
+<span class="w">            </span><span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">1</span><span class="p">);</span><span class="w"></span>
+<span class="w">            </span><span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">2</span><span class="p">);</span><span class="w"></span>
+<span class="w">            </span><span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">3</span><span class="p">);</span><span class="w"></span>
 
-            <span class="k">await</span> <span class="k">this</span><span class="p">.</span><span class="n">SendStorageAsync</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span> <span class="n">list</span><span class="p">);</span>
-        <span class="p">}</span>
+<span class="w">            </span><span class="k">await</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">SendStorageAsync</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span><span class="w"> </span><span class="n">list</span><span class="p">);</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">private</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">SendStorageAsync</span><span class="p">(</span><span class="n">INetworkPeer</span> <span class="n">peer</span><span class="p">,</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;</span> <span class="n">storageList</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="kt">var</span> <span class="n">queue</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Queue</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;(</span><span class="n">storageList</span><span class="p">);</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="n">Task</span><span class="w"> </span><span class="nf">SendStorageAsync</span><span class="p">(</span><span class="n">INetworkPeer</span><span class="w"> </span><span class="n">peer</span><span class="p">,</span><span class="w"> </span><span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;</span><span class="w"> </span><span class="n">storageList</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="kt">var</span><span class="w"> </span><span class="n">queue</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Queue</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;(</span><span class="n">storageList</span><span class="p">);</span><span class="w"></span>
 
-            <span class="k">while</span> <span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">Count</span> <span class="p">&gt;</span> <span class="m">0</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="kt">uint</span><span class="p">[]</span> <span class="n">items</span> <span class="p">=</span> <span class="n">queue</span><span class="p">.</span><span class="n">TakeAndRemove</span><span class="p">(</span><span class="m">5</span><span class="p">).</span><span class="n">ToArray</span><span class="p">();</span>
+<span class="w">            </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">queue</span><span class="p">.</span><span class="n">Count</span><span class="w"> </span><span class="p">&gt;</span><span class="w"> </span><span class="m">0</span><span class="p">)</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="kt">uint</span><span class="p">[]</span><span class="w"> </span><span class="n">items</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">queue</span><span class="p">.</span><span class="n">TakeAndRemove</span><span class="p">(</span><span class="m">5</span><span class="p">).</span><span class="n">ToArray</span><span class="p">();</span><span class="w"></span>
 
-                <span class="k">if</span> <span class="p">(</span><span class="n">peer</span><span class="p">.</span><span class="n">IsConnected</span><span class="p">)</span>
-                <span class="p">{</span>
-                    <span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogDebug</span><span class="p">(</span><span class="s">&quot;Sending items to peer &#39;{0}&#39;.&quot;</span><span class="p">,</span> <span class="n">peer</span><span class="p">.</span><span class="n">RemoteSocketEndpoint</span><span class="p">);</span>
-                    <span class="k">await</span> <span class="n">peer</span><span class="p">.</span><span class="n">SendMessageAsync</span><span class="p">(</span><span class="k">new</span> <span class="n">StoragePayload</span><span class="p">(</span><span class="n">items</span><span class="p">)).</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
+<span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">peer</span><span class="p">.</span><span class="n">IsConnected</span><span class="p">)</span><span class="w"></span>
+<span class="w">                </span><span class="p">{</span><span class="w"></span>
+<span class="w">                    </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogDebug</span><span class="p">(</span><span class="s">&quot;Sending items to peer &#39;{0}&#39;.&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">peer</span><span class="p">.</span><span class="n">RemoteSocketEndpoint</span><span class="p">);</span><span class="w"></span>
+<span class="w">                    </span><span class="k">await</span><span class="w"> </span><span class="n">peer</span><span class="p">.</span><span class="n">SendMessageAsync</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">StoragePayload</span><span class="p">(</span><span class="n">items</span><span class="p">)).</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span><span class="w"></span>
+<span class="w">                </span><span class="p">}</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">SendTrickleAsync</span><span class="p">()</span>
-        <span class="p">{</span>
-            <span class="n">INetworkPeer</span> <span class="n">peer</span> <span class="p">=</span> <span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">;</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">peer</span> <span class="p">==</span> <span class="k">null</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[NO_PEER]&quot;</span><span class="p">);</span>
-                <span class="k">return</span><span class="p">;</span>
-            <span class="p">}</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="n">Task</span><span class="w"> </span><span class="nf">SendTrickleAsync</span><span class="p">()</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="n">INetworkPeer</span><span class="w"> </span><span class="n">peer</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">AttachedPeer</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">peer</span><span class="w"> </span><span class="p">==</span><span class="w"> </span><span class="k">null</span><span class="p">)</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[NO_PEER]&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="w">                </span><span class="k">return</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
 
-            <span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogDebug</span><span class="p">(</span><span class="s">&quot;Sending storage inventory to peer &#39;{0}&#39;.&quot;</span><span class="p">,</span> <span class="n">peer</span><span class="p">.</span><span class="n">RemoteSocketEndpoint</span><span class="p">);</span>
-            <span class="k">try</span>
-            <span class="p">{</span>
-                <span class="c1">// Sample data to send.</span>
-                <span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;</span> <span class="n">list</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;();</span>
-                <span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
-                <span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">2</span><span class="p">);</span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogDebug</span><span class="p">(</span><span class="s">&quot;Sending storage inventory to peer &#39;{0}&#39;.&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">peer</span><span class="p">.</span><span class="n">RemoteSocketEndpoint</span><span class="p">);</span><span class="w"></span>
+<span class="w">            </span><span class="k">try</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="c1">// Sample data to send.</span>
+<span class="w">                </span><span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;</span><span class="w"> </span><span class="n">list</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;();</span><span class="w"></span>
+<span class="w">                </span><span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">1</span><span class="p">);</span><span class="w"></span>
+<span class="w">                </span><span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">2</span><span class="p">);</span><span class="w"></span>
 
-                <span class="k">await</span> <span class="k">this</span><span class="p">.</span><span class="n">SendStorageAsync</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span> <span class="n">list</span><span class="p">).</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
-            <span class="p">}</span>
-            <span class="k">catch</span> <span class="p">(</span><span class="n">OperationCanceledException</span><span class="p">)</span>
-            <span class="p">{</span>
-                <span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[CANCELED_EXCEPTION]&quot;</span><span class="p">);</span>
-                <span class="k">return</span><span class="p">;</span>
-            <span class="p">}</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<span class="w">                </span><span class="k">await</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">SendStorageAsync</span><span class="p">(</span><span class="n">peer</span><span class="p">,</span><span class="w"> </span><span class="n">list</span><span class="p">).</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+<span class="w">            </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">OperationCanceledException</span><span class="p">)</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">this</span><span class="p">.</span><span class="n">logger</span><span class="p">.</span><span class="n">LogTrace</span><span class="p">(</span><span class="s">&quot;(-)[CANCELED_EXCEPTION]&quot;</span><span class="p">);</span><span class="w"></span>
+<span class="w">                </span><span class="k">return</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 </td></tr></table>
 <p>Then finally you need your custom feature:</p>
@@ -1990,138 +2010,130 @@
 <span class="normal">108</span>
 <span class="normal">109</span>
 <span class="normal">110</span>
-<span class="normal">111</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Linq</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Threading.Tasks</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.AsyncWork</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Builder</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Builder.Feature</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Configuration.Logging</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Connection</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Features.Storage.Persistence</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.P2P.Peer</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.P2P.Protocol.Payloads</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Blockcore.Utilities</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">Microsoft.Extensions.DependencyInjection</span><span class="p">;</span>
+<span class="normal">111</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections.Generic</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Linq</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">System.Threading.Tasks</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.AsyncWork</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Builder</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Builder.Feature</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Configuration.Logging</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Connection</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Features.Storage.Persistence</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.P2P.Peer</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.P2P.Protocol.Payloads</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Blockcore.Utilities</span><span class="p">;</span><span class="w"></span>
+<span class="k">using</span><span class="w"> </span><span class="nn">Microsoft.Extensions.DependencyInjection</span><span class="p">;</span><span class="w"></span>
 
-<span class="k">namespace</span> <span class="nn">Blockcore.Features.Storage</span>
-<span class="p">{</span>
-    <span class="k">public</span> <span class="k">class</span> <span class="nc">StorageFeature</span> <span class="p">:</span> <span class="n">FullNodeFeature</span>
-    <span class="p">{</span>
-        <span class="c1">/// &lt;summary&gt;The async loop we need to wait upon before we can shut down this manager.&lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="n">IAsyncLoop</span> <span class="n">asyncLoop</span><span class="p">;</span>
+<span class="k">namespace</span><span class="w"> </span><span class="nn">Blockcore.Features.Storage</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">StorageFeature</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">FullNodeFeature</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;The async loop we need to wait upon before we can shut down this manager.&lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="n">IAsyncLoop</span><span class="w"> </span><span class="n">asyncLoop</span><span class="p">;</span><span class="w"></span>
 
-        <span class="c1">/// &lt;summary&gt;Factory for creating background async loop tasks.&lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">IAsyncProvider</span> <span class="n">asyncProvider</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;Factory for creating background async loop tasks.&lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">IAsyncProvider</span><span class="w"> </span><span class="n">asyncProvider</span><span class="p">;</span><span class="w"></span>
 
-        <span class="c1">/// &lt;summary&gt;</span>
-        <span class="c1">/// Connection manager injected dependency.</span>
-        <span class="c1">/// &lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">IConnectionManager</span> <span class="n">connection</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;</span>
+<span class="w">        </span><span class="c1">/// Connection manager injected dependency.</span>
+<span class="w">        </span><span class="c1">/// &lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">IConnectionManager</span><span class="w"> </span><span class="n">connection</span><span class="p">;</span><span class="w"></span>
 
-        <span class="c1">/// &lt;summary&gt;Global application life cycle control - triggers when application shuts down.&lt;/summary&gt;</span>
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">INodeLifetime</span> <span class="n">nodeLifetime</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">/// &lt;summary&gt;Global application life cycle control - triggers when application shuts down.&lt;/summary&gt;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">INodeLifetime</span><span class="w"> </span><span class="n">nodeLifetime</span><span class="p">;</span><span class="w"></span>
 
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">PayloadProvider</span> <span class="n">payloadProvider</span><span class="p">;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">PayloadProvider</span><span class="w"> </span><span class="n">payloadProvider</span><span class="p">;</span><span class="w"></span>
 
-        <span class="k">private</span> <span class="k">readonly</span> <span class="n">StorageBehavior</span> <span class="n">storageBehavior</span><span class="p">;</span>
+<span class="w">        </span><span class="k">private</span><span class="w"> </span><span class="k">readonly</span><span class="w"> </span><span class="n">StorageBehavior</span><span class="w"> </span><span class="n">storageBehavior</span><span class="p">;</span><span class="w"></span>
 
-        <span class="k">public</span> <span class="nf">StorageFeature</span><span class="p">(</span>
-            <span class="n">IConnectionManager</span> <span class="n">connection</span><span class="p">,</span>
-            <span class="n">INodeLifetime</span> <span class="n">nodeLifetime</span><span class="p">,</span>
-            <span class="n">IAsyncProvider</span> <span class="n">asyncProvider</span><span class="p">,</span>
-            <span class="n">PayloadProvider</span> <span class="n">payloadProvider</span><span class="p">,</span>
-            <span class="n">StorageBehavior</span> <span class="n">storageBehavior</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">connection</span> <span class="p">=</span> <span class="n">connection</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">nodeLifetime</span> <span class="p">=</span> <span class="n">nodeLifetime</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">payloadProvider</span> <span class="p">=</span> <span class="n">payloadProvider</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">asyncProvider</span> <span class="p">=</span> <span class="n">asyncProvider</span><span class="p">;</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">storageBehavior</span> <span class="p">=</span> <span class="n">storageBehavior</span><span class="p">;</span>
-        <span class="p">}</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="nf">StorageFeature</span><span class="p">(</span><span class="w"></span>
+<span class="w">            </span><span class="n">IConnectionManager</span><span class="w"> </span><span class="n">connection</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="n">INodeLifetime</span><span class="w"> </span><span class="n">nodeLifetime</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="n">IAsyncProvider</span><span class="w"> </span><span class="n">asyncProvider</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="n">PayloadProvider</span><span class="w"> </span><span class="n">payloadProvider</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="n">StorageBehavior</span><span class="w"> </span><span class="n">storageBehavior</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">connection</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">connection</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">nodeLifetime</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">nodeLifetime</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">payloadProvider</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">payloadProvider</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">asyncProvider</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">asyncProvider</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">storageBehavior</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">storageBehavior</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
 
-        <span class="k">public</span> <span class="k">override</span> <span class="n">Task</span> <span class="nf">InitializeAsync</span><span class="p">()</span>
-        <span class="p">{</span>
-            <span class="c1">// Register the behavior.</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">connection</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">TemplateBehaviors</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">storageBehavior</span><span class="p">);</span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="k">override</span><span class="w"> </span><span class="n">Task</span><span class="w"> </span><span class="nf">InitializeAsync</span><span class="p">()</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="c1">// Register the behavior.</span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">connection</span><span class="p">.</span><span class="n">Parameters</span><span class="p">.</span><span class="n">TemplateBehaviors</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="n">storageBehavior</span><span class="p">);</span><span class="w"></span>
 
-            <span class="c1">// Register the payload types.</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">payloadProvider</span><span class="p">.</span><span class="n">AddPayload</span><span class="p">(</span><span class="k">typeof</span><span class="p">(</span><span class="n">StoragePayload</span><span class="p">));</span>
+<span class="w">            </span><span class="c1">// Register the payload types.</span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">payloadProvider</span><span class="p">.</span><span class="n">AddPayload</span><span class="p">(</span><span class="k">typeof</span><span class="p">(</span><span class="n">StoragePayload</span><span class="p">));</span><span class="w"></span>
 
-            <span class="c1">// Make a worker that will filter connected knows that has announced our custom payload behavior.</span>
-            <span class="k">this</span><span class="p">.</span><span class="n">asyncLoop</span> <span class="p">=</span> <span class="k">this</span><span class="p">.</span><span class="n">asyncProvider</span><span class="p">.</span><span class="n">CreateAndRunAsyncLoop</span><span class="p">(</span><span class="s">&quot;Storage.SyncWorker&quot;</span><span class="p">,</span> <span class="k">async</span> <span class="n">token</span> <span class="p">=&gt;</span>
-            <span class="p">{</span>
-                <span class="n">IReadOnlyNetworkPeerCollection</span> <span class="n">peers</span> <span class="p">=</span> <span class="k">this</span><span class="p">.</span><span class="n">connection</span><span class="p">.</span><span class="n">ConnectedPeers</span><span class="p">;</span>
+<span class="w">            </span><span class="c1">// Make a worker that will filter connected knows that has announced our custom payload behavior.</span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="n">asyncLoop</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">asyncProvider</span><span class="p">.</span><span class="n">CreateAndRunAsyncLoop</span><span class="p">(</span><span class="s">&quot;Storage.SyncWorker&quot;</span><span class="p">,</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="n">token</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="n">IReadOnlyNetworkPeerCollection</span><span class="w"> </span><span class="n">peers</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="n">connection</span><span class="p">.</span><span class="n">ConnectedPeers</span><span class="p">;</span><span class="w"></span>
 
-                <span class="k">if</span> <span class="p">(!</span><span class="n">peers</span><span class="p">.</span><span class="n">Any</span><span class="p">())</span>
-                <span class="p">{</span>
-                    <span class="k">return</span><span class="p">;</span>
-                <span class="p">}</span>
+<span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(!</span><span class="n">peers</span><span class="p">.</span><span class="n">Any</span><span class="p">())</span><span class="w"></span>
+<span class="w">                </span><span class="p">{</span><span class="w"></span>
+<span class="w">                    </span><span class="k">return</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="p">}</span><span class="w"></span>
 
-                <span class="c1">// Announce the blocks on each nodes behavior which supports relaying.</span>
-                <span class="n">IEnumerable</span><span class="p">&lt;</span><span class="n">StorageBehavior</span><span class="p">&gt;</span> <span class="n">behaviors</span> <span class="p">=</span> <span class="n">peers</span><span class="p">.</span><span class="n">Where</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">PeerVersion</span><span class="p">?.</span><span class="n">Relay</span> <span class="p">??</span> <span class="k">false</span><span class="p">)</span>
-                                                              <span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">Behavior</span><span class="p">&lt;</span><span class="n">StorageBehavior</span><span class="p">&gt;())</span>
-                                                              <span class="p">.</span><span class="n">Where</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
-                                                              <span class="p">.</span><span class="n">ToList</span><span class="p">();</span>
+<span class="w">                </span><span class="c1">// Announce the blocks on each nodes behavior which supports relaying.</span>
+<span class="w">                </span><span class="n">IEnumerable</span><span class="p">&lt;</span><span class="n">StorageBehavior</span><span class="p">&gt;</span><span class="w"> </span><span class="n">behaviors</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">peers</span><span class="p">.</span><span class="n">Where</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="p">.</span><span class="n">PeerVersion</span><span class="p">?.</span><span class="n">Relay</span><span class="w"> </span><span class="p">??</span><span class="w"> </span><span class="k">false</span><span class="p">)</span><span class="w"></span>
+<span class="w">                                                              </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="p">.</span><span class="n">Behavior</span><span class="p">&lt;</span><span class="n">StorageBehavior</span><span class="p">&gt;())</span><span class="w"></span>
+<span class="w">                                                              </span><span class="p">.</span><span class="n">Where</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="p">!=</span><span class="w"> </span><span class="k">null</span><span class="p">)</span><span class="w"></span>
+<span class="w">                                                              </span><span class="p">.</span><span class="n">ToList</span><span class="p">();</span><span class="w"></span>
 
-                <span class="k">foreach</span> <span class="p">(</span><span class="n">StorageBehavior</span> <span class="n">behavior</span> <span class="k">in</span> <span class="n">behaviors</span><span class="p">)</span>
-                <span class="p">{</span>
-                    <span class="k">await</span> <span class="n">behavior</span><span class="p">.</span><span class="n">SendTrickleAsync</span><span class="p">().</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span>
-                <span class="p">}</span>
-            <span class="p">},</span>
-                <span class="k">this</span><span class="p">.</span><span class="n">nodeLifetime</span><span class="p">.</span><span class="n">ApplicationStopping</span><span class="p">,</span>
-                <span class="n">repeatEvery</span><span class="p">:</span> <span class="n">TimeSpans</span><span class="p">.</span><span class="n">FiveSeconds</span><span class="p">,</span>
-                <span class="n">startAfter</span><span class="p">:</span> <span class="n">TimeSpans</span><span class="p">.</span><span class="n">TenSeconds</span><span class="p">);</span>
+<span class="w">                </span><span class="k">foreach</span><span class="w"> </span><span class="p">(</span><span class="n">StorageBehavior</span><span class="w"> </span><span class="n">behavior</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">behaviors</span><span class="p">)</span><span class="w"></span>
+<span class="w">                </span><span class="p">{</span><span class="w"></span>
+<span class="w">                    </span><span class="k">await</span><span class="w"> </span><span class="n">behavior</span><span class="p">.</span><span class="n">SendTrickleAsync</span><span class="p">().</span><span class="n">ConfigureAwait</span><span class="p">(</span><span class="k">false</span><span class="p">);</span><span class="w"></span>
+<span class="w">                </span><span class="p">}</span><span class="w"></span>
+<span class="w">            </span><span class="p">},</span><span class="w"></span>
+<span class="w">                </span><span class="k">this</span><span class="p">.</span><span class="n">nodeLifetime</span><span class="p">.</span><span class="n">ApplicationStopping</span><span class="p">,</span><span class="w"></span>
+<span class="w">                </span><span class="n">repeatEvery</span><span class="p">:</span><span class="w"> </span><span class="n">TimeSpans</span><span class="p">.</span><span class="n">FiveSeconds</span><span class="p">,</span><span class="w"></span>
+<span class="w">                </span><span class="n">startAfter</span><span class="p">:</span><span class="w"> </span><span class="n">TimeSpans</span><span class="p">.</span><span class="n">TenSeconds</span><span class="p">);</span><span class="w"></span>
 
-            <span class="k">return</span> <span class="n">Task</span><span class="p">.</span><span class="n">CompletedTask</span><span class="p">;</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">Task</span><span class="p">.</span><span class="n">CompletedTask</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
 
-    <span class="c1">/// &lt;summary&gt;</span>
-    <span class="c1">/// A class providing extension methods for &lt;see cref=&quot;IFullNodeBuilder&quot;/&gt;.</span>
-    <span class="c1">/// &lt;/summary&gt;</span>
-    <span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">FullNodeBuilderStorageExtension</span>
-    <span class="p">{</span>
-        <span class="k">public</span> <span class="k">static</span> <span class="n">IFullNodeBuilder</span> <span class="nf">UseStorage</span><span class="p">(</span><span class="k">this</span> <span class="n">IFullNodeBuilder</span> <span class="n">fullNodeBuilder</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="n">LoggingConfiguration</span><span class="p">.</span><span class="n">RegisterFeatureNamespace</span><span class="p">&lt;</span><span class="n">StorageFeature</span><span class="p">&gt;(</span><span class="s">&quot;storage&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="c1">/// &lt;summary&gt;</span>
+<span class="w">    </span><span class="c1">/// A class providing extension methods for &lt;see cref=&quot;IFullNodeBuilder&quot;/&gt;.</span>
+<span class="w">    </span><span class="c1">/// &lt;/summary&gt;</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">FullNodeBuilderStorageExtension</span><span class="w"></span>
+<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="n">IFullNodeBuilder</span><span class="w"> </span><span class="nf">UseStorage</span><span class="p">(</span><span class="k">this</span><span class="w"> </span><span class="n">IFullNodeBuilder</span><span class="w"> </span><span class="n">fullNodeBuilder</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="n">LoggingConfiguration</span><span class="p">.</span><span class="n">RegisterFeatureNamespace</span><span class="p">&lt;</span><span class="n">StorageFeature</span><span class="p">&gt;(</span><span class="s">&quot;storage&quot;</span><span class="p">);</span><span class="w"></span>
 
-            <span class="n">fullNodeBuilder</span><span class="p">.</span><span class="n">ConfigureFeature</span><span class="p">(</span><span class="n">features</span> <span class="p">=&gt;</span>
-            <span class="p">{</span>
-                <span class="n">features</span>
-                   <span class="p">.</span><span class="n">AddFeature</span><span class="p">&lt;</span><span class="n">StorageFeature</span><span class="p">&gt;()</span>
-                   <span class="p">.</span><span class="n">FeatureServices</span><span class="p">(</span><span class="n">services</span> <span class="p">=&gt;</span>
-                   <span class="p">{</span>
-                       <span class="n">services</span><span class="p">.</span><span class="n">AddSingleton</span><span class="p">&lt;</span><span class="n">IDataStore</span><span class="p">,</span> <span class="n">DataStore</span><span class="p">&gt;();</span>
-                       <span class="n">services</span><span class="p">.</span><span class="n">AddSingleton</span><span class="p">&lt;</span><span class="n">StorageBehavior</span><span class="p">&gt;();</span>
-                   <span class="p">});</span>
-            <span class="p">});</span>
+<span class="w">            </span><span class="n">fullNodeBuilder</span><span class="p">.</span><span class="n">ConfigureFeature</span><span class="p">(</span><span class="n">features</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"></span>
+<span class="w">            </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="n">features</span><span class="w"></span>
+<span class="w">                   </span><span class="p">.</span><span class="n">AddFeature</span><span class="p">&lt;</span><span class="n">StorageFeature</span><span class="p">&gt;()</span><span class="w"></span>
+<span class="w">                   </span><span class="p">.</span><span class="n">FeatureServices</span><span class="p">(</span><span class="n">services</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"></span>
+<span class="w">                   </span><span class="p">{</span><span class="w"></span>
+<span class="w">                       </span><span class="n">services</span><span class="p">.</span><span class="n">AddSingleton</span><span class="p">&lt;</span><span class="n">IDataStore</span><span class="p">,</span><span class="w"> </span><span class="n">DataStore</span><span class="p">&gt;();</span><span class="w"></span>
+<span class="w">                       </span><span class="n">services</span><span class="p">.</span><span class="n">AddSingleton</span><span class="p">&lt;</span><span class="n">StorageBehavior</span><span class="p">&gt;();</span><span class="w"></span>
+<span class="w">                   </span><span class="p">});</span><span class="w"></span>
+<span class="w">            </span><span class="p">});</span><span class="w"></span>
 
-            <span class="k">return</span> <span class="n">fullNodeBuilder</span><span class="p">;</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">fullNodeBuilder</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
 </td></tr></table>
 <p>This is basically all you need to start building custom data payload features ontop of your network of Blockcore nodes.</p>
-                
-                  
-                    
 
-<hr>
-<div class="md-source-date">
+  <hr>
+<div class="md-source-file">
   <small>
     
-      Last update: 2021-10-24
+      Last update:
+      2021-10-24
     
   </small>
 </div>
-                  
-                
-              
-              
-                
-
 
               
             </article>
@@ -2197,29 +2209,27 @@
             
          </div>
 
-         
-  <div class="md-footer-social">
+         <div class="md-social">
+  
+    
     
       
       
-        
-        
-      
-      <a href="https://github.com/block-core/documentation" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-      </a>
+    
+    <a href="https://github.com/block-core/documentation" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
     
       
       
-        
-        
-      
-      <a href="https://twitter.com/blockcoredev" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
-      </a>
     
-  </div>
-
+    <a href="https://twitter.com/blockcoredev" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+</div>
       </div>
    </div>
 </footer>
@@ -2228,10 +2238,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.instant", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.instant", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.b6ff8c07.min.js"}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.1e84347e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.5e13d264.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@8.8.3/dist/mermaid.min.js"></script>
       
