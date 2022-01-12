@@ -76,13 +76,17 @@ Update the version, also verify if there is any NPM packages that should be upda
 
 When the draft release is published, the workflow will automatically build and publish container images to Docker Hub.
 
+The Explorer does not depend on the network NuGet packages and does not need to be updated for every new blockchain.
+
 Image: [https://hub.docker.com/repository/docker/blockcore/explorer](https://hub.docker.com/repository/docker/blockcore/explorer)
 
 ### Blockcore TipBot
 
 8: [https://github.com/block-core/blockcore-tipbot](https://github.com/block-core/blockcore-tipbot)
 
-The Tipbot is hosted by Blockcore as a community service, but we advice teams to use their own dedicated tipbot for individual blockchains.
+The TipBot is hosted by Blockcore as a community service, but we advice teams to use their own dedicated tipbot for individual blockchains.
+
+The TipBot does not depend on the network NuGet packages and does not need to be updated for every new blockchain.
 
 ### Blockcore Hub
 
