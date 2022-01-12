@@ -18,7 +18,7 @@ If there is a new release of RocksDB, then RocksDB native must be built and rele
 
 After releasing on NuGet, wait at least 10 minutes before proceeding to ensure scanning, approval and indexing of the package is completed.
 
-### NuGet packages
+### Blockcore NuGet packages
 
 3: [https://github.com/block-core/blockcore](https://github.com/block-core/blockcore)
 
@@ -32,7 +32,7 @@ workflow that will publish the NuGet packages.
 
 Wait at least 10 minutes before proceeding, as the NuGet packages must be scanned for malware, approved and indexed.
 
-## Blockcore Features
+### Blockcore Features
 
 4: [https://github.com/block-core/blockcore-features](https://github.com/block-core/blockcore-features)
 
@@ -43,7 +43,7 @@ no need to manually update NuGet packages from Visual Studio, except of course o
 
 Wait at least 10 minutes before proceeding, due to NuGet scanning, approval and indexing.
 
-## Blockcore Reference Nodes
+### Blockcore Reference Nodes
 
 5: [https://github.com/block-core/blockcore-nodes](https://github.com/block-core/blockcore-nodes)
 
@@ -58,7 +58,7 @@ When the draft release is published, the workflow will automatically build and p
 
 Image: [https://hub.docker.com/repository/docker/blockcore/node-multi](https://hub.docker.com/repository/docker/blockcore/node-multi)
 
-## Blockcore Indexer
+### Blockcore Indexer
 
 6: [https://github.com/block-core/blockcore-indexer](https://github.com/block-core/blockcore-indexer)
 
@@ -68,7 +68,7 @@ When the draft release is published, the workflow will automatically build and p
 
 Image: [https://hub.docker.com/repository/docker/blockcore/indexer](https://hub.docker.com/repository/docker/blockcore/indexer)
 
-## Blockcore Explorer
+### Blockcore Explorer
 
 7: [https://github.com/block-core/blockcore-explorer](https://github.com/block-core/blockcore-explorer)
 
@@ -78,13 +78,13 @@ When the draft release is published, the workflow will automatically build and p
 
 Image: [https://hub.docker.com/repository/docker/blockcore/explorer](https://hub.docker.com/repository/docker/blockcore/explorer)
 
-## Blockcore TipBot
+### Blockcore TipBot
 
 8: [https://github.com/block-core/blockcore-tipbot](https://github.com/block-core/blockcore-tipbot)
 
 The Tipbot is hosted by Blockcore as a community service, but we advice teams to use their own dedicated tipbot for individual blockchains.
 
-## Blockcore Hub
+### Blockcore Hub
 
 9: [https://github.com/block-core/blockcore-hub](https://github.com/block-core/blockcore-hub)
 
@@ -92,7 +92,7 @@ Blockcore Hub requires that the multi-node to be released first, it embeds the f
 
 Upgrade packages and version, then publish the draft release after build is complete.
 
-## Chains configurations
+### Chains configurations
 
 10: [https://github.com/block-core/chaininfo](https://github.com/block-core/chaininfo)
 
