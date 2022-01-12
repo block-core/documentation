@@ -1675,10 +1675,12 @@ no need to manually update NuGet packages from Visual Studio, except of course o
 <p>7: <a href="https://github.com/block-core/blockcore-explorer">https://github.com/block-core/blockcore-explorer</a></p>
 <p>Update the version, also verify if there is any NPM packages that should be updated on the UI project.</p>
 <p>When the draft release is published, the workflow will automatically build and publish container images to Docker Hub.</p>
+<p>The Explorer does not depend on the network NuGet packages and does not need to be updated for every new blockchain.</p>
 <p>Image: <a href="https://hub.docker.com/repository/docker/blockcore/explorer">https://hub.docker.com/repository/docker/blockcore/explorer</a></p>
 <h3 id="blockcore-tipbot">Blockcore TipBot</h3>
 <p>8: <a href="https://github.com/block-core/blockcore-tipbot">https://github.com/block-core/blockcore-tipbot</a></p>
-<p>The Tipbot is hosted by Blockcore as a community service, but we advice teams to use their own dedicated tipbot for individual blockchains.</p>
+<p>The TipBot is hosted by Blockcore as a community service, but we advice teams to use their own dedicated tipbot for individual blockchains.</p>
+<p>The TipBot does not depend on the network NuGet packages and does not need to be updated for every new blockchain.</p>
 <h3 id="blockcore-hub">Blockcore Hub</h3>
 <p>9: <a href="https://github.com/block-core/blockcore-hub">https://github.com/block-core/blockcore-hub</a></p>
 <p>Blockcore Hub requires that the multi-node to be released first, it embeds the full node software.</p>
