@@ -117,7 +117,9 @@ nav:
     - usecases.md
     - referencenodes.md
     - walkthrough.md
-  - architecture.md
+  - Architecture:
+    - architecture.md
+    - release-process.md
   - Node:
     - Features:
       -  node/features/index.md
