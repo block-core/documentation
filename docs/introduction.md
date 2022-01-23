@@ -19,7 +19,7 @@ Blockcore is under continuous development to stay at the cutting edge of Bitcoin
 * Blockcore is a platform to build Layer 1 consensus networks based on the Bitcoin protocol
 * Compatible with Bitcoin, and other chains built on Blockcore.
 * Built on the .NET Core framework and written entirely in C#.
-* SegWith supported
+* SegWit supported
 * APIs and SDKs for app developers
 * Ecosystems of software, including block explorer, indexers, wallet software and more.
 
