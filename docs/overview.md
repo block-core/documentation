@@ -26,6 +26,8 @@ Extension keeps your identities and keys safe, while allowing you to communicate
 
 [https://github.com/block-core/blockcore-extension](https://github.com/block-core/blockcore-extension)
 
+[Learn more](extension/index.md)
+
 <br style="clear:both;">
 
 ## Explorer

@@ -115,6 +115,9 @@ nav:
   - Platform:
     - overview.md
     - usecases.md
+    - Extension:
+      - extension/index.md
+      - extension/installation.md
     - referencenodes.md
     - walkthrough.md
   - Architecture:
