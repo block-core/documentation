@@ -21,7 +21,7 @@ When all of that is completed, you have the software needed to start your blockc
 
 First step you need to perform is getting the receive address you can use to perform the initial mining on your blockchain.
 
-Either you can launc the Node UI on the TCP port you specificed, or you can use the REST API.
+Either you can launch the Node UI on the TCP port you specificed, or you can use the REST API.
 
 The URL for your Node UI is shown in the startup of the node, like shown in this screenshot:
 
