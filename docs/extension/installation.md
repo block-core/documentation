@@ -17,7 +17,8 @@ Availability later 2022
 Follow these instructions to manually install the extension. This allows you to test early releases and updates to the extension. These early releases
 can potentially have bugs, [issues](https://github.com/block-core/blockcore-extension/issues) (report by clicking link) and problems.
 
-1. Download the extension package from releases: [https://github.com/block-core/blockcore-extension/releases](https://github.com/block-core/blockcore-extension/releases). Download the `blockcore-extension-*.zip` file to your local computer.
+1. Download the extension package from [releases](https://github.com/block-core/blockcore-extension/releases).   
+Download the `blockcore-extension-*.zip` file to your local computer.
 
 2. Unpack the .zip file to a folder anywhere on your computer.
 
@@ -25,9 +26,9 @@ can potentially have bugs, [issues](https://github.com/block-core/blockcore-exte
 
 Either find the extension page through the menu, or open this URL:
 
-edge://extensions/
-chrome://extensions/
-brave://extensions/
+[edge://extensions/](edge://extensions/)   
+[chrome://extensions/](chrome://extensions/)   
+[brave://extensions/](brave://extensions/)   
 
 From the extension page in your browser, find the "Developer mode" toggle and turn it on.
 
