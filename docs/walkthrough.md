@@ -27,7 +27,7 @@ The URL for your Node UI is shown in the startup of the node, like shown in this
 
 ![](/img/node-startup-log.png)
 
-First step is to make yourself a new wallet. You can do with without having any connections to other nodes.
+First step is to make yourself a new wallet. You can do this without having any connections to other nodes.
 
 After creating a wallet, make sure you protect your recovery phrase. If this is lost or shared, you can loose access to the funds.
 
