@@ -18,7 +18,7 @@ Follow these instructions to manually install the extension. This allows you to 
 can potentially have bugs, [issues](https://github.com/block-core/blockcore-extension/issues) (report by clicking link) and problems.
 
 1. Download the extension package from [releases](https://github.com/block-core/blockcore-extension/releases).   
-Download the `blockcore-extension-*.zip` file to your local computer.
+Download the `blockcore-*.zip` file to your local computer.
 
 2. Unpack the .zip file to a folder anywhere on your computer.
 
