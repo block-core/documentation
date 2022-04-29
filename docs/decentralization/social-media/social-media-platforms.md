@@ -12,7 +12,7 @@ In ancient Athens, where democracy was invented, those who owned land could vote
 
 In a nutshell, countering this type of centralized control is the psychological driver behind the decentralization movement on the internet.
 
-Over the last few years, **disposition, portability** , **functionality** , **data** , and **identity** have emerged as critical elements of decentralization.
+Over the last few years, **disposition, portability, interoperability** , **functionality** , **data** , and **identity** have emerged as critical elements of decentralization.
 
 Also, the productization of the user has become a reality on centralized social media platforms and other internet &quot;utilities&quot; such as search engines. This graphic tells the tale:
 
@@ -48,7 +48,7 @@ For now, we can articulate these requirements:
 
 4\. _Data Storage_: must be stored and retrieved from a distributed decentralized network of storage containers.
 
-5\. _Portability_: the user must have the means to take their data and move to another soapbox.
+5\. _Portability and Interoperability_: the user must have the means to take their data and move to another soapbox.
 
 **Identity**
 
