@@ -2,262 +2,267 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.blockcore.net/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/architecture/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/community/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/contribute/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/development/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/introduction/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/links/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/overview/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/referencenodes/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/release-process/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/securityissues/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/signingcommits/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/support/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/usecases/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/walkthrough/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/social-media-platforms/</loc>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/example-projects/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/example-projects/mithril-shards-example-dev/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/example-projects/mithril-shards-example-network-bedrock/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/example-projects/mithril-shards-example-node/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/example-projects/mithril-shards-example/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/example-projects/running-example/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/extension/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/extension/installation/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/faq/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/faq/faq-deployment/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/faq/faq-general/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/faq/faq-integrations/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/faq/faq-synchronization/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/faq/faq-wallet/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/api/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/api/apiauthentication/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/api/apiauthorization/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/airdrop/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/blockexplorer/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/blockstore/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/coldstaking/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/consensus/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/diagnostics/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/dns/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/memorypool/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/miner/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/nodehost/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/notifications/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/poa/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/rpc/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/storage/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/wallet/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/walletnotify/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/features/walletwatchonly/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/p2p/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.blockcore.net/node/p2p/payloads/</loc>
-         <lastmod>2022-01-31</lastmod>
+         <lastmod>2022-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
