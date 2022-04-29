@@ -1,6 +1,6 @@
 **What Does it Mean to be a Decentralized Social Media Platform?**
 
-_Articulating first principles as a means to discover requirements to towards a social media platform_
+_Articulating first principles as a means to discover requirements towards a social media platform_
 
 **A Decentralized Social Media Platform**
 
