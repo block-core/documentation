@@ -215,13 +215,19 @@
         
   
   
+    
+  
 
 
-  <li class="md-tabs__item">
-    <a href="../../../introduction/" class="md-tabs__link">
-      Introduction
-    </a>
-  </li>
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../introduction/" class="md-tabs__link md-tabs__link--active">
+        Introduction
+      </a>
+    </li>
+  
 
       
         
@@ -382,11 +388,115 @@
 
   
   
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Introduction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
   
     <li class="md-nav__item">
       <a href="../../../introduction/" class="md-nav__link">
         Introduction
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" checked>
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Decentralization
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Decentralization" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Decentralization
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Social media platforms
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -1502,33 +1612,23 @@
 <p>So let&#39;s make a list of requirements a social media platform must have to be considered decentralized. We can then use this list to construct a scorecard to assess how decentralized a platform is.</p>
 <p><strong>Disposition</strong></p>
 <p>What and where is the server(s)? Are they behind a single Domain Name representing a single entity? If that is the case, then they are considered centralized.</p>
-<ol>
-<li><em>Distributed servers</em>: the physical <em>disposition</em> of the servers <em>must</em> be distributed across a network so that they cannot be controlled by a single entity or &quot;oligarchy.&quot; This should ensure that owner(s) cannot shut down the soapbox.</li>
-</ol>
+<p>1. <em>Distributed servers</em>: the physical <em>disposition</em> of the servers <em>must</em> be distributed across a network so that they cannot be controlled by a single entity or &quot;oligarchy.&quot; This should ensure that owner(s) cannot shut down the soapbox.</p>
 <p><strong>Functionality</strong></p>
 <p>In a decentralized network of servers, how does the functionality get deployed over time? This is a tricky problem. Bitcoin, Ethereum, and other cryptocurrencies have varied strategies to upgrade server nodes over time. And Ethereum and other blockchains have introduced dApps, distributed applications, to expose new functionality on the network. A Decentralized Social Media Platform will face the same problems.</p>
-<ol>
-<li><em>Functionality</em>: Application Logic <em>must</em> be deployable and upgradable across the decentralized network.</li>
-</ol>
+<p>2. <em>Functionality</em>: Application Logic <em>must</em> be deployable and upgradable across the decentralized network.</p>
 <p><strong>Data</strong></p>
 <p>Concepts surrounding <em>data</em> on a decentralized social media network are complex and multi-dimensional. Data could be meta-data (list of followers/friends/blocks), messages, posts, images, videos, etc. But one idea that is universally accepted in the decentralized (Self-Sovereign) community is that a person owns their data. This means that each person has complete control of their data. But there is more to think about concerning Data on a decentralized network. Such as storage which, again, is another complicated topic. And, once users put data on that server, can they be locked out or banned from that server? If so, this is also a consequence of centralization because users cannot take their data (which might include a list of their friends/followers) and move it to another platform. In other words, the data is not portable.</p>
 <p>For now, we can articulate these requirements:</p>
-<ol>
-<li><em>Data Ownership</em>: Each platform user must have complete control of their data.</li>
-<li><em>Data Storage</em>: must be stored and retrieved from a distributed decentralized network of storage containers.</li>
-<li><em>Portability</em>: the user must have the means to take their data and move to another soapbox.</li>
-</ol>
+<p>3. <em>Data Ownership</em>: Each platform user must have complete control of their data.</p>
+<p>4. <em>Data Storage</em>: must be stored and retrieved from a distributed decentralized network of storage containers.</p>
+<p>5. <em>Portability</em>: the user must have the means to take their data and move to another soapbox.</p>
 <p><strong>Identity</strong></p>
 <p>So we have a requirement for complete ownership of a user&#39;s data by <em>that user</em>. But who is <em>that</em> user? To ensure ownership of an artifact, we must have a way to verify and validate a user&#39;s claims of identity. Identity is a central theme around the concept of <em>access</em>, also. This is because <em>access</em> is necessary for speech on a given platform. How can we handle identity in a decentralized way that does not rely on a centralized entity? Access is also tied to the idea of ownership and control. When users are asked to show their identity, can they show artifacts proving identity that do not require mediation through a centralized authority? In other words, can a person prove who they are without relying on a 3rd party to say who they are? What if that 3rd Party is compromised somehow or disappears altogether? On a decentralized social media platform, identity is a crucial concept that underpins all human interactions on a decentralized platform.</p>
 <p>These are hot topics in the Self-Sovereign community, but we can state this requirement for now.</p>
-<ol>
-<li><em>Identity</em>: A user must have complete control over and access to the mechanism that proves their claims of who they are.</li>
-</ol>
+<p>6. <em>Identity</em>: A user must have complete control over and access to the mechanism that proves their claims of who they are.</p>
 <p><strong>Support and Sustainment</strong></p>
 <p>The revenue model of today&#39;s leading social media platforms, productization of the user, as means for support and sustainment of the platform is not in the best interest of the platform&#39;s users. But it costs money to support any kind of computer network. So what other means of support might be devised in a decentralized way? We don&#39;t need to look far for a solution. This is what crypto-currencies do, provide a means of support for their underlying blockchain network. Details matter here. Types of crypto-currencies are delineated by their consensus algorithms. Two well-known consensus algorithms are Proof of Work and Proof of Stake. We won&#39;t get into the details of that rabbit hole just yet, except to say that the more aligned the consensus algorithm is to the platform&#39;s mission, the greater the chance of success. For now, let&#39;s state the requirement.</p>
-<ol>
-<li><em>Support and Sustainment</em>: The platform must provide a built-in, decentralized means of sustainment through a crypto-currency mechanism that aligns with and supports the platform&#39;s mission.</li>
-</ol>
+<p>7. <em>Support and Sustainment</em>: The platform must provide a built-in, decentralized means of sustainment through a crypto-currency mechanism that aligns with and supports the platform&#39;s mission.</p>
 
   <hr>
 <div class="md-source-file">
@@ -1560,6 +1660,46 @@
 
 <footer class="md-footer">
 
+   
+   <nav class="md-footer__inner md-grid"
+        aria-label="Footer">
+
+      
+      <a href="../../../introduction/"
+         class="md-footer__link md-footer__link--prev"
+         rel="prev">
+         <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+         </div>
+         <div class="md-footer__title">
+            <div class="md-ellipsis">
+               <span class="md-footer__direction">
+                  Previous
+               </span>
+               Introduction
+            </div>
+         </div>
+      </a>
+      
+
+      
+      <a href="../../../overview/"
+         class="md-footer__link md-footer__link--next"
+         rel="next">
+         <div class="md-footer__title">
+            <div class="md-ellipsis">
+               <span class="md-footer__direction">
+                  Next
+               </span>
+               Overview
+            </div>
+         </div>
+         <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+         </div>
+      </a>
+      
+   </nav>
    
 
    <div class="md-footer-meta md-typeset">
