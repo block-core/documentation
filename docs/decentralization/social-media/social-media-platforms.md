@@ -30,13 +30,13 @@ So let&#39;s make a list of requirements a social media platform must have to be
 
 What and where is the server(s)? Are they behind a single Domain Name representing a single entity? If that is the case, then they are considered centralized.
 
-1. _Distributed servers_: the physical _disposition_ of the servers _must_ be distributed across a network so that they cannot be controlled by a single entity or &quot;oligarchy.&quot; This should ensure that owner(s) cannot shut down the soapbox.
+1\. _Distributed servers_: the physical _disposition_ of the servers _must_ be distributed across a network so that they cannot be controlled by a single entity or &quot;oligarchy.&quot; This should ensure that owner(s) cannot shut down the soapbox.
 
 **Functionality**
 
 In a decentralized network of servers, how does the functionality get deployed over time? This is a tricky problem. Bitcoin, Ethereum, and other cryptocurrencies have varied strategies to upgrade server nodes over time. And Ethereum and other blockchains have introduced dApps, distributed applications, to expose new functionality on the network. A Decentralized Social Media Platform will face the same problems.
 
-2. _Functionality_: Application Logic _must_ be deployable and upgradable across the decentralized network.
+2\. _Functionality_: Application Logic _must_ be deployable and upgradable across the decentralized network.
 
 **Data**
 
@@ -44,9 +44,11 @@ Concepts surrounding _data_ on a decentralized social media network are complex 
 
 For now, we can articulate these requirements:
 
-3. _Data Ownership_: Each platform user must have complete control of their data.
-4. _Data Storage_: must be stored and retrieved from a distributed decentralized network of storage containers.
-5. _Portability_: the user must have the means to take their data and move to another soapbox.
+3\. _Data Ownership_: Each platform user must have complete control of their data.
+
+4\. _Data Storage_: must be stored and retrieved from a distributed decentralized network of storage containers.
+
+5\. _Portability_: the user must have the means to take their data and move to another soapbox.
 
 **Identity**
 
@@ -54,10 +56,10 @@ So we have a requirement for complete ownership of a user&#39;s data by _that us
 
 These are hot topics in the Self-Sovereign community, but we can state this requirement for now.
 
-6. _Identity_: A user must have complete control over and access to the mechanism that proves their claims of who they are.
+6\. _Identity_: A user must have complete control over and access to the mechanism that proves their claims of who they are.
 
 **Support and Sustainment**
 
 The revenue model of today&#39;s leading social media platforms, productization of the user, as means for support and sustainment of the platform is not in the best interest of the platform&#39;s users. But it costs money to support any kind of computer network. So what other means of support might be devised in a decentralized way? We don&#39;t need to look far for a solution. This is what crypto-currencies do, provide a means of support for their underlying blockchain network. Details matter here. Types of crypto-currencies are delineated by their consensus algorithms. Two well-known consensus algorithms are Proof of Work and Proof of Stake. We won&#39;t get into the details of that rabbit hole just yet, except to say that the more aligned the consensus algorithm is to the platform&#39;s mission, the greater the chance of success. For now, let&#39;s state the requirement.
 
-7. _Support and Sustainment_: The platform must provide a built-in, decentralized means of sustainment through a crypto-currency mechanism that aligns with and supports the platform&#39;s mission.
+7\. _Support and Sustainment_: The platform must provide a built-in, decentralized means of sustainment through a crypto-currency mechanism that aligns with and supports the platform&#39;s mission.
