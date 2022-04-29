@@ -111,7 +111,10 @@ extra:
 
 nav:
   - index.md
-  - introduction.md
+  - Introduction:
+    - introduction.md
+    - Decentralization:
+      - decentralization/social-media/social-media-platforms.md
   - Platform:
     - overview.md
     - usecases.md
