@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://docs.blockcore.net/signingcommits/">
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.11">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.12">
     
     
       
@@ -23,10 +23,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.8c5ef100.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.27ad92d8.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -1643,54 +1643,46 @@
 <li>Generate a key, preferably 4096 bytes. Avoid pass phrase if you don't want to supply it on every commit or use tools to cache it locally.</li>
 <li>Fill out your details, name and e-mail. The e-mail must be a verified address on Github, or your no-reply address on Github.</li>
 <li>Find your key by opening cmd.exe
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>gpg --list-secret-keys --keyid-format LONG
-</code></pre></div>
-</td></tr></table></li>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>gpg --list-secret-keys --keyid-format LONG
+</code></pre></div></td></tr></table></div></li>
 </ol>
 <p>Above command will return your keys, starting with their strength and then ID. Make sure you use the "sec" key and not the "ssb" key. "sec" is for Certify and Signing, the "ssb" is for Encrypting.</p>
 <p>Depending on your environment variables, cmd and git bash will store keys in different locations. Kleopatra will put keys in the location that cmd.exe looks at.</p>
 <p>cmd.exe: C:\Users\USER\AppData\Roaming\gnupg <br />
 git bash: C:\Users\USER.gnupg</p>
 <p>To fix this, open git bash and search for pgb:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>where gpg
-</code></pre></div>
-</td></tr></table>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>where gpg
+</code></pre></div></td></tr></table></div>
 <p>Copy the path that goes to the recent GnuPG folder, for example:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>C:\Program Files (x86)\GnuPG\bin\gpg.exe
-</code></pre></div>
-</td></tr></table>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>C:\Program Files (x86)\GnuPG\bin\gpg.exe
+</code></pre></div></td></tr></table></div>
 <p>Then create a new file, if it doesn't exists, under your user profile (C:\Users\USER\.bash_profile) named .bash_profile and fill out this into the file:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>alias gpg=&quot;&#39;C:\Program Files (x86)\GnuPG\bin\gpg.exe&#39;&quot;
-</code></pre></div>
-</td></tr></table>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>alias gpg=&quot;&#39;C:\Program Files (x86)\GnuPG\bin\gpg.exe&#39;&quot;
+</code></pre></div></td></tr></table></div>
 <p>Then run the same gpg command to list keys, and you should see same result in cmd and git bash.</p>
 <ol>
 <li>Configure git repo to always sign. You can do this globally with the flag --global if you want to.</li>
 </ol>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Local only</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Local only</span>
 git config user.signingkey KEYID
 git config commit.gpgsign <span class="nb">true</span>
-</code></pre></div>
-</td></tr></table>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Globally</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Globally</span>
 git config --global user.signingkey KEYID
 git config --global commit.gpgsign <span class="nb">true</span>
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <p>You might also want to inform git to use the custom GPG you installed and not the one included with for example Github Desktop:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>git config --global gpg.program <span class="s2">&quot;C:\Program Files (x86)\GnuPG\bin\gpg.exe&quot;</span>
-</code></pre></div>
-</td></tr></table>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>git config --global gpg.program <span class="s2">&quot;C:\Program Files (x86)\GnuPG\bin\gpg.exe&quot;</span>
+</code></pre></div></td></tr></table></div>
 <ol>
 <li>Get your public key:</li>
 </ol>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>gpg --armor --export KEYID
-</code></pre></div>
-</td></tr></table>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>gpg --armor --export KEYID
+</code></pre></div></td></tr></table></div>
 <ol>
 <li>Add your <a href="https://github.com/settings/keys">Public Key to Github</a>.</li>
 </ol>
@@ -1817,7 +1809,7 @@ git config --global commit.gpgsign <span class="nb">true</span>
     <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.instant", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.748e2769.min.js"></script>
+      <script src="../assets/javascripts/bundle.ed9748b7.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@8.8.3/dist/mermaid.min.js"></script>
       

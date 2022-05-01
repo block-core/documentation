@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://docs.blockcore.net/node/features/storage/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.11">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.12">
     
     
       
@@ -23,10 +23,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.8c5ef100.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.27ad92d8.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -1749,7 +1749,7 @@
 <p>Everything is connected to the identities. A person can have one or multiple identities. A person can also make identities for their business entities and other resources, such as servers, hubs and more.</p>
 <p>Your identities is the foundation of secure messaging, for verification and social networking and a lot more.</p>
 <p>Example:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -1765,7 +1765,7 @@
 <span class="normal">14</span>
 <span class="normal">15</span>
 <span class="normal">16</span>
-<span class="normal">17</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
+<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span><span class="w"></span>
 <span class="w">  </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"></span>
 <span class="w">  </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;identity/P9ppftn667PgXwqCKNaUVnD8BS8rjmkcUo&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">  </span><span class="nt">&quot;signature&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ICSoxi6ScRYozMeDGU0+gZAltyis27mUA16JeAT2u24xSH23LEaAKwXJjv4dbWPhvfZbTFmr/fy7/MWTbXpgdDY=&quot;</span><span class="p">,</span><span class="w"></span>
@@ -1782,8 +1782,7 @@
 <span class="w">    </span><span class="nt">&quot;hubs&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w"></span>
 <span class="w">  </span><span class="p">}</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <p>The "id" on the "container" is based on the container and the identifier in the content.</p>
 <p>The "content" is what consititutes the "document" and is signed. The "container" is not verified and can be modified by the nodes indiscriminately. You can only trust the "content", not the "container".</p>
 <p>The "content/hubs" is a list of identifiers of hubs that the user uses to store their data. As mentioned before, identities is shared across all nodes, but identity is the only data that is shared like this. Other data is stored on specific hubs.</p>
@@ -1791,19 +1790,18 @@
 <p>Data other than the identities is normally retrieved from known hubs.</p>
 <p>If for example the "image" field on the identity contains a relative path, it means that the image is stored on the hubs.</p>
 <p>Example:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span>
 <span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">{</span><span class="w"></span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="w">  </span><span class="p">{</span><span class="w"></span>
 <span class="w">  </span><span class="nt">&quot;content&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
 <span class="w">    </span><span class="nt">&quot;identifier&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;P9ppftn667PgXwqCKNaUVnD8BS8rjmkcUo&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">    </span><span class="nt">&quot;image&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;data/jysdfzx234.jpg&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">    </span><span class="nt">&quot;hubs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;P4xYftn667PgXwqCKNaUVnD8BS8rjmkcUo&quot;</span><span class="p">]</span><span class="w"></span>
 <span class="w">  </span><span class="p">}</span><span class="w"></span>
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <p>In the example above, the profile image can be retrieved using the following actions:</p>
 <ol>
 <li>Query the identity API for the identity of the hub.</li>
@@ -1828,7 +1826,7 @@
 <p>Identities are a known type and must follow a strict set of schema. This class must be marked with the [MessagePackObject] attribute.</p>
 <p>Each of the properties must be marked with a fixed order, with attribute like [Key(0)].</p>
 <p>When signing a document ("content"), you must first serialize your document using an Message Pack serializer. These are available for different languages and platforms, including JavaScript.</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -1862,7 +1860,7 @@
 <span class="normal">32</span>
 <span class="normal">33</span>
 <span class="normal">34</span>
-<span class="normal">35</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1">// Example on how to derive the key pair needed for an identity.</span>
+<span class="normal">35</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1">// Example on how to derive the key pair needed for an identity.</span>
 <span class="kt">string</span><span class="w"> </span><span class="n">recoveryPhrase</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&quot;mystery problem faith negative member bottom concert bundle asthma female process twelve&quot;</span><span class="p">;</span><span class="w"></span>
 <span class="kt">var</span><span class="w"> </span><span class="n">mnemonic</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Mnemonic</span><span class="p">(</span><span class="n">recoveryPhrase</span><span class="p">);</span><span class="w"></span>
 <span class="n">ExtKey</span><span class="w"> </span><span class="n">masterNode</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">mnemonic</span><span class="p">.</span><span class="n">DeriveExtKey</span><span class="p">();</span><span class="w"></span>
@@ -1897,23 +1895,21 @@
 <span class="p">};</span><span class="w"></span>
 
 <span class="c1">// Publish to local node or public hub.</span>
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <h2 id="verification">Verification</h2>
 <p>Verification is done by redoing the message pack serialization, then checking to verify if the signature was signed with the private key of the public key (the identifier).</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span>
 <span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">entityBytes</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">MessagePackSerializer</span><span class="p">.</span><span class="n">Serialize</span><span class="p">(</span><span class="n">document</span><span class="p">.</span><span class="n">Content</span><span class="p">);</span><span class="w"></span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kt">byte</span><span class="p">[]</span><span class="w"> </span><span class="n">entityBytes</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">MessagePackSerializer</span><span class="p">.</span><span class="n">Serialize</span><span class="p">(</span><span class="n">document</span><span class="p">.</span><span class="n">Content</span><span class="p">);</span><span class="w"></span>
 
 <span class="c1">// You need a reference to the ProfileNetwork.</span>
 <span class="kt">var</span><span class="w"> </span><span class="n">bitcoinAddress</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">(</span><span class="n">BitcoinPubKeyAddress</span><span class="p">)</span><span class="n">BitcoinPubKeyAddress</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">address</span><span class="p">,</span><span class="w"> </span><span class="n">ProfileNetwork</span><span class="p">.</span><span class="n">Instance</span><span class="p">);</span><span class="w"></span>
 
 <span class="kt">var</span><span class="w"> </span><span class="n">valid</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">bitcoinAddress</span><span class="p">.</span><span class="n">VerifyMessage</span><span class="p">(</span><span class="n">entityBytes</span><span class="p">,</span><span class="w"> </span><span class="n">document</span><span class="p">.</span><span class="n">Signature</span><span class="p">);</span><span class="w"></span>
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <h2 id="synchronization">Synchronization</h2>
 <p>When nodes connect they will begin to exchange the signatures of all documents. This is done in chunks. As each node process the signatures of the other node, it will ask to retrieve documents that it is missing.</p>
 <p>When the document is retrieved based on the signature, the document is serialized and signature is verified. If everything is OK, then the height is used to validate if the received document is older or newer than the current.</p>
@@ -2046,7 +2042,7 @@
     <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.instant", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.748e2769.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.ed9748b7.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@8.8.3/dist/mermaid.min.js"></script>
       

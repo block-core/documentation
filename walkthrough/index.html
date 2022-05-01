@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://docs.blockcore.net/walkthrough/">
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.11">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.12">
     
     
       
@@ -23,10 +23,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.8c5ef100.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.27ad92d8.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -1680,7 +1680,7 @@
 <p>When you first start a new blockchain, you need to perform Proof-of-Work mining. This can easily be done using a basic CPU on your computer, no need for expensive hardware.</p>
 <p>Find your "network.conf" file and enable the following settings.</p>
 <p>Configuration file is normally located under a path like this on Windows: <code>C:\Users\USER\AppData\Roaming\Blockcore\YOURNETWORK\YourNetworkMain</code></p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -1690,7 +1690,7 @@
 <span class="normal"> 8</span>
 <span class="normal"> 9</span>
 <span class="normal">10</span>
-<span class="normal">11</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>####Miner Settings####
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code>####Miner Settings####
 #Enable POW mining.
 mine=1
 #Enable POS.
@@ -1701,21 +1701,18 @@ mineaddress=PASTE_ADDRESS_FROM_STEP_2
 walletname=NAME_OF_YOUR_WALLET
 #Password to unlock the wallet.
 walletpassword=YOUR_WALLET_PASSWORD
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <h2 id="4-connect-to-other-nodes">4. Connect to other nodes</h2>
 <p>You cannot send transactions unless you have one or more connections.</p>
 <p>Additionally all new coins must be matured before you can send them. Initially it is required that new coins must be 50 blocks deep, and later on the requirement is 500. This can be configured in code.</p>
 <p>You can launch two nodes locally, by changing the default ports on one of the instances.</p>
 <p>Use the following settings, with some modifications, to launch two instances of your node software:</p>
 <p>launch-first.bat</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&quot;C:\src\github\blockcore\blockcore\src\Node\Blockcore.Node\bin\Debug\netcoreapp3.1\Blockcore.Node.exe&quot; --chain=YOURNETWORK -server -listen=1 -maxtipage=2147483647 -iprangefiltering=0 -apiport=10011 -whitelist=YOUR_LAN_IP -server=1 -rpcport=10010 -rpcallowip=127.0.0.1 -rpcbind=127.0.0.1 -rpcpassword=rpcpassword -rpcuser=rpcuser -datadir=nodedata1
-</code></pre></div>
-</td></tr></table>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>&quot;C:\src\github\blockcore\blockcore\src\Node\Blockcore.Node\bin\Debug\netcoreapp3.1\Blockcore.Node.exe&quot; --chain=YOURNETWORK -server -listen=1 -maxtipage=2147483647 -iprangefiltering=0 -apiport=10011 -whitelist=YOUR_LAN_IP -server=1 -rpcport=10010 -rpcallowip=127.0.0.1 -rpcbind=127.0.0.1 -rpcpassword=rpcpassword -rpcuser=rpcuser -datadir=nodedata1
+</code></pre></div></td></tr></table></div>
 <p>launch-second.bat:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&quot;C:\src\github\blockcore\blockcore\src\Node\Blockcore.Node\bin\Debug\netcoreapp3.1\Blockcore.Node.exe&quot; --chain=YOURNETWORK -server -listen=1 -maxtipage=2147483647 -iprangefiltering=0 -apiport=10021 -addnode=YOUR_LAN_IP -rpcport=10020 -rpcallowip=127.0.0.1 -rpcbind=127.0.0.1 -rpcpassword=rpcpassword -rpcuser=rpcuser -datadir=nodedata2
-</code></pre></div>
-</td></tr></table>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>&quot;C:\src\github\blockcore\blockcore\src\Node\Blockcore.Node\bin\Debug\netcoreapp3.1\Blockcore.Node.exe&quot; --chain=YOURNETWORK -server -listen=1 -maxtipage=2147483647 -iprangefiltering=0 -apiport=10021 -addnode=YOUR_LAN_IP -rpcport=10020 -rpcallowip=127.0.0.1 -rpcbind=127.0.0.1 -rpcpassword=rpcpassword -rpcuser=rpcuser -datadir=nodedata2
+</code></pre></div></td></tr></table></div>
 <p>Explaination of parameters:</p>
 <p>-server=1: This will make one node listen for incoming connections on the default p2p port.</p>
 <p>-addnode: This will connect to the other node on startup.</p>
@@ -1841,7 +1838,7 @@ walletpassword=YOUR_WALLET_PASSWORD
     <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.instant", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.748e2769.min.js"></script>
+      <script src="../assets/javascripts/bundle.ed9748b7.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@8.8.3/dist/mermaid.min.js"></script>
       

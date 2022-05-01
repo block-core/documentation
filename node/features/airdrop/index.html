@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://docs.blockcore.net/node/features/airdrop/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.11">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.12">
     
     
       
@@ -23,10 +23,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.8c5ef100.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.27ad92d8.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -1670,14 +1670,14 @@
 <p>The airdrop feature has two modes <code>snapshot</code> and <code>distribute</code></p>
 <p>The Airdrop is considered to be a manual processes so it can be run in debug mode and some changes are applied directly to the code, such places are marked as <code>Manual:</code> in the <code>distribute</code> class.
 To enable the feature in the node builder register the feature itself similar to the bellow example.</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span>
 <span class="normal">5</span>
 <span class="normal">6</span>
 <span class="normal">7</span>
-<span class="normal">8</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>                var builder = new FullNodeBuilder()
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code>                var builder = new FullNodeBuilder()
                             .UseNodeSettings(nodeSettings)
                             .UseBlockStore()
                             .UsePosConsensus()
@@ -1685,14 +1685,12 @@ To enable the feature in the node builder register the feature itself similar to
                             .UseApi()
                             .UseMempool()
                             .Airdrop();
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <p>Then run the node with either of the modes enabled.</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>To build the solution the relevant projects and daemon of the chain
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code>To build the solution the relevant projects and daemon of the chain
 need to be referenced in the Blockcore.Features.Airdrop.sln file 
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <h2 id="snapshot">Snapshot</h2>
 <p>Will take a snapshot of the UTXO set of a node and push this to a db to a table name <code>UnspentOutputs</code>.
 When the snapshot is running no new blocks will get validated (the consensus processes will block).</p>
@@ -1712,28 +1710,27 @@ Currently the code will only create one trx with 500 outputs (this can be easily
 </ol>
 <h2 id="useful-sql-queries">Useful SQL Queries</h2>
 <p>Group all outputs by address and sum the total value
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span>
 <span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>SELECT Address, Script, ScriptType, count(Address), Sum(Value) as Value
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code>SELECT Address, Script, ScriptType, count(Address), Sum(Value) as Value
 FROM UnspentOutputs
 WHERE Address != &quot;[address-to-ignore]&quot;
 AND Address != &quot;[address-to-ignore]&quot;
 GROUP BY Address
 ORDER By Sum(Value) DESC
-</code></pre></div>
-</td></tr></table></p>
+</code></pre></div></td></tr></table></div></p>
 <p>The total number of outputs and total value after the grouping
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span>
 <span class="normal">5</span>
 <span class="normal">6</span>
 <span class="normal">7</span>
-<span class="normal">8</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>SELECT count(*), Sum(Value) FROM (
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code>SELECT count(*), Sum(Value) FROM (
 SELECT Address, Script, ScriptType, count(Address), Sum(Value) as Value
 FROM UnspentOutputs
 WHERE Address != &quot;[address-to-ignore]&quot;
@@ -1741,30 +1738,27 @@ AND Address != &quot;[address-to-ignore]&quot;
 GROUP BY Address
 ORDER By Sum(Value) DESC
 )
-</code></pre></div>
-</td></tr></table></p>
+</code></pre></div></td></tr></table></div></p>
 <p>Copy entries to the distribution table, this will contain all the addresses to airdrop on
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span>
 <span class="normal">5</span>
 <span class="normal">6</span>
-<span class="normal">7</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>INSERT INTO DistributeOutputs (Address, Script, ScriptType, Height, Value)
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code>INSERT INTO DistributeOutputs (Address, Script, ScriptType, Height, Value)
 SELECT Address, Script, ScriptType, 0, Sum(Value) as Value
 FROM UnspentOutputs
 WHERE Address != &quot;[address-to-ignore]&quot;
 AND Address != &quot;[address-to-ignore]&quot;
 GROUP BY Address
 ORDER By Sum(Value) DESC
-</code></pre></div>
-</td></tr></table></p>
+</code></pre></div></td></tr></table></div></p>
 <p>Follow progress of distribution
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>select status, count(status) FROM DistributeOutputs 
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code>select status, count(status) FROM DistributeOutputs 
 GROUP BY status 
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 Tool recommended to use is <code>DB browser for SQLite</code></p>
 
   <hr>
@@ -1883,7 +1877,7 @@ Tool recommended to use is <code>DB browser for SQLite</code></p>
     <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.instant", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.748e2769.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.ed9748b7.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@8.8.3/dist/mermaid.min.js"></script>
       

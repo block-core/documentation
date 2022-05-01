@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://docs.blockcore.net/example-projects/running-example/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.11">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.12">
     
     
       
@@ -23,10 +23,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.8c5ef100.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.27ad92d8.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -1578,20 +1578,18 @@
 <p>Running just an instance doesn't fully show you how the program behave, it needs at least 2 peers to connect to each other, that's why there are already multiple configuration files configured differently to let you connect two instances together.</p>
 <p>You can run one instance by setting <code>MithrilShards.Example.Node</code> as the startup project and run the launchSettings profile "node1" .</p>
 <p>Then open a shell at the MithrilShards.Example.Node project path and run the command below</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>dotnet run --no-build --settings forge-settings2.json
-</code></pre></div>
-</td></tr></table>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>dotnet run --no-build --settings forge-settings2.json
+</code></pre></div></td></tr></table></div>
 <p>This would cause you to have a debuggable instance running with the configuration defined in <code>forge-settings.json</code> file and another run running on the <code>forge-settings2.json</code> configuration.</p>
 <p>Alternatively you can run both instances, without a debugger (but you can attach later the process to Visual Studio) by running on two different shells:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>dotnet run --no-build --settings forge-settings.json
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code>dotnet run --no-build --settings forge-settings.json
 dotnet run --no-build --settings forge-settings2.json
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <p>The program running forge-settings.json contains the most verbose log level and you'll have the best experience if you install (or use a docker image) of <a href="https://datalust.co/seq" target="_blank">Seq</a> configured on the port specified in your configuration file (e.g. localhost:5341).<br />
 See [SerilogShard] for more details.</p>
 <p>Here an example of the configuration file (forge-settings.json)</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -1655,7 +1653,7 @@ See [SerilogShard] for more details.</p>
 <span class="normal">62</span>
 <span class="normal">63</span>
 <span class="normal">64</span>
-<span class="normal">65</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
+<span class="normal">65</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span><span class="w"></span>
 <span class="w">   </span><span class="nt">&quot;ForgeConnectivity&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
 <span class="w">      </span><span class="nt">&quot;ForceShutdownAfter&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="p">,</span><span class="w"></span>
 <span class="w">      </span><span class="nt">&quot;MaxInboundConnections&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">25</span><span class="p">,</span><span class="w"></span>
@@ -1720,8 +1718,7 @@ See [SerilogShard] for more details.</p>
 <span class="w">      </span><span class="p">}</span><span class="w"></span>
 <span class="w">   </span><span class="p">}</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 <h3 id="some-screenshots">Some Screenshots</h3>
 <p>Here a screenshot that shows the content of the shell when running the node with settings = <code>forge-settings.json</code></p>
 <p><img alt="image-20210331175542234" class="zoom" src="../../img/image-20210331175542234.png" /></p>
@@ -1807,7 +1804,7 @@ See [SerilogShard] for more details.</p>
     <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.instant", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.748e2769.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ed9748b7.min.js"></script>
       
         <script src="https://unpkg.com/mermaid@8.8.3/dist/mermaid.min.js"></script>
       
