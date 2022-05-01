@@ -14,13 +14,15 @@ In a nutshell, countering this type of centralized control is the psychological 
 
 Over the last few years, **disposition, portability, interoperability** , **functionality** , **data** , and **identity** have emerged as critical elements of decentralization.
 
-Also, the productization of the user has become a reality on centralized social media platforms and other internet &quot;utilities&quot; such as search engines. This graphic tells the tale:
+**<a href="https://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch" title="There Ain't No Such Thing As A Free Lunch">TANSTAAFL</a>** - _"There Ain't No Such Thing As A Free Lunch" - Robert Heinlein, The Moon Is A Harsh Mistress_
+
+The productization of the user has become a reality on centralized social media platforms and other internet &quot;utilities&quot; such as search engines. This graphic tells the tale:
 
 ![](users-as-product.jpg)
 
 The ability to productize the user is a direct consequence of centralized control over all actions on the platform. The trade-off for the user is that they have &quot;free&quot; access. In exchange for the market analysis tracking the user&#39;s activities, the platform can direct advertisements to the user they will most likely find interesting. This produces the funding that **supports and sustains the platform** as a revenue model.
 
-This mechanism seems somewhat innocuous on its face, but consider that it can be aimed at the sphere of political activity on social media. This is evidenced by Facebook&#39;s use of these algorithms in the 2016 U.S. Presidential Election to promote heated and adversarial political arguments on their platform to _socially engineer more clicks_ resulting in a deep political polarization in the U.S. This is where centralized control of speech becomes nasty. And it suggests that the productization of the user may not be the best means of funding for a decentralized social media platform. And yet some means of funding is necessary.
+This mechanism seems somewhat innocuous on its face, but consider that it can be aimed at the sphere of political activity on social media. This is evidenced by Facebook&#39;s use of these algorithms in the 2016 U.S. Presidential Election to promote heated and adversarial political arguments on their platform to _socially engineer more clicks_ resulting in a deep political polarization in the U.S. This is where centralized control of speech becomes nasty. And it suggests that the productization of the user may not be the best means of funding for a decentralized social media platform. And yet some means of funding is necessary. **_TANSTAAFL_** !
 
 **Requirements**
 
@@ -40,7 +42,7 @@ In a decentralized network of servers, how does the functionality get deployed o
 
 **Data**
 
-Concepts surrounding _data_ on a decentralized social media network are complex and multi-dimensional. Data could be meta-data (list of followers/friends/blocks), messages, posts, images, videos, etc. But one idea that is universally accepted in the decentralized (Self-Sovereign) community is that a person owns their data. This means that each person has complete control of their data. But there is more to think about concerning Data on a decentralized network. Such as storage which, again, is another complicated topic. And, once users put data on that server, can they be locked out or banned from that server? If so, this is also a consequence of centralization because users cannot take their data (which might include a list of their friends/followers) and move it to another platform. In other words, the data is not portable.
+Concepts surrounding _data_ on a decentralized social media network are complex and multi-dimensional. Data could be meta-data (list of followers/friends/blocks), messages, posts, images, videos, etc. But one idea that is universally accepted in the decentralized (Self-Sovereign) community is that a person owns their data. This means that each person has complete control of their data. But there is more to think about concerning data on a decentralized network. Such as storage which, again, is another complicated topic. And, once users put data on that server, can they be locked out or banned from that server? If so, this is also a consequence of centralization because users cannot take their data (which might include a list of their friends/followers) and move it to another platform. In other words, the data is not portable.
 
 For now, we can articulate these requirements:
 
