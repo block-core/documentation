@@ -2,17 +2,21 @@
 
 _Articulating first principles as a means to discover requirements towards a social media platform_
 
+**The Goal**
+
+Imagine a decentralized social media platform that was as ubiquitous as Bitcoin, that no group or government could shut down (without shutting down the internet), where no authority, large or small, could prevent a person from speaking.
+
 **A Decentralized Social Media Platform**
 
 Sounds great, but what does it mean? Does the ability to spin up a server and provide a web U.I. constitute a &quot;decentralized&quot; server? In the original sense of the early internet, where any person could connect their computer to the internet, publish that machine&#39;s I.P. Address, and listen on port 80, then yes, in this sense, it is a genuinely decentralized _social media_ web application. That&#39;s fine. As far as it goes. Let&#39;s call it the SoapBox Platform idea. Every person with the technical know-how can set up their own soapbox. But what about the plebs, those without the expertise to do this?
 
-In the first days of the internet, a person would set up a webserver to publish their _website_ and then _speak with that voice_ on the internet_._ There was a one-to-one mapping of speech to person (reminder: the U.S. Supreme Court ruled that a corporation is a person, and money is speech).
+In the first days of the internet, a person would set up a webserver to publish their _website_ and then _speak with that voice_ on the internet. There was a one-to-one mapping of speech to person (reminder: the U.S. Supreme Court ruled that a corporation is a person, and money is speech).
 
 Let's imagine a land with a political system whereby only land-owners could vote or where only their voice could be heard in the public space. Now, let's say one person owns all the land, so there is only one vote that matters. This is a fair analogy to the Soapbox platform. The soapbox owners control the speech of that platform because they control who can speak, and therefore they control all the speech. 
 
 In a nutshell, countering this type of centralized control is the psychological driver behind the decentralization movement on the internet.
 
-Over the last few years, **disposition, portability, interoperability** , **functionality** , **data** , and **identity** have emerged as critical elements of decentralization.
+Over the last few years, **disposition, portability, interoperability**, **functionality**, **data**, and **identity** have emerged as critical elements of decentralization.
 
 **<a href="https://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch" title="There Ain't No Such Thing As A Free Lunch">TANSTAAFL</a>** - _"There Ain't No Such Thing As A Free Lunch" - Robert Heinlein, The Moon Is A Harsh Mistress_
 
