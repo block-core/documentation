@@ -120,6 +120,11 @@ nav:
          - decentralization/social-media/research-and-design/readme.md
          - Consensus:
             - decentralization/social-media/research-and-design/consensus-algorithms/dPos.md
+         - dApps:
+            - decentralization/social-media/research-and-design/dApps/nostr.md
+            - decentralization/social-media/research-and-design/dApps/stratis.cirrus.md
+            - decentralization/social-media/research-and-design/dApps/taarafo.md
+            - decentralization/social-media/research-and-design/dApps/x42.md
   - Platform:
     - overview.md
     - usecases.md
