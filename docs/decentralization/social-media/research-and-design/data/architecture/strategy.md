@@ -4,7 +4,7 @@ The purpose of this document is to identify decentralized strategy and tactics f
 
 First Idea.
 
-Use Filebase's S3 Compatible inteface (backed by IPFS and Sia) to provide a clean API for the decentralized storage and retrieval of files
+Use Filebase's S3 Compatible interface (backed by IPFS and Sia) to provide a clean API for the decentralized storage and retrieval of files
 
 **IPFS - The Interplanetary File System**: https://ipfs.io/#why
 
