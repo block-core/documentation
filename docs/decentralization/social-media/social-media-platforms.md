@@ -16,7 +16,7 @@ Over the last few years, **disposition, portability, interoperability** , **func
 
 **<a href="https://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch" title="There Ain't No Such Thing As A Free Lunch">TANSTAAFL</a>** - _"There Ain't No Such Thing As A Free Lunch" - Robert Heinlein, The Moon Is A Harsh Mistress_
 
-The productization of the user has become a reality on centralized social media platforms and other internet &quot;utilities&quot; such as search engines. This graphic tells the tale:
+Today’s social media platforms sustain their operation through productizing the user.
 
 ![](users-as-product.jpg)
 
