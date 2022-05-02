@@ -81,6 +81,71 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/reading-list/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/readme/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/consensus-algorithms/dPos/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/dApps/nostr/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/dApps/stratis.cirrus/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/dApps/taarafo/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/dApps/x42/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/data/data-models/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/data/data-stuctures/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/data/data-standardization/json-structures/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/identity/decentalized-identity/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/identity/keri/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/laws/gdpr/</loc>
+         <lastmod>2022-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.blockcore.net/example-projects/</loc>
          <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
