@@ -1,6 +1,6 @@
 **Strategy and Tactics for Decentralized Data Storage and Retrieval**
 
-The purpose of this document is to identify strategies and tactics for storage and retrieval of decentralized data files.
+The purpose of this document is to identify decentralized strategy and tactics for storage and retrieval of data files.
 
 First Idea.
 

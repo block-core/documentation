@@ -125,6 +125,9 @@ nav:
             - decentralization/social-media/research-and-design/dApps/stratis.cirrus.md
             - decentralization/social-media/research-and-design/dApps/taarafo.md
             - decentralization/social-media/research-and-design/dApps/x42.md
+         - Data:
+            - decentralization/social-media/research-and-design/data/readme.md
+
   - Platform:
     - overview.md
     - usecases.md
