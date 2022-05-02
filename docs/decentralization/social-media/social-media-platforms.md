@@ -8,7 +8,7 @@ Sounds great, but what does it mean? Does the ability to spin up a server and pr
 
 In the first days of the internet, a person would set up a webserver to publish their _website_ and then _speak with that voice_ on the internet_._ There was a one-to-one mapping of speech to person (reminder: the U.S. Supreme Court ruled that a corporation is a person, and money is speech).
 
-In ancient Athens, where democracy was invented, those who owned land could vote. Those who did not own land had no say. To extend the Athens analogy, let&#39;s say one person owns all the land, so there is only one vote that matters. This is a fair analogy to the Soapbox platform concept. The soapbox owners control the speech of that platform because they control who can speak, and therefore they control all the speech.
+Let's imagine a land with a political system whereby only land-owners could vote or where only their voice could be heard in the public space. Now, let's say one person owns all the land, so there is only one vote that matters. This is a fair analogy to the Soapbox platform. The soapbox owners control the speech of that platform because they control who can speak, and therefore they control all the speech. 
 
 In a nutshell, countering this type of centralized control is the psychological driver behind the decentralization movement on the internet.
 
@@ -20,7 +20,7 @@ The productization of the user has become a reality on centralized social media 
 
 ![](users-as-product.jpg)
 
-The ability to productize the user is a direct consequence of centralized control over all actions on the platform. The trade-off for the user is that they have &quot;free&quot; access. In exchange for the market analysis tracking the user&#39;s activities, the platform can direct advertisements to the user they will most likely find interesting. This produces the funding that **supports and sustains the platform** as a revenue model.
+The ability to productize the user is a direct consequence of centralized control over all actions on the platform. The trade-off for the user is that they have &quot;free&quot; access. In exchange for the market analysis tracking the user&#39;s activities, the platform can direct advertisements to the user they will most likely find interesting. This produces the revenue model that **supports and sustains the platform**.
 
 This mechanism seems somewhat innocuous on its face, but consider that it can be aimed at the sphere of political activity on social media. This is evidenced by Facebook&#39;s use of these algorithms in the 2016 U.S. Presidential Election to promote heated and adversarial political arguments on their platform to _socially engineer more clicks_ resulting in a deep political polarization in the U.S. This is where centralized control of speech becomes nasty. And it suggests that the productization of the user may not be the best means of funding for a decentralized social media platform. And yet some means of funding is necessary. **_TANSTAAFL_** !
 
