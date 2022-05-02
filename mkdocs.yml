@@ -118,8 +118,6 @@ nav:
       - R&D:
          - decentralization/social-media/research-and-design/reading-list.md
          - decentralization/social-media/research-and-design/readme.md
-         - Consensus-Algos:
-            - decentralization/social-media/research-and-design/consensus-algorithms/dPos.md
   - Platform:
     - overview.md
     - usecases.md
