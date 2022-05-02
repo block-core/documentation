@@ -134,6 +134,8 @@ nav:
          - Identity:
             - decentralization/social-media/research-and-design/identity/self-sovereign.md
             - decentralization/social-media/research-and-design/identity/keri.md
+         - Laws:
+            - decentralization/social-media/research-and-design/laws/gdpr.md
 
   - Platform:
     - overview.md
