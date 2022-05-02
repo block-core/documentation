@@ -127,6 +127,8 @@ nav:
             - decentralization/social-media/research-and-design/dApps/x42.md
          - Data:
             - decentralization/social-media/research-and-design/data/readme.md
+            - Architecture:
+               - decentralization/social-media/research-and-design/data/architecture/strategy.md
 
   - Platform:
     - overview.md
