@@ -131,9 +131,9 @@ nav:
                - decentralization/social-media/research-and-design/data/architecture/strategy.md
             - Models:
                - decentralization/social-media/research-and-design/data/models/models.md
-            - Identity:
-               - decentralization/social-media/research-and-design/identity/self-sovereign.md
-               - decentralization/social-media/research-and-design/identity/keri.md
+         - Identity:
+            - decentralization/social-media/research-and-design/identity/self-sovereign.md
+            - decentralization/social-media/research-and-design/identity/keri.md
 
   - Platform:
     - overview.md
