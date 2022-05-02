@@ -116,17 +116,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/data/data-models/</loc>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/data/readme/</loc>
          <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/data/data-stuctures/</loc>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/data/architecture/strategy/</loc>
          <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/data/data-standardization/json-structures/</loc>
+         <loc>https://docs.blockcore.net/decentralization/social-media/research-and-design/data/data-standardization/models/</loc>
          <lastmod>2022-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
