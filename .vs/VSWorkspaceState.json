@@ -4,11 +4,8 @@
     "\\docs",
     "\\docs\\decentralization",
     "\\docs\\decentralization\\social-media",
-    "\\docs\\decentralization\\social-media\\research-and-design",
-    "\\docs\\decentralization\\social-media\\research-and-design\\dApps",
-    "\\docs\\decentralization\\social-media\\research-and-design\\data",
-    "\\docs\\decentralization\\social-media\\research-and-design\\Identity"
+    "\\docs\\decentralization\\social-media\\research-and-design"
   ],
-  "SelectedNode": "\\docs\\decentralization\\social-media\\research-and-design\\readme.md",
+  "SelectedNode": "\\mkdocs.yml",
   "PreviewInSolutionExplorer": false
 }
