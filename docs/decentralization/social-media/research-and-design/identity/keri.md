@@ -10,7 +10,7 @@ _KERI has a decentralized, secure root-of-trust based on cryptographic self-cert
 
 - KERI Website: [https://keri.one/](https://keri.one/)
 
-**The White Paper** : https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI\_WP\_2.x.web.pdf
+**The White Paper** : [https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI\_WP\_2.x.web.pdf](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI\_WP\_2.x.web.pdf)
 
 **SSI-Meetup**
 
