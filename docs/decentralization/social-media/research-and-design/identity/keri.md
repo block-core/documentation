@@ -54,10 +54,10 @@ the key  innovation. So here is representation of the possible element/requireme
 
 **KERI Does not require:**
 <ul>
-	<li>Don't need Total Ordering because only the Controller (of the key pair) can order its events</li>
-   <li>Don't need crypto currrency to implement an Identity System</li>
-   <li>Don't need shared control, because there is only one controller for the KERI log</li>
-   <li>Don't need to be locked to a ledger</li>
+	<li>Total Ordering because only the Controller (of the key pair) can order its events</li>
+   <li>Crypto-currrency to implement an Identity System</li>
+   <li>Shared control, because there is only one controller for the KERI log</li>
+   <li>Locked to a ledger</li>
 </ul>
 
 **KERI Elements:**
