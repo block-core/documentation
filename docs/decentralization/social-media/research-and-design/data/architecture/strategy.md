@@ -14,7 +14,7 @@ Use Filebase's S3 Compatible interface (backed by IPFS and Sia) to provide a cle
 
 “Filebase is the first S3-compatible object storage platform that allows you to store data in a secure, redundant, and performant manner across multiple decentralized storage networks.”
 
-Note: Filebase is offering the first five gigabytes of storage for free. Which means that we can create a contraint on our file cache to always delete the oldest files when the cache size nears the free data limit. This is a tactic to get our decentralized storage up and running.
+Note: Filebase is offering the first five gigabytes of storage for free. Which means that we can create a constraint on our file cache to always delete the oldest files when the cache size nears the free data limit. This is a tactic to get our decentralized storage up and running.
 
 The user would register an account through our platform and be able directly own and control all their data with no centralized intermediary. The message and data they share on the platform would be in the form of S3 links to their data.
 
