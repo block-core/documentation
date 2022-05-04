@@ -49,7 +49,7 @@ the key  innovation. So here is representation of the possible element/requireme
 "Trade Space":
 
 
-![](elements-of-decentalization.jpg)
+![](elements-of-decentalization-medium.jpg)
 
 
 **KERI Does not require:**
@@ -62,4 +62,4 @@ the key  innovation. So here is representation of the possible element/requireme
 
 **KERI Elements:**
 
-![](keri-elements.jpg)
+![](keri-elements-medium.jpg)
