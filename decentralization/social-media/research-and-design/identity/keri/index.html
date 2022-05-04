@@ -2085,6 +2085,23 @@
 <p><a href="https://weboftrust.github.io/ietf-cesr/draft-ssmith-cesr.html">https://weboftrust.github.io/ietf-cesr/draft-ssmith-cesr.html</a></p>
 <p><strong>KERI.DotNet</strong></p>
 <p>I am particularly interested in the Rust implementation of KERI. It would be great if we could put a DotNet wrapper around that library. Thoughts?</p>
+<p>There is a great deal of information out there on KERI, so let's give a summary of 
+key insights.</p>
+<p><strong>How Does KERI Differ From a Blockchain?</strong></p>
+<p>There is a lot of information out there on KERI, and it may be difficult to grasp 
+the key  innovation. So here is representation of the possible element/requirements in the SSI/Blockchain
+"Trade Space":</p>
+<p><img alt="" src="../elements-of-decentalization.jpg" /></p>
+<p><strong>KERI Does not require:</strong></p>
+<ul>
+    <li>Don't need Total Ordering because only the Controller (of the key pair) can order its events</li>
+   <li>Don't need crypto currrency to implement an Identity System</li>
+   <li>Don't need shared control, because there is only one controller for the KERI log</li>
+   <li>Don't need to be locked to a ledger</li>
+</ul>
+
+<p><strong>KERI Elements:</strong></p>
+<p><img alt="" src="../keri-elements.jpg" /></p>
 
   <hr>
 <div class="md-source-file">
