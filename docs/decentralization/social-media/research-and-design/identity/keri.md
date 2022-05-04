@@ -33,7 +33,7 @@ _KERI has a decentralized, secure root-of-trust based on cryptographic self-cert
 
 **Composable Event Streaming Representation (CESR)**
 
-https://weboftrust.github.io/ietf-cesr/draft-ssmith-cesr.html
+[https://weboftrust.github.io/ietf-cesr/draft-ssmith-cesr.html](https://weboftrust.github.io/ietf-cesr/draft-ssmith-cesr.html)
 
 
 **KERI.DotNet**
