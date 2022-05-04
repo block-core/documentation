@@ -34,6 +34,8 @@ _KERI has a decentralized, secure root-of-trust based on cryptographic self-cert
 
 [https://weboftrust.github.io/ietf-cesr/draft-ssmith-cesr.html](https://weboftrust.github.io/ietf-cesr/draft-ssmith-cesr.html)
 
+[CESR Proof Signatures are the “Segwit” of Authentic Data in KERI.](https://medium.com/happy-blockchains/cesr-proof-signatures-are-the-segwit-of-authentic-data-in-keri-e891c83e070a)
+
 
 **KERI.DotNet**
 
