@@ -38,3 +38,28 @@ _KERI has a decentralized, secure root-of-trust based on cryptographic self-cert
 **KERI.DotNet**
 
 I am particularly interested in the Rust implementation of KERI. It would be great if we could put a DotNet wrapper around that library. Thoughts?
+
+There is a great deal of information out there on KERI, so let's give a summary of 
+key insights.
+
+**How Does KERI Differ From a Blockchain?**
+
+There is a lot of information out there on KERI, and it may be difficult to grasp 
+the key  innovation. So here is representation of the possible element/requirements in the SSI/Blockchain
+"Trade Space":
+
+
+![](elements-of-decentalization.jpg)
+
+
+**KERI Does not require:**
+<ul>
+	<li>Don't need Total Ordering because only the Controller (of the key pair) can order its events</li>
+   <li>Don't need crypto currrency to implement an Identity System</li>
+   <li>Don't need shared control, because there is only one controller for the KERI log</li>
+   <li>Don't need to be locked to a ledger</li>
+</ul>
+
+**KERI Elements:**
+
+![](keri-elements.jpg)
