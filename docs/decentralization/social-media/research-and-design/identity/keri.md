@@ -1,4 +1,3 @@
-**KERI:**
 
 **KERI: Key Event Registry Infrastructure**
 
