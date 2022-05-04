@@ -14,8 +14,7 @@ _KERI has a decentralized, secure root-of-trust based on cryptographic self-cert
 
 **SSI-Meetup**
 
-[https://ssimeetup.org/key-event-receipt-infrastructure-keri-secure-identifier-overlay-internet-sam-smith-webinar-58/]
-(https://ssimeetup.org/key-event-receipt-infrastructure-keri-secure-identifier-overlay-internet-sam-smith-webinar-58/)
+[https://ssimeetup.org/key-event-receipt-infrastructure-keri-secure-identifier-overlay-internet-sam-smith-webinar-58/](https://ssimeetup.org/key-event-receipt-infrastructure-keri-secure-identifier-overlay-internet-sam-smith-webinar-58/)
 
 **SSI Meetup Presentation**  :
 
