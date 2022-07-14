@@ -142,6 +142,7 @@ nav:
     - usecases.md
     - Extension:
       - extension/index.md
+      - extension/guide.md
       - extension/installation.md
     - referencenodes.md
     - walkthrough.md
