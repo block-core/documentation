@@ -186,6 +186,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.blockcore.net/extension/help/</loc>
+         <lastmod>2022-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.blockcore.net/extension/installation/</loc>
          <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
