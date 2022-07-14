@@ -1,16 +1,14 @@
 # Extension: Installation
 
+## Chrome Web Store
+
+[https://chrome.google.com/webstore/detail/blockcore-wallet/peigonhbenoefaeplkpalmafieegnapj](https://chrome.google.com/webstore/detail/blockcore-wallet/peigonhbenoefaeplkpalmafieegnapj)
+
 ## Edge Add-on Store
 
 Availability later 2022
 
 [https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home)
-
-## Chrome Web Store
-
-Availability later 2022
-
-[https://chrome.google.com/webstore/category/extensions](https://chrome.google.com/webstore/category/extensions)
 
 ## GitHub
 
