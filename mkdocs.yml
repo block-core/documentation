@@ -147,6 +147,10 @@ nav:
       - extension/installation.md
     - referencenodes.md
     - walkthrough.md
+    - Cold Staking:
+       - coldstaking/index.md
+       - coldstaking/coldstake.md
+       - coldstaking/pool-coldstake.md
   - Architecture:
     - architecture.md
     - release-process.md
