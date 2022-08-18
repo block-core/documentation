@@ -150,7 +150,8 @@ nav:
     - Cold Staking:
        - coldstaking/index.md
        - coldstaking/coldstake.md
-       - coldstaking/pool-coldstake.md
+       - coldstaking/coldstake-cloud.md
+       - coldstaking/coldstake-pool.md
   - Architecture:
     - architecture.md
     - release-process.md
