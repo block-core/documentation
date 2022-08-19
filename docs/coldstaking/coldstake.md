@@ -1,30 +1,30 @@
 # Coldstake At home
 
-In this guide we will show how to run both wallets on the same node  
-This is useful for Coldstaking at home with enhanced security
+In this guide we will show how to run a cold staking setup where both wallets are on the same node  
+This is for miners that want to Coldstaking at home and get the benefits of the enhanced security
 
 ### Getting started
 
 Lets assume we have a node with a regular wallet named `main-wallet` that has the funds to be cold staked.
 
-![image](https://user-images.githubusercontent.com/7487930/185090420-17afc3d9-7e80-4ac7-9a08-07efee9cf6cc.png)
+![image](https://user-images.githubusercontent.com/7487930/185596813-5f8912eb-6180-472a-a425-ea18d8216b8b.png)
 
-### 1 - Create a new wallet and call it coldstak-wallet
+### 1 - Create a new wallet and call it coldstake-wallet
 
-![image](https://user-images.githubusercontent.com/7487930/185091606-551198da-1249-457d-b799-bf88593d8e70.png)
+![image](https://user-images.githubusercontent.com/7487930/185597058-bc7b0ffd-c57b-4841-8fdb-afd082cd6bf2.png)
 
 ### 2 - Go to the ColdStaking tab and enable both wallets for coldstaking.
 
-![image](https://user-images.githubusercontent.com/7487930/185092077-85e302cf-463b-47de-986d-53e5f4023076.png)
+![image](https://user-images.githubusercontent.com/7487930/185599861-dff8e014-c002-44fc-9a3e-14b18a4b1be6.png)
 
 Do the same for both wallet
 
-![image](https://user-images.githubusercontent.com/7487930/185092192-7907e6ec-ab47-45de-8bd3-e5a56f4db729.png)
+![image](https://user-images.githubusercontent.com/7487930/185600269-489fa5ec-aa5d-4397-8982-dab6150dc77e.png)
 
-This will create additional HD accounts that will be used for coldstaking  
+This will create the additional HD accounts that will be used for coldstaking  
 Now when we go to the Cold Staking tab we will see this view.  
 
-![image](https://user-images.githubusercontent.com/7487930/185092769-3a83b573-6bc8-4e31-8e01-b73becff3c2b.png)
+![image](https://user-images.githubusercontent.com/7487930/185600443-1e84b23b-a8cd-4b62-bf8d-13b2a30e9ee2.png)
 
 Both wallets are now setup for coldstaking but we only have funds in the main-wallet    
 
@@ -32,12 +32,12 @@ Both wallets are now setup for coldstaking but we only have funds in the main-wa
 
 Go to the main-wallet and select the `cold account`
 
-![image](https://user-images.githubusercontent.com/7487930/185093400-8a122678-4a24-468c-b200-6e998001886a.png)
+![image](https://user-images.githubusercontent.com/7487930/185600723-8aa91bc8-864d-4089-9208-410c6dce66ba.png)
 
 There are two options to choose from, **Coldstake** and **Delegate**, they are very similar but with one difference,   
 Coldstake will look in the local wallets to find addresses to send and receive from.
 
-![image](https://user-images.githubusercontent.com/7487930/185094035-bd0bdead-52fe-414a-aaff-b1d1a780f956.png)
+![image](https://user-images.githubusercontent.com/7487930/185600998-41b7577c-f390-4fe0-b904-1ebd217f5783.png)
 
 Use **Coldstake** - when both wallets are on the same node  
 Use **Delegate** - when the staking wallet is on a different node (mostly used for staking pools or cloud staking)  
@@ -52,25 +52,23 @@ Select the amount you want to coldstake
 Select a fee  
 Decide if you want the output type to be PayToScript or not.  
 
-![image](https://user-images.githubusercontent.com/7487930/185096864-e3487bd4-44e9-4378-8cdb-65178ed2e938.png)
+![image](https://user-images.githubusercontent.com/7487930/185601188-8cd88c2d-59d7-4be4-80af-45d5244213d4.png)
 
 Click on setup coldstaking, you will see a new entry in the history  
 
-![image](https://user-images.githubusercontent.com/7487930/185098719-bc81aebc-dc54-4dbc-98a6-75ea950f0ab8.png)
-
 And if you go to the Cold Staking tab you will now see hot balance in the `coldstake-wallet` and and cold balance in the `main-wallet`  
 
-![image](https://user-images.githubusercontent.com/7487930/185099280-df934427-eb49-4707-a24c-66d62d75d71f.png)
+![image](https://user-images.githubusercontent.com/7487930/185601352-0321b074-4dd6-4935-bfc2-9a0768145840.png)
 
 ### 5 - Start staking
 
 Go to the Staking tab select the `coldstake-wallet` and start staking  
 
-![image](https://user-images.githubusercontent.com/7487930/185099500-02031303-5e16-4293-a192-215c99400d06.png)
+![image](https://user-images.githubusercontent.com/7487930/185601655-ed9b0077-5ea0-4a81-8237-8049f90ccec3.png)
 
 It should look like this
 
-![image](https://user-images.githubusercontent.com/7487930/185099664-37d0b761-0a02-4be2-83c5-237dbbfb5561.png)
+![image](https://user-images.githubusercontent.com/7487930/185603962-1bef8251-8eaa-4047-a34f-2f072c95e2c7.png)
 
 ### 6 - Withdraw from coldstaking
 
@@ -80,8 +78,8 @@ Click on the `main-wallet` to get a new address to withdraw to
 Select the amount to withdraw  
 Click withdraw  
 
-![image](https://user-images.githubusercontent.com/7487930/185102351-0bbc8d4a-2192-4d1f-a48e-d77c9ccbc192.png)
+![image](https://user-images.githubusercontent.com/7487930/185604169-6448cfb9-4d38-440f-9ef9-4deab7d813db.png)
 
 Now we should see this view in the Cold Staking tab  
 
-![image](https://user-images.githubusercontent.com/7487930/185101079-3cc75368-1348-4984-a0fc-686e506436ea.png)
+![image](https://user-images.githubusercontent.com/7487930/185604503-b83e367b-8e64-45bf-af6e-eb19f8f1749a.png)
