@@ -16,7 +16,7 @@ Lets assume we have a node with a regular wallet named `main-wallet` that has th
 
 ![image](https://user-images.githubusercontent.com/7487930/185604776-b1c08229-554d-4c7b-8067-2e34f834a9be.png)
 
-### 2 - Go to the ColdStaking tab and enable both wallets on each node for coldstaking.
+### 2 - Go to the Coldstake tab and enable both wallets on each node for coldstaking.
 
 ***For pool staking do this step only for the the main-wallet*** 
 
@@ -27,7 +27,7 @@ Do the same for both wallet
 ![image](https://user-images.githubusercontent.com/7487930/185600269-489fa5ec-aa5d-4397-8982-dab6150dc77e.png)
 
 This will create additional HD accounts that will be used for coldstaking  
-Now when we go to the Cold Staking tab we will see this view.  
+Now when we go to the Coldstaking tab we will see this view.  
 
 `coldstake-cloud-wallet`
 ![image](https://user-images.githubusercontent.com/7487930/185605205-b89fc3ab-c0eb-48c6-874f-9023f5871203.png)
@@ -43,7 +43,7 @@ Both wallets are now setup for coldstaking nad we only have funds in the main-wa
 
 Get an address form the coldstake-cloud-wallet
 
-On the cloud node fo to the Cold Staking tab and click on the `coldstake-cloud-wallet`
+On the cloud node fo to the Coldstaking tab and click on the `coldstake-cloud-wallet`
 
 Then select the Hot account
 
@@ -63,7 +63,7 @@ This will be your stakng address
 
 ### 4 - Next we send coins to a coldstaking transaction
 
-Go to the Cold Staking tab on the `main-wallet` node and select the `cold account`
+Go to the Coldstaking tab on the `main-wallet` node and select the `cold account`
 
 ![image](https://user-images.githubusercontent.com/7487930/185607022-3f85f3f3-5f13-46b5-a7f1-e39f0f8e53f6.png)
 
@@ -75,7 +75,7 @@ Coldstake will look in the local wallets to find addresses to send and receive f
 Use **Coldstake** - when both wallets are on the same node  
 Use **Delegate** - when the staking wallet is on a different node (mostly used for staking pools or cloud staking)  
 
-### 5 - Setup Cold Staking
+### 5 - Setup Coldstaking
 
 Click on the **Delegate** button to continue.  
 Next we send coins from the main wallet to the `coldstaking-wallet` with a special coldstaking transaction   
@@ -101,7 +101,7 @@ It should look like this
 
 ### 7 - Withdraw from coldstaking
 
-Got to the Cold Staking tab and select the `main-wallet` (you cannot withdraw form the `coldstaking-wallet`, that can be used only for staking)   
+Got to the Coldstaking tab and select the `main-wallet` (you cannot withdraw form the `coldstaking-wallet`, that can be used only for staking)   
 Select the `cold account`, and then click on withdraw button   
 Click on the `main-wallet` to get a new address to withdraw to  
 Select the amount to withdraw  
@@ -109,6 +109,6 @@ Click withdraw
 
 ![image](https://user-images.githubusercontent.com/7487930/185604169-6448cfb9-4d38-440f-9ef9-4deab7d813db.png)
 
-Now we should see this view in the Cold Staking tab  
+Now we should see this view in the Coldstaking tab  
 
 ![image](https://user-images.githubusercontent.com/7487930/185604503-b83e367b-8e64-45bf-af6e-eb19f8f1749a.png)
