@@ -25,17 +25,51 @@ To allow an address to stake the pool operator needs to set that in the dashboar
 
 Here is an example of the entire command   
 ```
-dotnet run --chain=CITY --enforceStakingFlag=1
+dotnet run --chain=CITY -enforceStakingFlag=1
 ```  
 
-### 2 - Find your pool coldstake address
+### 2 - Create the pool wallet
+
+Create a wallet and call it `coldstake-pool` 
+
+![](../img/coldstake/35.png)
+
+Notice the additional coldstake pool menu on the left   
+
+Enable coldstaking on the `coldstake-pool` wallet
+
+![](../img/coldstake/36.png)
+
+![](../img/coldstake/37.png)
+
+You should now see the `coldstake-pool` in the coldstake menu  
+
+![](../img/coldstake/38.png)
+
+### 3 - Find your pool coldstake address
 
 The pool can assign a new address for each user or have a single address that all users can just use to setup coldstaking  
+
 For ease of use we recomend using just one address to represent the pool, then such an address can be displayed on a static website and users won't need the extra step of asking the pool operator for a new address   
 
 All the addresses that the pool uses are hot addresses  
 
-[image of how to find the hot coldstaking address]  
+Go on the *Cold Staking* manu and click on the `coldstake-pool`  then click on the Hot account  
+
+![](../img/coldstake/39.png)
+
+Then click on Receive  
+
+![](../img/coldstake/40.png)
+
+Then click on UnUsed, this is your coldstake hot address
+
+![](../img/coldstake/41.png)
+
+If you want to assign a new address per user just click on *generate a new address*   
+Note a new address will be automatically generated when the previous address has coins in it  
+
+![](../img/coldstake/42.png)  
 
 **Security note**
 ```
@@ -43,17 +77,67 @@ A possible attack on a staking pool node is to send many small dust trx to it,
 this is even worse if the hot address is public and known     
 however the node will normally ignore dust transactions when staking  
 ```
+### 4 - Users will now setup coldstake transactions
+
+When users start to setup their wallet to coldstake with your pool it will look like this  
+
+Go on the *Cold Stake* menu and click on `coldstake-pool` wallet detials 
+
+![](../img/coldstake/43.png)  
+
+Select the Hot account
+
+![](../img/coldstake/44.png)  
+
+Notice the hot account history  
+Here you will also see all the staked coins  
+
+![](../img/coldstake/45.png)  
 
 ### 3 - Enabling addresses to coldstake  
 
 Each address that is used for staking needs to be explicitly enabled  
 
-Got to the dashboard to observe the addresses that can coldstake  
+Got to the *Cold Staking Pool* dashboard menu to observe the addresses that can coldstake  
 
-[show an image of dashboard and how to setup expiry on an address]
+Click on the `coldstake-pool` wallet  
+
+![](../img/coldstake/46.png)  
+
+You will notice the hot address of the pool and the cold address the user controls 
+
+![](../img/coldstake/47.png)  
+
+Here is an exmaple with another user that sent coins to the pool  
+
+![](../img/coldstake/48.png) 
+
+If you click on the *view* button you will get more detials about the address  
+
+![](../img/coldstake/49.png) 
+
+For each address you can specify the number of days it can stake until expiry  
+
+It will then look like this on the address list    
+
+![](../img/coldstake/50.png) 
+
+Notice the active balance will show the amount of coins that are not expired  
 
 ### 4 - Starting the staking job  
 
- [image of the staking page]
+To start the pool to stake go to the *Staking* menu  
 
+Click on the `coldstake-pool` wallet and then click on *Start Staking* 
+
+![](../img/coldstake/51.png) 
+
+It will then look similar to this
+
+![](../img/coldstake/52.png) 
+
+Once the node will start staking you will see entries in teh Hot account history  
+Go to *Cold Staking* -> `coldstake-pool` -> Hot account 
+
+![](../img/coldstake/53.png) 
 

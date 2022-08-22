@@ -40,9 +40,9 @@ Both wallets are now setup for coldstaking and we only have funds in the main-wa
 
 ***Skip this section if you want to use a staking pool, the pool will provide you with the hot address***
 
-Get an address form the coldstake-cloud-wallet
+Get an address from the `coldstake-cloud-wallet`
 
-On the cloud node fo to the Coldstaking tab and click on the `coldstake-cloud-wallet`
+On the cloud node go to the Coldstaking tab and click on the `coldstake-cloud-wallet`
 
 Then select the Hot account
 
@@ -77,20 +77,20 @@ Use **Delegate** - when the staking wallet is on a different node (mostly used f
 ### 5 - Setup Coldstaking
 
 Click on the **Delegate** button to continue.  
-Next we send coins from the main wallet to the `coldstake-cloud-wallet` with a special coldstaking transaction   
+Next we send coins from the `main-wallet` to the `coldstake-cloud-wallet` (or to the pool address if using a coldstake pool) with a special coldstaking transaction   
 
-Get an address form the coldstake-cloud-wallet
-
-Put the address we fetched earlier from the `coldstake-cloud-wallet` node   
+Put the address we fetched earlier from the `coldstake-cloud-wallet` node or from the pool operator     
 Select the amount you want to coldstake  
 Select a fee  
 Decide if you want the output type to be PayToScript or not.  
 
 ![](../img/coldstake/27.png)
 
+Click on setup Delegate Staking Now, you will see a new entry in the history 
+
 ### 6 - Start staking
 
-Go to the Staking tab select the `coldstake-cloud-wallet` and start staking  
+On the cloud node go to the Staking tab select the `coldstake-cloud-wallet` and start staking  
 
 ![](../img/coldstake/28.png)
 

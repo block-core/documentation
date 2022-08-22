@@ -52,4 +52,7 @@ For more indepth look in to the Coldstaking protocol
 
 ### Issues and problems 
 
-TBD
+**Withdraw all the coins**  
+Sometimes not all funds are avilable to withdraw, this is because if coins where used to find a block they will need to wait for maturity (a certain amount of confirmations before they can be moved) right now the UI does not support showing immature coins.   
+
+To solve this just stop the mining processes and wait for some time, if using a pool contact the operator and ask them to expire your staking address (you may be lucky and be able to withdraw from a pool if your coins did not find a block before you withderaw)  

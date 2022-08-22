@@ -53,7 +53,7 @@ Decide if you want the output type to be PayToScript or not.
 
 ![](../img/coldstake/8.png)
 
-Click on setup coldstaking, you will see a new entry in the history  
+Click on Setup coldstaking, you will see a new entry in the history  
 
 And if you go to the Coldstaking tab you will now see hot balance in the `coldstake-wallet` and and cold balance in the `main-wallet`  
 
