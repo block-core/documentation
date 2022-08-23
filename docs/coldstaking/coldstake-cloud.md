@@ -58,7 +58,7 @@ Copy the address from the text box or generate one if needed
 
 ![](../img/coldstake/24.png)
 
-This will be your stakng address  
+This will be your staking address  
 
 ### 4 - Next we send coins to a coldstaking transaction
 
@@ -81,7 +81,7 @@ Next we send coins from the `main-wallet` to the `coldstake-cloud-wallet` (or to
 
 Put the address we fetched earlier from the `coldstake-cloud-wallet` node or from the pool operator     
 Select the amount you want to coldstake  
-Select a fee  
+Set the fee it will cost to broadcast the transaction    
 Decide if you want the output type to be PayToScript or not.  
 
 ![](../img/coldstake/27.png)

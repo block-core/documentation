@@ -48,7 +48,7 @@ Next we send coins from the main wallet to the `coldstaking-wallet` with a speci
 
 Click on the coldstake-wallet to get a new address  
 Select the amount you want to coldstake  
-Select a fee  
+Set the fee it will cost to broadcast the transaction     
 Decide if you want the output type to be PayToScript or not.  
 
 ![](../img/coldstake/8.png)

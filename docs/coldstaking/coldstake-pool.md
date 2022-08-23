@@ -4,12 +4,12 @@ In this guide we will show how to setup a coldstake pool
 
 
 **Charging fees**  
-Right now there is no automated mechanisem to charge fees from users for using the pool, each pool operator will have to find a way to charge for providing the service of staking for the user.
-Either by paying in advance for a year of staking or any other way of subsidsing the pool  
+Right now there is no automated mechanism to charge fees from users for using the pool, each pool operator will have to find a way to charge for providing the service of staking for the user.
+Either by paying in advance for a year of staking or any other way of subsidising the pool  
 
 **Security concerns**  
-Staking pools tend to centralize the mining processes by delegating authirity to create blocks to a smaller number of users  
-For this reason it is encouraged that a network will have many staking pools to choose form with competitive fees  
+Staking pools tend to centralize the mining processes by delegating authority to create blocks to a smaller number of users  
+For this reason it is encouraged that a network will have many staking pools to choose from with competitive fees  
 
 ### 1 - Run a node in coldstake pool mode  
 
@@ -17,8 +17,6 @@ To setup a pool we have to run a fullnode on the network we want to provide cold
  
 This is done by running a fullnode with the additional parameter `-enforceStakingFlag=1`  
 When the `enforceStakingFlag` flag is set an additional menu will appear on the nodes dashboard  
-
-[pool menu dashboard]
 
 The `enforceStakingFlag` will only allow only certain addresses to stake  
 To allow an address to stake the pool operator needs to set that in the dashboard  
@@ -50,11 +48,11 @@ You should now see the `coldstake-pool` in the coldstake menu
 
 The pool can assign a new address for each user or have a single address that all users can just use to setup coldstaking  
 
-For ease of use we recomend using just one address to represent the pool, then such an address can be displayed on a static website and users won't need the extra step of asking the pool operator for a new address   
+For ease of use we recommend using just one address to represent the pool, then such an address can be displayed on a static website and users won't need the extra step of asking the pool operator for a new address   
 
 All the addresses that the pool uses are hot addresses  
 
-Go on the *Cold Staking* manu and click on the `coldstake-pool`  then click on the Hot account  
+Go on the *Cold Staking* menu and click on the `coldstake-pool`  then click on the Hot account  
 
 ![](../img/coldstake/39.png)
 
@@ -81,7 +79,7 @@ however the node will normally ignore dust transactions when staking
 
 When users start to setup their wallet to coldstake with your pool it will look like this  
 
-Go on the *Cold Stake* menu and click on `coldstake-pool` wallet detials 
+Go on the *Cold Stake* menu and click on `coldstake-pool` wallet details 
 
 ![](../img/coldstake/43.png)  
 
@@ -112,11 +110,13 @@ Here is an exmaple with another user that sent coins to the pool
 
 ![](../img/coldstake/48.png) 
 
-If you click on the *view* button you will get more detials about the address  
+If you click on the *view* button you will get more details about the address  
 
 ![](../img/coldstake/49.png) 
 
-For each address you can specify the number of days it can stake until expiry  
+**Days to expiry**  
+On each address you can specify the number of days it can stake until that address expires  
+An address that expired will not participate in the pools staking process    
 
 It will then look like this on the address list    
 
@@ -136,7 +136,7 @@ It will then look similar to this
 
 ![](../img/coldstake/52.png) 
 
-Once the node will start staking you will see entries in teh Hot account history  
+Once the node will start staking you will see entries in the Hot account history  
 Go to *Cold Staking* -> `coldstake-pool` -> Hot account 
 
 ![](../img/coldstake/53.png) 
