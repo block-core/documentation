@@ -22,6 +22,9 @@ Run the command
 
 This will start the nginx server
 
+To view the logs run the command
+`docker-compose logs -f --tail=100`
+
 ## Deploy the indexer
 
 Choose the coin (or coins) you want to run, repeate this step for each coin.   
@@ -36,6 +39,9 @@ LETSENCRYPT_HOST: [coin].indexer.domain.com
 
 Now run the command 
 `docker-compose up -d`
+
+To view the logs run the command
+`docker-compose logs -f --tail=100`
 
 To get inbound connections to your fullnode look at the ports in the `chain` container and open those ports.  
 
