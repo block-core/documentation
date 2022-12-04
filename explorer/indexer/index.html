@@ -2403,6 +2403,8 @@ Make sure port 443 is open on your router or server firewall).   </p>
 <p>Run the command
 <code>docker-compose up -d</code></p>
 <p>This will start the nginx server</p>
+<p>To view the logs run the command
+<code>docker-compose logs -f --tail=100</code></p>
 <h2 id="deploy-the-indexer">Deploy the indexer</h2>
 <p>Choose the coin (or coins) you want to run, repeate this step for each coin.   </p>
 <p>Navigate to the folder <code>\chaininfo\docker\[coin]</code>
@@ -2413,6 +2415,8 @@ LETSENCRYPT_HOST: [coin].indexer.domain.com
 </code></pre></div></td></tr></table></div>
 <p>Now run the command 
 <code>docker-compose up -d</code></p>
+<p>To view the logs run the command
+<code>docker-compose logs -f --tail=100</code></p>
 <p>To get inbound connections to your fullnode look at the ports in the <code>chain</code> container and open those ports.  </p>
 <p>You are done, Letsencrypt will generate a certificate for your indexer.   </p>
 <p>Important! if the indexer node crashes before the database indexes could be built then the best way is to start again.  </p>
