@@ -147,11 +147,16 @@ nav:
       - extension/installation.md
     - referencenodes.md
     - walkthrough.md
+    - Explorer:
+      - explorer/index.md
+      - explorer/indexer.md
+      - explorer/website.md
+      - explorer/dns.md
     - Cold Staking:
-       - coldstaking/index.md
-       - coldstaking/coldstake.md
-       - coldstaking/coldstake-cloud.md
-       - coldstaking/coldstake-pool.md
+      - coldstaking/index.md
+      - coldstaking/coldstake.md
+      - coldstaking/coldstake-cloud.md
+      - coldstaking/coldstake-pool.md
   - Architecture:
     - architecture.md
     - release-process.md
